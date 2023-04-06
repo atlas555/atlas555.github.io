@@ -2,7 +2,7 @@
 title: "读书分享·左晖·做难而正确的事"
 date: 2023-04-06T17:02:36+08:00
 author: "张晓龙"
-slug:reading
+slug: reading
 draft: false
 toc: false
 tag: reading
