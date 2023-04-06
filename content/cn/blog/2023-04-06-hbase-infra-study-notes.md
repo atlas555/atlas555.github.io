@@ -733,25 +733,25 @@ HBase表完整性：对于集群中任意一张表，每个rowkey都仅能存在
 HBase系统的读取优化可以从三个方面进行：服务器端、客户端、列簇设计
 
 1. 读请求是否均衡？
-优化原理：假如业务所有读请求都落在集群某一台RegionServer上的某几个Region上，很显然，这一方面不能发挥整个集群的并发处理能力，另一方面势必造成此台RegionServer资源严重消耗（比如IO耗尽、handler耗尽等），导致落在该台RegionServer上的其他业务受到波及。也就是说读请求不均衡不仅会造成本身业务性能很差，还会严重影响其他业务。
+    优化原理：假如业务所有读请求都落在集群某一台RegionServer上的某几个Region上，很显然，这一方面不能发挥整个集群的并发处理能力，另一方面势必造成此台RegionServer资源严重消耗（比如IO耗尽、handler耗尽等），导致落在该台RegionServer上的其他业务受到波及。也就是说读请求不均衡不仅会造成本身业务性能很差，还会严重影响其他业务。
 
-观察确认：观察所有RegionServer的读请求QPS曲线，确认是否存在读请求不均衡现象。
+    观察确认：观察所有RegionServer的读请求QPS曲线，确认是否存在读请求不均衡现象。
 
-优化建议：Rowkey必须进行散列化处理（比如MD5散列），同时建表必须进行预分区处理。
+    优化建议：Rowkey必须进行散列化处理（比如MD5散列），同时建表必须进行预分区处理。
 
 2. BlockCache设置是否合理？
-优化原理：BlockCache作为读缓存，对于读性能至关重要。默认情况下BlockCache和MemStore的配置相对比较均衡（各占40%），可以根据集群业务进行修正，比如读多写少业务可以将BlockCache占比调大。另一方面，BlockCache的策略选择也很重要，不同策略对读性能来说影响并不是很大，但是对GC的影响却相当显著，尤其在BucketCache的offheap模式下GC表现非常优秀。
+    优化原理：BlockCache作为读缓存，对于读性能至关重要。默认情况下BlockCache和MemStore的配置相对比较均衡（各占40%），可以根据集群业务进行修正，比如读多写少业务可以将BlockCache占比调大。另一方面，BlockCache的策略选择也很重要，不同策略对读性能来说影响并不是很大，但是对GC的影响却相当显著，尤其在BucketCache的offheap模式下GC表现非常优秀。
 
-观察确认：观察所有RegionServer的缓存未命中率、配置文件相关配置项以及GC日志，确认BlockCache是否可以优化。
+    观察确认：观察所有RegionServer的缓存未命中率、配置文件相关配置项以及GC日志，确认BlockCache是否可以优化。
 
-优化建议：如果JVM内存配置量小于20G，BlockCache策略选择LRUBlockCache；否则选择BucketCache策略的offheap模式。
+    化建议：如果JVM内存配置量小于20G，BlockCache策略选择LRUBlockCache；否则选择BucketCache策略的offheap模式。
 
 3. HFile文件是否太多？
-优化原理：HBase在读取数据时通常先到MemStore和BlockCache中检索（读取最近写入数据和热点数据），如果查找不到则到文件中检索。HBase的类LSM树结构导致每个store包含多个HFile文件，文件越多，检索所需的IO次数越多，读取延迟也就越高。文件数量通常取决于Compaction的执行策略，一般和两个配置参数有关：hbase.hstore. compactionThreshold和hbase.hstore.compaction.max.size，前者表示一个store中的文件数超过阈值就应该进行合并，后者表示参与合并的文件大小最大是多少，超过此大小的文件不能参与合并。这两个参数需要谨慎设置，如果前者设置太大，后者设置太小，就会导致Compaction合并文件的实际效果不明显，很多文件得不到合并，进而导致HFile文件数变多。
+    优化原理：HBase在读取数据时通常先到MemStore和BlockCache中检索（读取最近写入数据和热点数据），如果查找不到则到文件中检索。HBase的类LSM树结构导致每个store包含多个HFile文件，文件越多，检索所需的IO次数越多，读取延迟也就越高。文件数量通常取决于Compaction的执行策略，一般和两个配置参数有关：hbase.hstore. compactionThreshold和hbase.hstore.compaction.max.size，前者表示一个store中的文件数超过阈值就应该进行合并，后者表示参与合并的文件大小最大是多少，超过此大小的文件不能参与合并。这两个参数需要谨慎设置，如果前者设置太大，后者设置太小，就会导致Compaction合并文件的实际效果不明显，很多文件得不到合并，进而导致HFile文件数变多。
 
-观察确认：观察RegionServer级别以及Region级别的HFile数，确认HFile文件是否过多。
+    观察确认：观察RegionServer级别以及Region级别的HFile数，确认HFile文件是否过多。
 
-优化建议：hbase.hstore.compactionThreshold设置不能太大，默认为3个。
+    优化建议：hbase.hstore.compactionThreshold设置不能太大，默认为3个。
 
 4. Compaction是否消耗系统资源过多？
 优化原理：Compaction是将小文件合并为大文件，提高后续业务随机读性能，但是也会带来IO放大以及带宽消耗问题（数据远程读取以及三副本写入都会消耗系统带宽）。正常配置情况下，Minor Compaction并不会带来很大的系统资源消耗，除非因为配置不合理导致Minor Compaction太过频繁，或者Region设置太大发生Major Compaction。
