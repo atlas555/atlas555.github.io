@@ -61,8 +61,8 @@ en = "/en/:year/:month/:day/:slug/"
 
 [params.logo]
   url = "techwhims.png"
-  width = 100.0
-  height = 150.0
+  width = 80.0
+  height = 80.0
   alt = "Tech Whims"
 
 [params.lang]
