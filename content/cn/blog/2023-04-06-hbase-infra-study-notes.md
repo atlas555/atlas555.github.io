@@ -10,9 +10,9 @@ tags: data-infra
 
 记录于 2023.02.13
 
-# 一、基本情况和原理
+## 一、基本情况和原理
 
-## 1、HBase使用现状
+### 1、HBase使用现状
 
 （1）使用HBase存储海量数据，服务于各种在线系统以及离线分析系统，业务场景包括订单系统、消息存储系统、用户画像、搜索推荐、安全风控以及物联网时序数据存储等。最近，阿里云、华为云等云提供商先后推出了HBase云服务，为国内更多公司低门槛地使用HBase服务提供了便利。
 
@@ -30,7 +30,7 @@ HBase本身不支持很复杂的聚合运算（如Join、GroupBy等）。如果�
 HBase本身并没有实现二级索引功能，所以不支持二级索引查找。好在针对HBase实现的第三方二级索引方案非常丰富，比如目前比较普遍的使用Phoenix提供的二级索引功能
 HBase原生不支持全局跨行事务，只支持单行事务模型
 
-## 2、HBase数据模型
+### 2、HBase数据模型
 
 称HBase为“sparse, distributed, persistent multidimensional sorted map”，即HBase本质来看是一个Map，从逻辑视图来看，HBase中的数据是以表形式进行组织的，HBase中的表也由行和列构成。从物理视图来看，HBase是一个Map，由键值（KeyValue，KV）构成，不过与普通的Map不同，HBase是一个稀疏的、分布式的、多维排序的Map。
 
@@ -70,7 +70,7 @@ HBase中的数据是按照列簇存储的，即将数据按照列簇分别存储
 
 列簇式存储：从概念上来说，列簇式存储介于行式存储和列式存储之间，可以通过不同的设计思路在行式存储和列式存储两者之间相互切换
 
-## 3、HBase体系结构
+### 3、HBase体系结构
 
 典型的Master-Slave模型。系统中有一个管理集群的Master节点以及大量实际服务用户读写的RegionServer节点。除此之外，HBase中所有数据最终都存储在HDFS系统中；系统中还有一个ZooKeeper节点，协助Master对集群进行管理
 
@@ -105,7 +105,7 @@ Region：数据表的一个分片，当数据表大小超过一定阈值就会�
 
 （5）HDFS：HBase底层依赖HDFS组件存储实际数据，包括用户数据文件、HLog日志文件等最终都会写入HDFS落盘
 
-# 二、基础数据结构
+## 二、基础数据结构
 
 HBase的一个列簇（Column Family）本质上就是一棵LSM树（Log-Structured Merge-Tree）。
 
@@ -115,7 +115,7 @@ LSM树分为内存部分和磁盘部分。
 
 磁盘部分是由一个个独立的文件组成，每一个文件又是由一个个数据块组成。对于数据存储在磁盘上的数据库系统来说，磁盘寻道以及数据读取都是非常耗时的操作（简称IO耗时）。为了避免不必要的IO耗时，可以在磁盘中存储一些额外的二进制数据，这些数据用来判断对于给定的key是否有可能存储在这个数据块中，这个数据结构称为布隆过滤器（Bloom Filter）
 
-## 1、跳跃表
+### 1、跳跃表
 
 跳跃表（SkipList）是一种能高效实现插入、删除、查找的内存数据结构，期望复杂度都是O(logN)，在并发场景下加锁粒度更小，从而可以实现更高的并发性
 
@@ -138,7 +138,7 @@ LSM树分为内存部分和磁盘部分。
 
 5、性质5跳跃表的插入/删除时间复杂度为O(logN)。
 
-## 2、LSM 树
+### 2、LSM 树
 
 LSM树的索引对写入请求更友好。因为无论是何种写入请求，LSM树都会将写入操作处理为一次顺序写，而HDFS擅长的正是顺序写（且HDFS不支持随机写），因此基于HDFS实现的HBase采用LSM树作为索引是一种很合适的选择。
 
@@ -175,7 +175,7 @@ LSM树索引结构如图2-8所示。内存部分导出形成一个有序数据�
 一种是minor compact，即选中少数几个hf ile，将它们多路归并成一个文件。这种方式的优点是，可以进行局部的compact，通过少量的IO减少文件个数，提升读取操作的性能，适合较高频率地跑；
 总结：LSM树的索引结构本质是将写入操作全部转化成磁盘的顺序写入，极大地提高了写入操作的性能。但是，这种设计对读取操作是非常不利的，因为需要在读取的过程中，通过归并所有文件来读取所对应的KV，这是非常消耗IO资源的。因此，在HBase中设计了异步的compaction来降低文件个数，达到提高读取性能的目的。由于HDFS只支持文件的顺序写，不支持文件的随机写，而且HDFS擅长的场景是大文件存储而非小文件，所以上层HBase选择LSM树这种索引结构是最合适的
 
-## 3、布隆过滤器 bloomfilter
+### 3、布隆过滤器 bloomfilter
 
 1、HBase的Get操作就是通过运用低成本高效率的布隆过滤器来过滤大量无效数据块的，从而节省大量磁盘IO。
 
@@ -183,9 +183,9 @@ LSM树索引结构如图2-8所示。内存部分导出形成一个有序数据�
 
 也就是用userid和其他字段拼接生成rowkey。而且业务大部分的请求都按照某个指定用户的userid来扫描这个用户下的所有数据，即按照userid来做前缀扫描。基于这个请求特点，可以把rowkey中固定长度的前缀计算布隆过滤器，这样按照userid来前缀扫描时（前缀固定，所以计算布隆过滤器的Key值也就固定），同样可以借助布隆过滤器优化性能，HBASE-20636中提到有一倍以上的性能提升。另外，对于Get请求，同样可以借助这种前缀布隆过滤器提升性能。因此，这种设计对Get和基于前缀扫描的Scan都非常友好。
 
-# 三、hbase 的依赖 和 hbase client 操作
+## 三、hbase 的依赖 和 hbase client 操作
 
-## 1、zk
+### 1、zk
 
 看看HBase在ZooKeeper上都存储了哪些信息
 
@@ -199,7 +199,7 @@ replication：用来实现HBase复制功能。
 splitWAL/recovering-regions：用来实现HBase分布式故障恢复。为了加速集群故障恢复，HBase实现了分布式故障恢复，让集群中所有RegionServer都参与未回放日志切分。ZooKeeper是Master和RegionServer之间的协调节点。
 rs：集群中所有运行的RegionServer。
 
-## 2、HDFS
+### 2、HDFS
 
 1、擅长的场景是大文件（一般认为字节数超过数十MB的文件为大文件）的顺序读、随机读和顺序写。从API层面，HDFS并不支持文件的随机写（Seek+Write）以及多个客户端同时写同一个文件
 
@@ -210,7 +210,7 @@ JournalNode，为了保证两个NameNode在切换前后能读到一致的EditLog
 ZKFailoverController主要用来实现NameNode的自动切换。
 locality和短路读对HBase的读性能影响重大。在locality=1.0情况下，不开短路读的p99性能要比开短路读差10%左右。如果用locality=0和locality=1相比，读操作性能则差距巨大。
 
-## 3、HDFS在HBase系统中扮演的角色
+### 3、HDFS在HBase系统中扮演的角色
 
 HBase使用HDFS存储所有数据文件，从HDFS的视角看，HBase就是它的客户端。这样的架构有几点需要说明：
 
@@ -243,7 +243,7 @@ oldWALs：WAL归档目录。一旦一个WAL文件中记录的所有KV数据确�
 3、Base系统内部设计了一张特殊的表——hbase:meta表
 专门用来存放整个集群所有的Region信息。hbase:meta中的hbase指的是namespace，HBase容许针对不同的业务设计不同的namespace，系统表采用统一的namespace，即hbase；meta指的是hbase这个namespace下的表名。
 
-## 4、hbase:meta表内具体存放的是哪些信息呢？
+### 4、hbase:meta表内具体存放的是哪些信息呢？
 
 hbase:meta的一个rowkey就对应一个Region，rowkey主要由TableName（业务表名）、StartRow（业务表Region区间的起始rowkey）、Timestamp（Region创建的时间戳）、EncodedName（上面3个字段的MD5 Hex值）4个字段拼接而成。每一行数据又分为4列，分别是info:regioninfo、info:seqnumDuringOpen、info:server、info:serverstartcode。
 
@@ -263,7 +263,7 @@ HBase客户端有一个叫做MetaCache的缓存，在调用HBase API时，客户
 •Region信息不为空，但是调用RPC请求对应RegionServer后发现Region并不在这个RegionServer上。这说明MetaCache信息过期了，同样直接Reversed Scan hbase:meta表，找到正确的Region并缓存。通常，某些Region在两个RegionServer之间移动后会发生这种情况。但事实上，无论是RegionServer宕机导致Region移动，还是由于Balance导致Region移动，发生的几率都极小。而且，也只会对Region移动后的极少数请求产生影响，这些请求只需要通过HBase客户端自动重试locate meta即可成功。
 •Region信息不为空，且调用RPC请求到对应RegionSsrver后，发现是正确的RegionServer。绝大部分的请求都属于这种情况
 
-## 5、HBase客户端的Scan操作应该是比较复杂的RPC操作
+### 5、HBase客户端的Scan操作应该是比较复杂的RPC操作
 
 1、Scan必须能设置众多维度的属性。常用的有startRow、endRow、Filter、caching、batch、reversed、maxResultSize、version、timeRange。
 
@@ -276,7 +276,7 @@ HBase客户端有一个叫做MetaCache的缓存，在调用HBase API时，客户
 allowPartial：用户能容忍拿到一行部分cell的result。设置了这个属性，将跳过图4-3中的第三步重组流程，直接把服务端收到的result返回给用户。•
 maxResultSize：loadCache时单次RPC操作最多拿到maxResultSize字节的结果集。
 
-## 6、hbase client 访问的坑
+### 6、hbase client 访问的坑
 
 1、RPC 重试机制设置
 几种导致重试的常见异常：•
@@ -307,7 +307,7 @@ HBase客户端所在进程Java GC。由于HBase客户端作为业务代码的一
 业务进程所在机器的CPU或者网络负载较高。对于上层业务来说一般不涉及磁盘资源的开销，所以主要看load和网络是否过载。•
 HBase客户端层面的bug。这种情况出现的概率不大，但也不排除有这种可能。
 
-# 四、RegionServer的核心模块
+## 四、RegionServer的核心模块
 
 RegionServer是HBase系统中最核心的组件，主要负责用户数据写入、读取等基础操作。RegionServer组件实际上是一个综合体系，包含多个各司其职的核心模块：HLog、MemStore、HFile以及BlockCache
 
@@ -325,7 +325,7 @@ Region是HBase中数据表的一个数据分片，一个RegionServer上通常会
 
 每个Store包含一个MemStore和多个HFile，用户数据写入时会将对应列簇数据写入相应的MemStore，一旦写入数据的内存大小超过设定阈值，系统就会将MemStore中的数据落盘形成HFile文件
 
-## 1、HLog
+### 1、HLog
 
 HBase中系统故障恢复以及主从复制都基于HLog实现
 所有写入操作（写入、更新以及删除）的数据都先以追加形式写入HLog，再写入MemStore。大多数情况下，HLog并不会被读取，但如果RegionServer在某些异常情况下发生宕机，此时已经写入MemStore中但尚未f lush到磁盘的数据就会丢失，需要回放HLog补救丢失的数据。
@@ -347,7 +347,7 @@ HLog 的生命周期：HLog 创建、HLog 滚动、HL失效、HL删除
 
 HBase系统中一张表会被水平切分成多个Region，每个Region负责自己区域的数据读写请求。水平切分意味着每个Region会包含所有的列簇数据，HBase将不同列簇的数据存储在不同的Store中，每个Store由一个MemStore和一系列HFile组成
 
-## 2、MemStore
+### 2、MemStore
 
 HBase基于LSM树模型实现，所有的数据写入操作首先会顺序写入日志HLog，再写入MemStore，当MemStore中数据大小超过阈值之后再将这些数据批量写入磁盘，生成一个新的HFile文件。
 
@@ -387,7 +387,7 @@ MemStore由两个ConcurrentSkipListMap（称为A和B）实现，写入操作（�
 
 4）如果需要申请新的Chunk来存储KeyValue，首先从Chunk Pool中获取，如果能够获取得到就重复利用，否则就重新申请一个新的Chunk。
 
-## 3、HFile
+### 3、HFile
 
 HFile文件主要分为4个部分：Scanned block部分、Non-scanned block部分、Load-on-open部分和Trailer。
 
@@ -407,7 +407,7 @@ HFileBlock主要包含两部分：BlockHeader和BlockData。其中BlockHeader主
 
 3）对Key进行Hash映射，根据映射的结果在位数组中查看是否所有位都为1，如果不是，表示该文件中肯定不存在该Key，否则有可能存在。
 
-## 4、BlockCache
+### 4、BlockCache
 
 BlockCache是RegionServer级别的，一个RegionServer只有一个BlockCache，在RegionServer启动时完成BlockCache的初始化工作。HBase先后实现了3种BlockCache方案，LRUBlockCache是最早的实现方案，也是默认的实现方案；第二种方案SlabCache，另一种可选方案BucketCache。
 
@@ -435,9 +435,9 @@ Block缓存读取流程如下：
 
 3）根据物理偏移地址offset直接从内存中查找对应的Block数据。
 
-# 五、Hbase 读写流程 & Compaction
+## 五、Hbase 读写流程 & Compaction
 
-## 1、hbase 写入流程
+### 1、hbase 写入流程
 
 写入流程可以概括为三个阶段。
 
@@ -465,7 +465,7 @@ MemStore的写入流程可以表述为以下3步。
 
 bulkload的流程
 
-## 2、hbase 读取流程
+### 2、hbase 读取流程
 
 HBase读数据的流程更加复杂。主要基于两个方面的原因：
 
@@ -512,7 +512,7 @@ Scanner的核心体系包括三层Scanner：RegionScanner，StoreScanner，MemSt
 2. BlockCache中检索目标Block
 3. HDFS文件中检索目标Block
 
-## 3、Compaction
+### 3、Compaction
 
 HBase根据合并规模将Compaction分为两类：Minor Compaction和Major Compaction。•
 
@@ -537,9 +537,9 @@ HFile文件合并执行过程
 
 4）将对应Store数据目录下的Compaction输入文件全部删除。
 
-# 六、Hbase 的负载均衡 & 故障恢复 & 复制
+## 六、Hbase 的负载均衡 & 故障恢复 & 复制
 
-## 1、Region 迁移
+### 1、Region 迁移
 
 HBase中Region迁移是一个非常轻量级的操作。所谓轻量级，是因为HBase的数据实际存储在HDFS上，不需要独立进行管理，因而Region在迁移的过程中不需要迁移实际数据，只要将读写服务迁移即可
 
@@ -577,11 +577,11 @@ Region的这些状态会存储在三个区域：meta表，Master内存，ZooKeep
 
 在很多异常情况下，Region状态在三个地方并不能保持一致，这就会出现region-in-transition(RIT)现象
 
-## 2、hbase region 合并
+### 2、hbase region 合并
 
 最典型的一个应用场景是，在某些业务中本来接收写入的Region在之后的很长时间都不再接收任何写入，而且Region上的数据因为TTL过期被删除。这种场景下的Region实际上没有任何存在的意义，称为空闲Region。一旦集群中空闲Region很多，就会导致集群管理运维成本增加。
 
-## 3、hbase region 分裂
+### 3、hbase region 分裂
 
 1、满足Region分裂策略之后就会触发Region分裂。分裂被触发后的第一件事是寻找分裂点。
 
@@ -615,11 +615,11 @@ Region的这些状态会存储在三个区域：meta表，Master内存，ZooKeep
 
 5、分布式系统通过增加节点实现扩展性，但如果说扩容就是增加节点其实并不准确。扩容操作一般分为两个步骤：首先，需要增加节点并让系统感知到节点加入；其次，需要将系统中已有节点负载迁移到新加入节点上。
 
-## 4、宕机原理恢复
+### 4、宕机原理恢复
 
 Master主要负责集群管理调度，在实际生产线上并没有非常大的压力，因此发生软件层面故障的概率非常低。RegionServer主要负责用户的读写服务，进程中包含很多缓存组件以及与HDFS交互的组件，实际生产线上往往会有非常大的压力，进而造成的软件层面故障会比较多
 
-### 1、可能导致RegionServer宕机的异常
+#### 1、可能导致RegionServer宕机的异常
 
 Full GC异常：长时间的Full GC是导致RegionServer宕机的最主要原因
 据不完全统计，80%以上的宕机原因都和JVM Full GC有关。导致JVM发生Full GC的原因有很多：HBase对于Java堆内内存管理的不完善，HBase未合理使用堆外内存，JVM启动参数设置不合理，业务写入或读取吞吐量太大，写入读取字段太大，等等。其中部分原因要归结于HBase系统本身，另一部分原因和用户业务以及HBase相关配置有关
@@ -633,7 +633,7 @@ RegionServer写入读取数据都是直接操作HDFS的，如果HDFS发生异常
 HBase Bug
 生产线上因为HBase系统本身bug导致RegionServer宕机的情况很少，但在之前的版本中有一个问题让笔者印象深刻：RegionServer经常会因为耗尽了机器的端口资源而自行宕机，这个bug的表现是，随着时间的推移，处于close_wait状态的端口越来越多，当超过机器的配置端口数（65535）时RegionServer进程就会被kill掉
 
-### 2、故障自动恢复的原理
+#### 2、故障自动恢复的原理
 
 region 恢复：一旦RegionServer发生宕机，HBase会马上检测到这种宕机，并且在检测到宕机之后将宕机RegionServer上的所有Region重新分配到集群中其他正常的RegionServer上，再根据HLog进行丢失数据恢复，恢复完成之后就可以对外提供服务。整个过程都是自动完成的，
 
@@ -647,7 +647,7 @@ region 恢复：一旦RegionServer发生宕机，HBase会马上检测到这种�
 
 5）恢复完成，对外提供服务。数据补救完成之后，可以对外提供读写服务。
 
-## 5、备份和恢复
+### 5、备份和恢复
 
 数据库定期备份、定期演练恢复是当下很多重要业务都在慢慢接受的最佳实践。
 
@@ -682,17 +682,17 @@ HBase为指定表执行Snapshot操作，实际上真正执行Snapshot的是对�
 
 7）返回给协调者
 
-# 七、运维监控、系统调优、运维案例
+## 七、运维监控、系统调优、运维案例
 
-## 1、监控指标
+### 1、监控指标
 
-## 2、业务隔离
+### 2、业务隔离
 
 1、运行队列隔离：HBase并没有提供业务级别的队列设置功能，而是提供了读写队列隔离方案，RegionServer可以同时提供写队列、get请求队列和scan请求队列，这样就将写请求、get请求和scan请求分发到不同的队列，不同队列使用不同的工作线程进行处理，有效隔离了不同请求类型的相互影响。
 
 2、计算资源隔离：RSGroup方案的原理非常清晰：用户可以将集群划分为多个组，每个组里包含指定RegionServer集合，每个组同时可以指定特定的业务。RSGroup最核心的作用是保证业务一旦分配到指定组，对应的Region就只能在该组里面的RegionSever上运行，
 
-## 3、HBCK主要工作在两种模式下：一致性检测只读模式和多阶段修复模式
+### 3、HBCK主要工作在两种模式下：一致性检测只读模式和多阶段修复模式
 
 HBase集群一致性主要包括两个方面。•
 
@@ -714,7 +714,7 @@ HBase表完整性：对于集群中任意一张表，每个rowkey都仅能存在
 
 5）如果使用HBCK工具无法修复集群的不一致，需要结合日志进行进一步分析，决定修复方案。
 
-## 4、hbase 建表
+### 4、hbase 建表
 
 建表语句整体上可以拆解成三个部分：表名、列簇属性设置、表属性设置。
 
@@ -724,92 +724,92 @@ HBase表完整性：对于集群中任意一张表，每个rowkey都仅能存在
 
 •预分区设置属性：预分区是HBase最佳实践中非常重要的一个策略，不经过预分区设置的业务通常在后期会出现数据分布极度不均衡的情况，进而造成读写请求不均衡，严重时会出现写入阻塞、读取延迟不可控，甚至影响整个集群其他业务。因此建议所有业务表上线必须做预分区处理。
 
-## 5、Salted Table，对rowkey做哈希是一种很好的解决数据热点的方式
+### 5、Salted Table，对rowkey做哈希是一种很好的解决数据热点的方式
 
 本质上Salted Table通过数据哈希很好地解决了数据热点的问题，同时对get、put这类按照rowkey做点查（只查询一条记录）的操作非常友好，性能也很棒。但是，对于scan操作并不是特别友好，
 
-## 6、hbase 读取性能调优
+### 6、hbase 读取性能调优
 
 HBase系统的读取优化可以从三个方面进行：服务器端、客户端、列簇设计
 
-1、 读请求是否均衡？
+1. 读请求是否均衡？
 优化原理：假如业务所有读请求都落在集群某一台RegionServer上的某几个Region上，很显然，这一方面不能发挥整个集群的并发处理能力，另一方面势必造成此台RegionServer资源严重消耗（比如IO耗尽、handler耗尽等），导致落在该台RegionServer上的其他业务受到波及。也就是说读请求不均衡不仅会造成本身业务性能很差，还会严重影响其他业务。
 
 观察确认：观察所有RegionServer的读请求QPS曲线，确认是否存在读请求不均衡现象。
 
 优化建议：Rowkey必须进行散列化处理（比如MD5散列），同时建表必须进行预分区处理。
 
-2、 BlockCache设置是否合理？
+2. BlockCache设置是否合理？
 优化原理：BlockCache作为读缓存，对于读性能至关重要。默认情况下BlockCache和MemStore的配置相对比较均衡（各占40%），可以根据集群业务进行修正，比如读多写少业务可以将BlockCache占比调大。另一方面，BlockCache的策略选择也很重要，不同策略对读性能来说影响并不是很大，但是对GC的影响却相当显著，尤其在BucketCache的offheap模式下GC表现非常优秀。
 
 观察确认：观察所有RegionServer的缓存未命中率、配置文件相关配置项以及GC日志，确认BlockCache是否可以优化。
 
 优化建议：如果JVM内存配置量小于20G，BlockCache策略选择LRUBlockCache；否则选择BucketCache策略的offheap模式。
 
-3、 HFile文件是否太多？
+3. HFile文件是否太多？
 优化原理：HBase在读取数据时通常先到MemStore和BlockCache中检索（读取最近写入数据和热点数据），如果查找不到则到文件中检索。HBase的类LSM树结构导致每个store包含多个HFile文件，文件越多，检索所需的IO次数越多，读取延迟也就越高。文件数量通常取决于Compaction的执行策略，一般和两个配置参数有关：hbase.hstore. compactionThreshold和hbase.hstore.compaction.max.size，前者表示一个store中的文件数超过阈值就应该进行合并，后者表示参与合并的文件大小最大是多少，超过此大小的文件不能参与合并。这两个参数需要谨慎设置，如果前者设置太大，后者设置太小，就会导致Compaction合并文件的实际效果不明显，很多文件得不到合并，进而导致HFile文件数变多。
 
 观察确认：观察RegionServer级别以及Region级别的HFile数，确认HFile文件是否过多。
 
 优化建议：hbase.hstore.compactionThreshold设置不能太大，默认为3个。
 
-4、 Compaction是否消耗系统资源过多？
+4. Compaction是否消耗系统资源过多？
 优化原理：Compaction是将小文件合并为大文件，提高后续业务随机读性能，但是也会带来IO放大以及带宽消耗问题（数据远程读取以及三副本写入都会消耗系统带宽）。正常配置情况下，Minor Compaction并不会带来很大的系统资源消耗，除非因为配置不合理导致Minor Compaction太过频繁，或者Region设置太大发生Major Compaction。
 
 观察确认：观察系统IO资源以及带宽资源使用情况，再观察Compaction队列长度，确认是否由于Compaction导致系统资源消耗过多。
 
 优化建议：对于大Region读延迟敏感的业务（100G以上）通常不建议开启自动Major Compaction，手动低峰期触发。小Region或者延迟不敏感的业务可以开启Major Compaction，但建议限制流量。
 
-5、 数据本地率是不是很低？
+5. 数据本地率是不是很低？
 优化原理：13.4节详细介绍了HBase中数据本地率的概念，如果数据本地率很低，数据读取时会产生大量网络IO请求，导致读延迟较高。
 
 观察确认：观察所有RegionServer的数据本地率（见jmx中指标PercentFileLocal，在Table Web UI可以看到各个Region的Locality）。
 
 优化建议：尽量避免Region无故迁移。对于本地率较低的节点，可以在业务低峰期执行major_compact。
 
-6、 scan缓存是否设置合理？
+6. scan缓存是否设置合理？
 优化原理：HBase业务通常一次scan就会返回大量数据，因此客户端发起一次scan请求，实际并不会一次就将所有数据加载到本地，而是分成多次RPC请求进行加载，这样设计一方面因为大量数据请求可能会导致网络带宽严重消耗进而影响其他业务，另一方面因为数据量太大可能导致本地客户端发生OOM。在这样的设计体系下，用户会首先加载一部分数据到本地，然后遍历处理，再加载下一部分数据到本地处理，如此往复，直至所有数据都加载完成。数据加载到本地就存放在scan缓存中，默认为100条数据。
 
 通常情况下，默认的scan缓存设置是可以正常工作的。但是对于一些大scan（一次scan可能需要查询几万甚至几十万行数据），每次请求100条数据意味着一次scan需要几百甚至几千次RPC请求，这种交互的代价无疑是很大的。因此可以考虑将scan缓存设置增大，比如设为500或者1000条可能更加合适。笔者之前做过一次试验，在一次scan 10w+条数据量的条件下，将scan缓存从100增加到1000条，可以有效降低scan请求的总体延迟，延迟降低了25%左右。
 
 优化建议：大scan场景下将scan缓存从100增大到500或者1000，用以减少RPC次数。
 
-7、 get是否使用批量请求？
+7. get是否使用批量请求？
 优化原理：HBase分别提供了单条get以及批量get的API接口，使用批量get接口可以减少客户端到RegionServer之间的RPC连接数，提高读取吞吐量。另外需要注意的是，批量get请求要么成功返回所有请求数据，要么抛出异常。
 
 优化建议：使用批量get进行读取请求。需要注意的是，对读取延迟非常敏感的业务，批量请求时每次批量数不能太大，最好进行测试。
 
-8、 请求是否可以显式指定列簇或者列？
+8. 请求是否可以显式指定列簇或者列？
 优化原理：HBase是典型的列簇数据库，意味着同一列簇的数据存储在一起，不同列簇的数据分开存储在不同的目录下。一个表有多个列簇，如果只是根据rowkey而不指定列簇进行检索，不同列簇的数据需要独立进行检索，性能必然会比指定列簇的查询差很多，很多情况下甚至会有2～3倍的性能损失。
 
 优化建议：尽量指定列簇或者列进行精确查找。
 
-9、 离线批量读取请求是否设置禁止缓存？
+9. 离线批量读取请求是否设置禁止缓存？
 优化原理：通常在离线批量读取数据时会进行一次性全表扫描，一方面数据量很大，另一方面请求只会执行一次。这种场景下如果使用scan默认设置，就会将数据从HDFS加载出来放到缓存。可想而知，大量数据进入缓存必将其他实时业务热点数据挤出，其他业务不得不从HDFS加载，进而造成明显的读延迟毛刺。
 
 优化建议：离线批量读取请求设置禁用缓存，scan.setCacheBlocks (false)。
 
-10、布隆过滤器是否设置？
+10. 布隆过滤器是否设置？
 优化原理：布隆过滤器主要用来过滤不存在待检索rowkey的HFile文件，避免无用的IO操作。布隆过滤器取值有两个——row以及rowcol，需要根据业务来确定具体使用哪种。如果业务中大多数随机查询仅仅使用row作为查询条件，布隆过滤器一定要设置为row；如果大多数随机查询使用row+column作为查询条件，布隆过滤器需要设置为rowcol。如果不确定业务查询类型，则设置为row。
 
 优化建议：任何业务都应该设置布隆过滤器，通常设置为row，除非确认业务随机查询类型为row+column，则设置为rowcol。
 
-## 7、hbase 写入性能调优
+### 7、hbase 写入性能调优
 
 HBase系统主要应用于写多读少的业务场景，通常来说对系统的写入吞吐量要求都比较高。而在实际生产线环境中，HBase运维人员或多或少都会遇到写入吞吐量比较低、写入比较慢的情况
 
-## 8、Region Server 宕机
+### 8、Region Server 宕机
 
 触发RegionServer异常宕机的原因多种多样，主要包括：长时间GC导致RegionServer宕机，HDFS DataNode异常导致RegionServer宕机，以及系统严重Bug导致RegionServer宕机。
 
 个
 
-## 9、性能：延迟指标、请求吞吐量
+### 9、性能：延迟指标、请求吞吐量
 
 对HBase来说，我们通常所说的性能，其实是分成两个部分的。第一个部分是延迟指标，也就是说单次RPC请求的耗时。我们常用的衡量指标包括：get操作的平均延迟耗时（ms），get操作的p75延迟耗时，get操作的p99延迟耗时，get操作的p999延迟耗时
 
 第二个部分是请求吞吐量，也可以简单理解为每秒能处理的RPC请求次数。最典型的衡量指标是QPS（Query Per Second）。为了实现HBase更高的吞吐量，常见的优化手段有：•为HBase RegionServer配置更合适的Handler数，避免由于个别Handler处理请求太慢，导致吞吐量受限。但Handler数也不能配置太大，因为太多的线程数会导致CPU出现频繁的线程上下文切换，反而影响系统的吞吐量。•在RegionServer端，把读请求和写请求分到两个不同的处理队列中，由两种不同类型的Handler处理。这样可以避免出现因部分耗时的读请求影响写入吞吐量的现象。•某些业务场景下，采用Buffered Put的方式替换不断自动刷新的put操作，本质上也是为了实现更高的吞吐。一般来说，一旦延迟降低，吞吐量都会有不同幅度的提升；反之，吞吐量上去了，受限于系统层面的资源或其他条件，延迟不一定随之降低。
 
-## 10、介绍Pecolator是如何基于HBase/BigTable单行事务实现跨行事务的
+### 10、介绍Pecolator是如何基于HBase/BigTable单行事务实现跨行事务的
 
 Percolator协议本质上是借助BigTable/HBase的单行事务来实现分布式跨行事务，主要的优点有：•基于BigTable/HBase的行级事务，实现了分布式事务协议。代码实现较为简单。•每一行的行锁信息都存储在各自的行内，锁信息是分布式存储在各个节点上的。换句话说，全局锁服务是去中心化的，不会限制整个系统的吞吐。
