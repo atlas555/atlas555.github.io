@@ -55,9 +55,9 @@ en = "/en/:year/:month/:day/:slug/"
     favicon = "/favicon.svg"
     copyright = "&copy;"
     copyrightYear = "2022-2023"
-    GithubEdit = "https://github.com/atlas555/atlas555.github.io.git/edit/source/content/"
+    GithubEdit = "https://github.com/atlas555/atlas555.github.io/blob/source/content/"
     GithubRepo = "https://github.com/atlas555/atlas555.github.io.git"
-    ContentSource = "https://raw.githubusercontent.com/atlas555/tecwhim.github.io.git/source/content/"
+    ContentSource = "https://raw.githubusercontent.com/atlas555/atlas555.github.io.git/source/content/"
 
 [params.logo]
   url = "techwhims.png"
