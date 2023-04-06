@@ -1,6 +1,6 @@
 ---
 title: "《Hbase原理和实践》学习摘要"
-date: 2023-04-05T21:00:43-05:00
+date: 2023-04-05T21:00:43+08:00
 author: "张晓龙"
 slug: data
 draft: false
