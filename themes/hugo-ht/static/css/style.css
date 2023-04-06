@@ -169,7 +169,7 @@ div.splitbox div.right {
 /*The parameter of `max-width` below controls the width of the body text. 
 Customize as you prefer*/
 .content {
-  max-width: 750px; 
+  max-width: 950px; 
   margin: 60px auto auto auto;
   padding: 0 15px;
   font-size: 19px;
