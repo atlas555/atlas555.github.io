@@ -12,7 +12,7 @@ tag: algorithm
 
 ## LSM 的核心思想
 
-![LSM核心思想](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/2023-04-06_15-02-13.jpg)
+![LSM核心思想](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/16807705192490.jpg?image/auto-orient,1/watermark,text_dGVjaHdoaW1z,type_ZHJvaWRzYW5zZmFsbGJhY2s,color_c1bfc8,size_20,shadow_55,g_se,t_60,x_10,y_10)
 
 LSM树有以下三个重要组成部分：
 
