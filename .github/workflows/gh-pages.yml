@@ -69,6 +69,14 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+      - name: deploy aliyun oss
+        uses: manyuanrong/setup-ossutil@master
+        with:
+          endpoint: oss-cn-beijing.aliyuncs.com
+          access-key-id: ${{ secrets.KEY }}
+          access-key-secret: ${{ secrets.SECRET }}
+      - name: cp files to aliyun
+          run: ossutil cp -u ./public oss://bed-image/hugo-blog/
 
   # Deployment job
   deploy:
