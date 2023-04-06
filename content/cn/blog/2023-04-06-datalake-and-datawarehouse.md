@@ -1,5 +1,5 @@
 ---
-title: "数据湖仓一体"
+title: "数据湖仓一体架构简图"
 date: 2023-04-06T16:30:25+08:00
 author: "张晓龙"
 slug: lakehouse
