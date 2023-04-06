@@ -1,6 +1,6 @@
-#baseURL = 'https://atlas555.github.io/tecwhim.github.io/'
+baseURL = 'https://techwhims.com'
 languageCode = 'en-us'
-title = 'Tech Whim'
+title = 'Tech Whims'
 theme = 'hugo-ht'
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -60,7 +60,7 @@ en = "/en/:year/:month/:day/:slug/"
     ContentSource = "https://raw.githubusercontent.com/atlas555/tecwhim.github.io.git/source/content/"
 
 [params.logo]
-  url = "ht10.png"
+  url = "techwhims.png"
   width = 50.0
   height = 50.0
   alt = "Allen Zhang"
