@@ -12,7 +12,7 @@ tag: algorithm
 
 ## LSM 的核心思想
 
-![LSM核心思想](https://tva1.sinaimg.cn/large/008vOhrAgy1hcpyvsu9dej31bw0qiwhm.jpg)
+![LSM核心思想](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/2023-04-06_15-02-13.jpg)
 
 LSM树有以下三个重要组成部分：
 
@@ -29,7 +29,7 @@ LSM树有以下三个重要组成部分：
 3. SSTable(Sorted String Table)
 
     有序键值对集合，是LSM树组在磁盘中的数据结构。为了加快SSTable的读取，可以通过建立key的索引以及布隆过滤器来加快key的查找。
-    ![有序键值对集合](https://tva1.sinaimg.cn/large/008vOhrAgy1hcpyx7hj95j31b4074wf5.jpg)
+    ![有序键值对集合](https://bed-image.oss-cn-beijing.aliyuncs.com/2023-04-06-070759.jpg)
 
 ## LSM树的Compact策略
 
@@ -44,16 +44,16 @@ LSM树有以下三个重要组成部分：
 ### size-tiered 策略
 
 size-tiered策略保证每层SSTable的大小相近，同时限制每一层SSTable的数量。如上图，每层限制SSTable为N，当每层SSTable达到N后，则触发Compact操作合并这些SSTable，并将合并后的结果写入到下一层成为一个更大的sstable。
-![size-tiered](https://tva1.sinaimg.cn/large/008vOhrAgy1hcpz20qsr3j30mk0b4q3q.jpg)
+![size-tiered](https://bed-image.oss-cn-beijing.aliyuncs.com/2023-04-06-071031.jpg)
 
 由此可以看出，当层数达到一定数量时，最底层的单个SSTable的大小会变得非常大。并且size-tiered策略会导致空间放大比较严重。即使对于同一层的SSTable，每个key的记录是可能存在多份的，只有当该层的SSTable执行compact操作才会消除这些key的冗余记录。
 
 ### leveled策略
 
 leveled策略也是采用分层的思想，每一层限制总文件的大小。
-![分层的思想](https://tva1.sinaimg.cn/large/008vOhrAgy1hcpz30oitkj30o8090my1.jpg)
+![分层的思想](https://bed-image.oss-cn-beijing.aliyuncs.com/2023-04-06-071056.jpg)
 
 但是跟size-tiered策略不同的是，leveled会将每一层切分成多个大小相近的SSTable。这些SSTable是这一层是全局有序的，意味着一个key在每一层至多只有1条记录，不存在冗余记录。
-![全局有序](https://tva1.sinaimg.cn/large/008vOhrAgy1hcpz3nxjwvj30p00ckdh9.jpg)
+![SSTable全局有序](https://bed-image.oss-cn-beijing.aliyuncs.com/2023-04-06-071114.jpg)
 
 leveled策略相较于size-tiered策略来说，每层内key是不会重复的，即使是最坏的情况，除开最底层外，其余层都是重复key，按照相邻层大小比例为10来算，冗余占比也很小。因此空间放大问题得到缓解。但是写放大问题会更加突出
