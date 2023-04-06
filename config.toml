@@ -61,9 +61,9 @@ en = "/en/:year/:month/:day/:slug/"
 
 [params.logo]
   url = "techwhims.png"
-  width = 50.0
-  height = 50.0
-  alt = "Allen Zhang"
+  width = 100.0
+  height = 150.0
+  alt = "Tech Whims"
 
 [params.lang]
 
