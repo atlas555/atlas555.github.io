@@ -76,7 +76,7 @@ jobs:
           access-key-id: ${{ secrets.KEY }}
           access-key-secret: ${{ secrets.SECRET }}
       - name: cp files to aliyun
-          run: ossutil cp -u ./public oss://bed-image/hugo-blog/
+        run: ossutil cp -u ./public oss://bed-image/hugo-blog/
 
   # Deployment job
   deploy:
