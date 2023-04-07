@@ -12,7 +12,7 @@ enableRobotsTXT = true
 cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
 
-googleAnalytics = "G-X1VN96KYH4"
+googleAnalytics = "UA-43475675-5"
 
 [frontmatter]
   lastmod = ["lastmod", ":git", "date", "publishDate"]
