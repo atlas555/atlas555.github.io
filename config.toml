@@ -12,6 +12,8 @@ enableRobotsTXT = true
 cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
 
+googleAnalytics = "G-X1VN96KYH4"
+
 [frontmatter]
   lastmod = ["lastmod", ":git", "date", "publishDate"]
 
@@ -58,6 +60,7 @@ en = "/en/:year/:month/:day/:slug/"
     GithubEdit = "https://github.com/atlas555/atlas555.github.io/blob/source/content/"
     GithubRepo = "https://github.com/atlas555/atlas555.github.io.git"
     ContentSource = "https://raw.githubusercontent.com/atlas555/atlas555.github.io.git/source/content/"
+    images = ["/techwhims.png"]
 
 [params.logo]
   url = "techwhims.png"
@@ -140,3 +143,4 @@ en = "/en/:year/:month/:day/:slug/"
 
 [imaging]
 quality = 100
+
