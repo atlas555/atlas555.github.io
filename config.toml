@@ -102,6 +102,10 @@ googleAnalytics = "UA-43475675-5"
       en = "License"
       cn = "版权"
 
+[Params.umami]
+  websiteId = "91107c5c-7a15-4cde-891a-c6be5eee2c75"
+  jsLocation = "/js/umami.js"
+
 [markup]
  defaultMarkdownHandler = "goldmark"
 
