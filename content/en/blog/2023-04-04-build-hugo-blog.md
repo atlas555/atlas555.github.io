@@ -3,7 +3,7 @@ title: "Build a blog with Hugo"
 date: 2023-04-04T20:45:14-06:00
 author: "Allen Zhang"
 slug: blog
-draft: false
+draft: true
 toc: false
 tags: blog
 ---

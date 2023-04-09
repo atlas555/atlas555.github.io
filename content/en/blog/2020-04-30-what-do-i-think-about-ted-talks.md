@@ -3,6 +3,7 @@ title: What Do I Think About TED Talks
 date: 2020-04-30T06:19:02-04:00
 author: Allen Zhang
 slug: what-do-i-think-about-ted-talks
+draft: true
 ---
 
 TED talks say that they have ideas worth spreading, but I am not sure whether those ideas are worth listening. 
