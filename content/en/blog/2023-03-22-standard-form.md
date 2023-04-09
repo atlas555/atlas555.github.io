@@ -1,5 +1,4 @@
 ---
-
 title: "Optimization: Standard Form"
 date: 2023-03-22
 author: Hongtao Hao
@@ -7,7 +6,6 @@ slug: standard-form
 draft: true
 toc: false
 tags: Optimization
-
 ---
 
 {{<block class = "note">}}
