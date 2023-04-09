@@ -60,7 +60,7 @@ googleAnalytics = "UA-43475675-5"
     GithubEdit = "https://github.com/atlas555/atlas555.github.io/blob/source/content/"
     GithubRepo = "https://github.com/atlas555/atlas555.github.io.git"
     ContentSource = "https://raw.githubusercontent.com/atlas555/atlas555.github.io.git/source/content/"
-    images = ["/techwhims.png"]
+#    images = ["/techwhims.png"]
 
 [params.logo]
   url = "techwhims.png"

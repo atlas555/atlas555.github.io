@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Tech Whims</title>
+    <link>https://techwhims.com/tags/blog/</link>
+    <description>Recent content in blog on Tech Whims</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Apr 2023 20:45:14 -0600</lastBuildDate><atom:link href="https://techwhims.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a blog with Hugo</title>
+      <link>https://techwhims.com/en/2023/04/04/blog/</link>
+      <pubDate>Tue, 04 Apr 2023 20:45:14 -0600</pubDate>
+      
+      <guid>https://techwhims.com/en/2023/04/04/blog/</guid>
+      <description>Notes taken on Professor Xiaopeng Li ’s class of CIV ENGR 679 Connected and Automated Transport, 2023Spring level 1: driver assistance. Only one assistance technology, mainly longitudinal. That is say, the car can control the gas pedal and the break pedal.
+level 2: partial automation. Both longitudinal and lateral. That is to say, the car can control its steering wheel as well.
+level 3: conditional automation. doing the same thing as level 2 but a little bit more reliable.</description>
+    </item>
+    
+  </channel>
+</rss>

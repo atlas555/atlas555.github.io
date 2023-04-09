@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data-infra on Tech Whims</title>
+    <link>https://techwhims.com/tags/data-infra/</link>
+    <description>Recent content in data-infra on Tech Whims</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Apr 2023 21:00:43 +0800</lastBuildDate><atom:link href="https://techwhims.com/tags/data-infra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《Hbase原理和实践》学习摘要</title>
+      <link>https://techwhims.com/cn/2023/04/05/data/</link>
+      <pubDate>Wed, 05 Apr 2023 21:00:43 +0800</pubDate>
+      
+      <guid>https://techwhims.com/cn/2023/04/05/data/</guid>
+      <description>记录于 2023.02.13
+一、基本情况和原理 1、HBase使用现状 （1）使用HBase存储海量数据，服务于各种在线系统以及离线分析系统，业务场景包括订单系统、消息存储系统、用户画像、搜索推荐、安全风控以及物联网时序数据存储等。最近，阿里云、华为云等云提供商先后推出了HBase云服务，为国内更多公司低门槛地使用HBase服务提供了便利。
+（2）系统特性：
+容量巨大：HBase的单表可以支持千亿行、百万列的数据规模，数据容量可以达到TB甚至PB级别 良好的可扩展性：HBase集群可以非常方便地实现集群容量扩展，主要包括数据存储节点扩展以及读写服务节点扩展 稀疏性：HBase支持大量稀疏存储，即允许大量列值为空，并不占用任何存储空间。 高性能：HBase目前主要擅长于OLTP场景，数据写操作性能强劲，对于随机单点读以及小范围的扫描读，其性能也能够得到保证 多版本：HBase支持多版本特性，即一个KV可以同时保留多个版本 支持过期：HBase支持TTL过期特性，用户只需要设置过期时间，超过TTL的数据就会被自动清理，不需要用户写程序手动删除。 缺陷
+HBase本身不支持很复杂的聚合运算（如Join、GroupBy等）。如果业务中需要使用聚合运算，可以在HBase之上架设Phoenix组件或者Spark组件，前者主要应用于小规模聚合的OLTP场景，后者应用于大规模聚合的OLAP场景 HBase本身并没有实现二级索引功能，所以不支持二级索引查找。好在针对HBase实现的第三方二级索引方案非常丰富，比如目前比较普遍的使用Phoenix提供的二级索引功能 HBase原生不支持全局跨行事务，只支持单行事务模型
+2、HBase数据模型 称HBase为“sparse, distributed, persistent multidimensional sorted map”，即HBase本质来看是一个Map，从逻辑视图来看，HBase中的数据是以表形式进行组织的，HBase中的表也由行和列构成。从物理视图来看，HBase是一个Map，由键值（KeyValue，KV）构成，不过与普通的Map不同，HBase是一个稀疏的、分布式的、多维排序的Map。
+（1）逻辑视图，HBase中的基本概念。
+table：表，一个表包含多行数据。 row：行，一行数据包含一个唯一标识rowkey、多个column以及对应的值。在HBase中，一张表中所有row都按照rowkey的字典序由小到大排序。 column：列，与关系型数据库中的列不同，HBase中的column由column family（列簇）以及qualifier（列名）两部分组成，两者中间使用&amp;quot;:&amp;ldquo;相连。比如contents:html，其中contents为列簇，html为列簇下具体的一列。column family在表创建的时候需要指定，用户不能随意增减。一个column family下可以设置任意多个qualifier，因此可以理解为HBase中的列可以动态增加，理论上甚至可以扩展到上百万列。 timestamp：时间戳，每个cell在写入HBase的时候都会默认分配一个时间戳作为该cell的版本，当然，用户也可以在写入的时候自带时间戳。HBase支持多版本特性，即同一rowkey、column下可以有多个value存在，这些value使用timestamp作为版本号，版本越大，表示数据越新。
+下图所示，表中主要存储网页信息。 示例表中包含两行数据，两个rowkey分别为com.cnn.www和com.example.www，按照字典序由小到大排列。 每行数据有三个列簇，分别为anchor、contents以及people，其中列簇anchor下有两列，分别为cnnsi.com以及my.look.ca，其他两个列簇都仅有一列。
+可以看出，根据行com.cnn.www以及列anchor:cnnsi.com可以定位到数据CNN，对应的时间戳信息是t9。而同一行的另一列contents:html下却有三个版本的数据，版本号分别为t5、t6和t7。
+（2）多维稀疏排序Map
+HBase中Map的key是一个复合键，由rowkey、column family、qualifier、type以及timestamp组成，value即为cell的值。
+{&amp;ldquo;com.cnn.www&amp;rdquo;,&amp;ldquo;anchor&amp;rdquo;,&amp;ldquo;cnnsi.com&amp;rdquo;,&amp;ldquo;put&amp;rdquo;,&amp;ldquo;t9&amp;rdquo;} -&amp;gt; &amp;ldquo;CNN&amp;rdquo; 多维：这个特性比较容易理解。HBase中的Map与普通Map最大的不同在于，key是一个复合数据结构，由多维元素构成，包括rowkey、column family、qualif ier、type以及timestamp。 稀疏：稀疏性是HBase一个突出特点。从图1-3逻辑表中行&amp;quot;com.example.www&amp;quot;可以看出，整整一行仅有一列（people:author）有值，其他列都为空值。在其他数据库中，对于空值的处理一般都会填充null，而对于HBase，空值不需要任何填充。这个特性为什么重要？因为HBase的列在理论上是允许无限扩展的，对于成百万列的表来说，通常都会存在大量的空值，如果使用填充null的策略，势必会造成大量空间的浪费。因此稀疏性是HBase的列可以无限扩展的一个重要条件。 排序：构成HBase的KV在同一个文件中都是有序的，但规则并不是仅仅按照rowkey排序，而是按照KV中的key进行排序——先比较rowkey，rowkey小的排在前面；如果rowkey相同，再比较column，即column family:qualif ier，column小的排在前面；如果column还相同，再比较时间戳timestamp，即版本信息，timestamp大的排在前面。这样的多维元素排序规则对于提升HBase的读取性能至关重要，在后面读取章节会详细分析。 分布式：很容易理解，构成HBase的所有Map并不集中在某台机器上，而是分布在整个集群中。 （3）物理视图
+HBase中的数据是按照列簇存储的，即将数据按照列簇分别存储在不同的目录中。
+列簇anchor的所有数据存储在一起形成：
+（4）行式存储、列式存储、列簇式存储
+行式存储：行式存储系统会将一行数据存储在一起，一行数据写完之后再接着写下一行，最典型的如MySQL这类关系型数据库。行式存储在获取一行数据时是很高效的，但是如果某个查询只需要读取表中指定列对应的数据，那么行式存储会先取出一行行数据，再在每一行数据中截取待查找目标列。这种处理方式在查找过程中引入了大量无用列信息，从而导致大量内存占用。
+列式存储：列式存储理论上会将一列数据存储在一起，不同列的数据分别集中存储，最典型的如Kudu、Parquet on HDFS等系统（文件格式），列式存储对于只查找某些列数据的请求非常高效，只需要连续读出所有待查目标列，然后遍历处理即可；但是反过来，列式存储对于获取一行的请求就不那么高效了，需要多次IO读多个列数据，最终合并得到一行数据。另外，因为同一列的数据通常都具有相同的数据类型，因此列式存储具有天然的高压缩特性。
+列簇式存储：从概念上来说，列簇式存储介于行式存储和列式存储之间，可以通过不同的设计思路在行式存储和列式存储两者之间相互切换
+3、HBase体系结构 典型的Master-Slave模型。系统中有一个管理集群的Master节点以及大量实际服务用户读写的RegionServer节点。除此之外，HBase中所有数据最终都存储在HDFS系统中；系统中还有一个ZooKeeper节点，协助Master对集群进行管理
+（1）hbase client：HBase客户端（Client）提供了Shell命令行接口、原生Java API编程接口、Thrift/REST API编程接口以及MapReduce编程接口。HBase客户端支持所有常见的DML操作以及DDL操作。HBase客户端访问数据行之前，首先需要通过元数据表定位目标数据所在RegionServer，之后才会发送请求到该RegionServer。同时这些元数据会被缓存在客户端本地，以方便之后的请求访问。如果集群RegionServer发生宕机或者执行了负载均衡等，从而导致数据分片发生迁移，客户端需要重新请求最新的元数据并缓存在本地。
+（2）zookeeper：在HBase系统中，ZooKeeper扮演着非常重要的角色。
+实现Master高可用：通常情况下系统中只有一个Master工作，一旦Active Master由于异常宕机，ZooKeeper会检测到该宕机事件，并通过一定机制选举出新的Master，保证系统正常运转。 管理系统核心元数据：比如，管理当前系统中正常工作的RegionServer集合，保存系统元数据表hbase:meta所在的RegionServer地址等。 参与RegionServer宕机恢复：ZooKeeper通过心跳可以感知到RegionServer是否宕机，并在宕机后通知Master进行宕机处理。 实现分布式表锁：HBase中对一张表进行各种管理操作（比如alter操作）需要先加表锁，防止其他用户对同一张表进行管理操作，造成表状态不一致。HBase中的表通常都是分布式存储，ZooKeeper可以通过特定机制实现分布式表锁。 （3）Master：Master主要负责HBase系统的各种管理工作：</description>
+    </item>
+    
+  </channel>
+</rss>

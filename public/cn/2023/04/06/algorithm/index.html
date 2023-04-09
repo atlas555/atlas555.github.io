@@ -1,0 +1,201 @@
+<a name="top"></a>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech Whims</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/bash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/python.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+<script async defer data-website-id="91107c5c-7a15-4cde-891a-c6be5eee2c75" src="/js/umami.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+            <link rel="icon" href="https://techwhims.com/favicon.svg">
+
+
+
+
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://techwhims.com/techwhims.png"/>
+
+<meta name="twitter:title" content="Log Structured Merge Tree"/>
+<meta name="twitter:description" content="记录于 2023.4.6，源于 hbase 原理的学习。
+LSM 的核心思想 LSM树有以下三个重要组成部分：
+MemTable
+MemTable是在内存中的数据结构，用于保存最近更新的数据，会按照Key有序地组织这些数据，LSM树对于具体如何组织有序地组织数据并没有明确的数据结构定义，例如Hbase使跳跃表来保证内存中key的有序。
+因为数据暂时保存在内存中，内存并不是可靠存储，如果断电会丢失数据，因此通常会通过WAL(Write-ahead logging，预写式日志)的方式来保证数据的可靠性。
+Immutable MemTable
+当 MemTable达到一定大小后，会转化成Immutable MemTable。Immutable MemTable是将转MemTable变为SSTable的一种中间状态。写操作由新的MemTable处理，在转存过程中不阻塞数据更新操作。
+SSTable(Sorted String Table)
+有序键值对集合，是LSM树组在磁盘中的数据结构。为了加快SSTable的读取，可以通过建立key的索引以及布隆过滤器来加快key的查找。 LSM树的Compact策略 主要介绍两种基本策略：size-tiered和leveled。
+重要的概念
+读放大:读取数据时实际读取的数据量大于真正的数据量。例如在LSM树中需要先在MemTable查看当前key是否存在，不存在继续从SSTable中寻找。 写放大:写入数据时实际写入的数据量大于真正的数据量。例如在LSM树中写入时可能触发Compact操作，导致实际写入的数据量远大于该key的数据量。 空间放大:数据实际占用的磁盘空间比数据的真正大小更多。上面提到的冗余存储，对于一个key来说，只有最新的那条记录是有效的，而之前的记录都是可以被清理回收的。 size-tiered 策略 size-tiered策略保证每层SSTable的大小相近，同时限制每一层SSTable的数量。如上图，每层限制SSTable为N，当每层SSTable达到N后，则触发Compact操作合并这些SSTable，并将合并后的结果写入到下一层成为一个更大的sstable。 由此可以看出，当层数达到一定数量时，最底层的单个SSTable的大小会变得非常大。并且size-tiered策略会导致空间放大比较严重。即使对于同一层的SSTable，每个key的记录是可能存在多份的，只有当该层的SSTable执行compact操作才会消除这些key的冗余记录。
+leveled策略 leveled策略也是采用分层的思想，每一层限制总文件的大小。 但是跟size-tiered策略不同的是，leveled会将每一层切分成多个大小相近的SSTable。这些SSTable是这一层是全局有序的，意味着一个key在每一层至多只有1条记录，不存在冗余记录。 leveled策略相较于size-tiered策略来说，每层内key是不会重复的，即使是最坏的情况，除开最底层外，其余层都是重复key，按照相邻层大小比例为10来算，冗余占比也很小。因此空间放大问题得到缓解。但是写放大问题会更加突出"/>
+
+  </head>
+  
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav" >
+      <a href="/" class="nav-logo">
+        <img src="/techwhims.png"
+         width="80"
+         height="80"
+         alt="Tech Whims">
+      </a>
+
+      <ul class="nav-links" >
+        
+        
+           <li><a href="/cn/">关于</a></li>
+       
+           <li><a href="/cn/blog/">文章</a></li>
+       
+           <li><a href="/">English</a></li>
+       
+       
+      </ul>
+</nav>
+      </header>
+
+<main class = "content" role="main">
+<div style="text-align: center">
+
+<h1>Log Structured Merge Tree</h1>
+
+<p>张晓龙 
+ / 2023-04-06 </p>
+
+<hr/>
+</div>
+
+<span class="article-toolbar">
+  
+  
+  
+  
+  
+  
+  
+  <a href='https://github.com/atlas555/atlas555.github.io/blob/source/content/cn/blog/2023-04-06-Log-Structured-Merge-Tree.md'style="font-size: 24px; color: black;" target="_blank"><i class="fa fa-edit" aria-hidden="true" title="编辑本页"></i>
+  </a>
+  
+  
+  
+</span>
+
+
+
+<div class="body-text list-text">
+<p>记录于 2023.4.6，源于 hbase 原理的学习。</p>
+<h2 id="lsm-的核心思想">LSM 的核心思想<a href="#lsm-的核心思想" class="header-anchor" ariaLabel="Anchor"> # </a></h2>
+<p><img src="https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/16807705192490.jpg?image/auto-orient,1/watermark,text_dGVjaHdoaW1z,type_ZHJvaWRzYW5zZmFsbGJhY2s,color_c1bfc8,size_20,shadow_55,g_se,t_60,x_10,y_10" alt="LSM核心思想"></p>
+<p>LSM树有以下三个重要组成部分：</p>
+<ol>
+<li>
+<p>MemTable</p>
+<p>MemTable是在内存中的数据结构，用于保存最近更新的数据，会按照Key有序地组织这些数据，LSM树对于具体如何组织有序地组织数据并没有明确的数据结构定义，例如Hbase使跳跃表来保证内存中key的有序。</p>
+<p>因为数据暂时保存在内存中，内存并不是可靠存储，如果断电会丢失数据，因此通常会通过WAL(Write-ahead logging，预写式日志)的方式来保证数据的可靠性。</p>
+</li>
+<li>
+<p>Immutable MemTable</p>
+<p>当 MemTable达到一定大小后，会转化成Immutable MemTable。Immutable MemTable是将转MemTable变为SSTable的一种中间状态。写操作由新的MemTable处理，在转存过程中不阻塞数据更新操作。</p>
+</li>
+<li>
+<p>SSTable(Sorted String Table)</p>
+<p>有序键值对集合，是LSM树组在磁盘中的数据结构。为了加快SSTable的读取，可以通过建立key的索引以及布隆过滤器来加快key的查找。
+<img src="https://bed-image.oss-cn-beijing.aliyuncs.com/2023-04-06-070759.jpg" alt="有序键值对集合"></p>
+</li>
+</ol>
+<h2 id="lsm树的compact策略">LSM树的Compact策略<a href="#lsm树的compact策略" class="header-anchor" ariaLabel="Anchor"> # </a></h2>
+<p>主要介绍两种基本策略：size-tiered和leveled。</p>
+<p>重要的概念</p>
+<ul>
+<li>读放大:读取数据时实际读取的数据量大于真正的数据量。例如在LSM树中需要先在MemTable查看当前key是否存在，不存在继续从SSTable中寻找。</li>
+<li>写放大:写入数据时实际写入的数据量大于真正的数据量。例如在LSM树中写入时可能触发Compact操作，导致实际写入的数据量远大于该key的数据量。</li>
+<li>空间放大:数据实际占用的磁盘空间比数据的真正大小更多。上面提到的冗余存储，对于一个key来说，只有最新的那条记录是有效的，而之前的记录都是可以被清理回收的。</li>
+</ul>
+<h3 id="size-tiered-策略">size-tiered 策略<a href="#size-tiered-策略" class="header-anchor" ariaLabel="Anchor"> # </a></h3>
+<p>size-tiered策略保证每层SSTable的大小相近，同时限制每一层SSTable的数量。如上图，每层限制SSTable为N，当每层SSTable达到N后，则触发Compact操作合并这些SSTable，并将合并后的结果写入到下一层成为一个更大的sstable。
+<img src="https://bed-image.oss-cn-beijing.aliyuncs.com/2023-04-06-071031.jpg" alt="size-tiered"></p>
+<p>由此可以看出，当层数达到一定数量时，最底层的单个SSTable的大小会变得非常大。并且size-tiered策略会导致空间放大比较严重。即使对于同一层的SSTable，每个key的记录是可能存在多份的，只有当该层的SSTable执行compact操作才会消除这些key的冗余记录。</p>
+<h3 id="leveled策略">leveled策略<a href="#leveled策略" class="header-anchor" ariaLabel="Anchor"> # </a></h3>
+<p>leveled策略也是采用分层的思想，每一层限制总文件的大小。
+<img src="https://bed-image.oss-cn-beijing.aliyuncs.com/2023-04-06-071056.jpg" alt="分层的思想"></p>
+<p>但是跟size-tiered策略不同的是，leveled会将每一层切分成多个大小相近的SSTable。这些SSTable是这一层是全局有序的，意味着一个key在每一层至多只有1条记录，不存在冗余记录。
+<img src="https://bed-image.oss-cn-beijing.aliyuncs.com/2023-04-06-071114.jpg" alt="SSTable全局有序"></p>
+<p>leveled策略相较于size-tiered策略来说，每层内key是不会重复的，即使是最坏的情况，除开最底层外，其余层都是重复key，按照相邻层大小比例为10来算，冗余占比也很小。因此空间放大问题得到缓解。但是写放大问题会更加突出</p>
+
+<p style="color:#777;">最后一次修改于 2023-04-06</p>
+</div>
+<a href="#top"><i class="fa fa-chevron-up" style="font-size: 30px; color: black;"></i></a>
+
+</main>
+
+<footer class="footer">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="atlas555/atlas555.github.io"
+          issue-term="pathname"
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  
+  <script type="text/javascript" src="/js/math-code.js"></script>
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script type="text/javascript" src="/js/center-image.js"></script>
+
+
+     <ul class="footer-links">
+      
+       
+       
+       
+       <li><a href="/cn/blog/index.xml" type="application/rss+xml" title="RSS feed">
+       订阅 </a>
+       </li>
+       
+       
+       <li>
+       
+       <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">
+       
+        版权
+        <i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i> 
+        </a>
+       </li>
+       
+     </ul>
+     <div class="copyright-text">
+            
+            ©
+            
+            张晓龙
+            
+            2022-2023
+            
+     </div>
+
+</footer>
+
+
+
+
+
