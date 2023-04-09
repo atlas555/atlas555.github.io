@@ -13,7 +13,7 @@ The most unforgettable experience is the whole stage of the company from the ini
 
 The goal of life is to make a difference in the world, even if it is small.
 
-Curriculum Vitae
+[Curriculum Vitae](https://techims.com/file/xxx.pdf)
 
 张晓龙，北京人。斜杠青年、大数据技术好手、尝试写文章赚钱、不专业足球运动员。
 
@@ -23,13 +23,15 @@ Curriculum Vitae
 
 Mail: wdzxl198@gmail.com
 
-WeChat:Allen_494463666
+Twitter: Allen Zhang（@Allen_zhang05）
 
-微信公众号：张晓龙
+WeChat: Allen_494463666
+
+微信公众号: 张晓龙
 
 ## 我的经历
 
-读研搞过操作系统，搞过在中国 龙芯 上跑程序。
+读研搞过操作系统，搞过在中国 **龙芯** 上跑程序。
 
 中科院毕业到人人网，然后到高途集团（以前叫跟谁学），负责大数据平台。
 
@@ -40,7 +42,7 @@ WeChat:Allen_494463666
 ### 人生原则
 - 格物、致知
 - 成长性思维
-- 信奉 “2/8原则”、第一性原理
+- **信奉 “2/8原则”、第一性原理**
 
 ## 影响我的人
 
