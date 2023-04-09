@@ -104,7 +104,7 @@ en = "/en/:year/:month/:day/:slug/"
 
 [Params.umami]
   websiteId = "b26bea7c-8182-4a92-b892-37fe772f01ef"
-  jsLocation = "https://analytics.umami.is/script.js"
+  jsLocation = "/js/umami.js"
 
 [markup]
  defaultMarkdownHandler = "goldmark"
