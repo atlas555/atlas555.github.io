@@ -103,8 +103,8 @@ en = "/en/:year/:month/:day/:slug/"
       cn = "版权"
 
 [Params.umami]
-  websiteId = "b26bea7c-8182-4a92-b892-37fe772f01ef"
-  jsLocation = "/js/umami.js"
+  websiteId = "91107c5c-7a15-4cde-891a-c6be5eee2c75"
+  jsLocation = "http://123.56.108.208:3000/umami.js"
 
 [markup]
  defaultMarkdownHandler = "goldmark"

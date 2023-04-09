@@ -6,12 +6,25 @@ type : list-single
 ## 我是谁
 
 {{<figure src="/media/trip_saipan.jpeg" caption="Photographed during a trip to Saipan by suxia.Wang in 2017" width="450" height="400">}}
+
+I graduated with a Master’s degree in Computer Sciences and Technology from University of Chinese Academy of Sciences in 2014. After graduation, I worked in Renren (back-end engineer) and Gaotu Education Technology Group successively. I am in charge of big data platform in Gaotu Big Data Team for years.
+
+The most unforgettable experience is the whole stage of the company from the initial stage of entrepreneurship to ring the bell, accompanied by three ups and downs of the company, and finally stable development.
+
+The goal of life is to make a difference in the world, even if it is small.
+
+Curriculum Vitae
+
 张晓龙，北京人。斜杠青年、大数据技术好手、尝试写文章赚钱、不专业足球运动员。
+
+中国科学院大学读取计算机系统架构硕士学位后，先后在人人网（后端工程师）、高途教育科技集团（以前叫跟谁学）工作。
 
 ## 我的联系方式
 
-Mail: wdzxl198@gmail.com 
+Mail: wdzxl198@gmail.com
+
 WeChat:Allen_494463666
+
 微信公众号：张晓龙
 
 ## 我的经历
