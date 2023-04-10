@@ -4,6 +4,7 @@ title = 'Tech Whims'
 theme = 'hugo-ht'
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreErrors = ["error-remote-getjson"]
 footnotereturnlinkcontents = "↩"
 enableGitInfo = true
 enableRobotsTXT = true

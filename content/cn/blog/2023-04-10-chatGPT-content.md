@@ -17,7 +17,9 @@ tag: chatgpt
 
 在 tw 上看到 Anti 老师总结ChatGPT 和 Midjourney的阶段和优劣，这里保存一下
 
-[引用 Twitter Michael Anti 老师总结](https://twitter.com/mranti/status/1645261366733963264?s=20)
+[引用 Twitter Michael Anti 老师总结]
+
+{{< tweet user="mranti" id="1645261366733963264" >}}
 
 ![FtUkeigaUAA_c5n](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/ftukeigauaac5n.jpeg?x-oss-process=style/origin)
 
