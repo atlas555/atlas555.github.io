@@ -47,7 +47,7 @@ en = "/en/:year/:month/:day/:slug/"
     weight = 3
 
 [params]
-    description = "Peronal website of Allen Zhang"
+    description = "Peronal website of Allen Zhang, foucs on big data, data engineering,data warehouse,datalake,reading books et.(张晓龙的个人网站，关注大数据、数据工程、数据仓库、数据湖以及读书分享)"
     homeText = "Allen's Personal Website"
     blogDirName = "blog"
     singleLang = false

@@ -5,6 +5,11 @@ author: "张晓龙"
 slug: datalake
 draft: false
 toc: false
+keywords:
+- 数据湖
+- 湖仓架构
+- LakeHourse
+description : "介绍数据湖技术分享，湖仓分体和胡仓一体"
 tag: datalake
 ---
 

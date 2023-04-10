@@ -5,6 +5,10 @@ author: "张晓龙"
 slug: algorithm
 draft: false
 toc: false
+keywords:
+- LSM
+- SSTable
+description : "介绍LSM 结构树，compact 策略等"
 tag: algorithm
 ---
 

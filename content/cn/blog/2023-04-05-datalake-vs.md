@@ -5,6 +5,13 @@ author: "张晓龙"
 slug: datalake
 draft: false
 toc: false
+keywords:
+- 数据湖
+- Iceberg
+- LakeHouse
+- Delta Lake
+- Hudi
+description : "介绍数据湖技术，对比Delta Lake、Apache Iceberg、Apache Hudi。"
 tag: datalake
 ---
 

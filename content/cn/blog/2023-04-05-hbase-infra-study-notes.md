@@ -5,6 +5,10 @@ author: "张晓龙"
 slug: data
 draft: false
 toc: true
+keywords:
+- Hbase
+- 学习笔记
+description : "介绍Hbase原理和实践，以及核心摘要"
 tags: data-infra
 ---
 
