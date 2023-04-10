@@ -1,7 +1,7 @@
 {{- $pc := .Page.Site.Config.Privacy.Twitter -}}
 {{- if not $pc.Disable -}}
   {{- if $pc.Simple -}}
-    {{- template "_internal/shortcodes/twitter_simple.html" . -}}
+    {{- template "_internal/twitter_simple.html" . -}}
   {{- else -}}
     {{- $msg1 := "The %q shortcode requires two named parameters: user and id. See %s" -}}
     {{- $msg2 := "The %q shortcode will soon require two named parameters: user and id. See %s" -}}
