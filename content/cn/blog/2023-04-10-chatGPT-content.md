@@ -5,12 +5,15 @@ author: "张晓龙"
 slug: chatgpt
 draft: false
 toc: false
-keywords:
+keywords: 
 - chatgpt
 - AI
 - Midjourney
-description : "ChatGPT 和 Midjourney 的阶段和实现效果对比"
-tag: chatgpt
+categories: AI
+description: "ChatGPT 和 Midjourney 的阶段和实现效果对比"
+tags: 
+- chatgpt
+- midjourney
 ---
 
 最近在研究 ChatGPT 在实际中的应用。
