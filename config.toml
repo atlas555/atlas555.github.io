@@ -54,14 +54,14 @@ en = "/en/:year/:month/:day/:slug/"
     defaultLang = "en"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
     MathJaxVersion = "2.7.5"
-    favicon = "/favicon.svg"
+    favicon = "/favicon.ico"
     copyright = "&copy;"
     copyrightYear = "2022-2023"
     GithubEdit = "https://github.com/atlas555/atlas555.github.io/blob/source/content/"
     GithubRepo = "https://github.com/atlas555/atlas555.github.io.git"
     ContentSource = "https://raw.githubusercontent.com/atlas555/atlas555.github.io.git/source/content/"
     description = "Peronal website of Allen Zhang, foucs on big data, data engineering,data warehouse,datalake,reading books et.(张晓龙的个人网站，关注大数据、数据工程、数据仓库、数据湖以及读书分享)"
-    images = ["favicon.svg"]
+    images = ["favicon.png"]
 
 [params.logo]
   url = "techwhims.png"
