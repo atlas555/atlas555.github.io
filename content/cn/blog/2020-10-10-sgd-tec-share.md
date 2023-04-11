@@ -9,7 +9,7 @@ keywords:
 - sgd
 description: 
 toc: false
-tag: resys
+tags: resys
 ---
 
 本文是团队内部本人的一个技术分享：机器学习中梯度下降算法综述

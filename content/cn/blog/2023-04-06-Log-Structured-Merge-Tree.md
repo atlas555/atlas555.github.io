@@ -9,7 +9,7 @@ keywords:
 - LSM
 - SSTable
 description : "介绍LSM 结构树，compact 策略等"
-tag: algorithm
+tags: algorithm
 ---
 
 记录于 2023.4.6，源于 hbase 原理的学习。

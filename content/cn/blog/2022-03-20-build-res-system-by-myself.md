@@ -9,7 +9,7 @@ keywords:
 - resys
 description: "学习推荐系统中的算法，分析各种算法优劣势" 
 toc: false
-tag: resys
+tags: resys
 ---
 
 本文包含两部分，一是常见算法类（部分文字摘自《推荐系统实践-项亮》），二是分析目前各个大公司放出来的推荐系统机构。

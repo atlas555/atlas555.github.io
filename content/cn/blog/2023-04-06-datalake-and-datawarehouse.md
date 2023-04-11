@@ -10,7 +10,7 @@ keywords:
 - 湖仓架构
 - LakeHourse
 description : "介绍数据湖技术分享，湖仓分体和胡仓一体"
-tag: datalake
+tags: datalake
 ---
 
 记录于 2023.4.6，源于数据湖技术分享。

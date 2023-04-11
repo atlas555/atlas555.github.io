@@ -10,7 +10,7 @@ keywords:
 - 做难而正确的事
 - 读书笔记
 description : "高途技术管理会议上的读书分享，分享《左晖·做难而正确的事》"
-tag: reading
+tags: reading
 ---
 
 源于我在高途技术管理会议上的读书分享

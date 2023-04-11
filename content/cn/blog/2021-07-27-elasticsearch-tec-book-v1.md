@@ -9,7 +9,7 @@ keywords:
 - search
 description: "介绍 elasticsearch 技术手册的文章。" 
 toc: true
-tag: elasticsearch
+tags: elasticsearch
 ---
 # elasticsearch技术手册 v1.01
 
