@@ -9,7 +9,9 @@ keywords:
 - search
 description: "介绍 elasticsearch 技术手册的文章。" 
 toc: true
-tags: elasticsearch
+tags: 
+- elasticsearch
+categories: 大数据
 ---
 # elasticsearch技术手册 v1.01
 

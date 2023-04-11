@@ -9,7 +9,9 @@ keywords:
 - ML
 description: "技术分享之xgboost"
 toc: false
-tags: ML
+categories: AI
+tags: 
+- ML
 ---
 
 本文是团队内部本人的一个技术分享：xgboost介绍及简单分析

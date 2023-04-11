@@ -2,7 +2,7 @@
 title: "数据湖仓一体架构简图"
 date: 2023-04-06T04:30:25+08:00
 author: "张晓龙"
-slug: datalake
+slug: datalake-inf
 draft: false
 toc: false
 keywords:
@@ -10,7 +10,9 @@ keywords:
 - 湖仓架构
 - LakeHourse
 description : "介绍数据湖技术分享，湖仓分体和胡仓一体"
-tags: datalake
+categories: 大数据
+tags: 
+- datalake
 ---
 
 记录于 2023.4.6，源于数据湖技术分享。

@@ -9,7 +9,9 @@ keywords:
 - regularization
 description: "深度学习之正则化技术分享，包含 ppt 和文章分析"
 toc: false
-tags: ML
+categories: AI
+tags: 
+- ML
 ---
 
 本文是团队内部本人的一个技术分享-深度学习最近的热门之一：深度学习中心问题之一正则化

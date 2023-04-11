@@ -9,7 +9,9 @@ keywords:
 - Hbase
 - 学习笔记
 description : "介绍Hbase原理和实践，以及核心摘要"
-tags: data-infra
+categories: 大数据
+tags: 
+- data-infra
 ---
 
 记录于 2023.02.13

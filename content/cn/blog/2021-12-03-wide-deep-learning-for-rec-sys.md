@@ -9,8 +9,10 @@ keywords:
 - widedeep
 - ML
 description: "介绍Wide & Deep learning for rec sys 论文和分析" 
+categories: AI
 toc: false
-tags: ML
+tags: 
+- ML
 ---
 
 这篇《Wide & Deep Learning for Recommender Systems》论文是在2016年就已经发表出来了，通过检索相关，发现已经有一些业务在使用这个框架或者改良的版本。最近在我们的产品首页做一个课程推荐，找到了这篇论文，所以就顺手学习参考做个记录，文章分为以下两个部分：

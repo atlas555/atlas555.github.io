@@ -8,8 +8,10 @@ keywords:
 - GAN
 - ML
 description: "介绍机器学习中的 GAN 网络" 
+categories: AI
 toc: false
-tags: ML
+tags: 
+- ML
 ---
 
 本文是团队内部本人的一个技术分享-深度学习最近的热门之一：生成式对抗网络GAN

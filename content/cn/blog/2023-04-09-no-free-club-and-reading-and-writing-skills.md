@@ -9,6 +9,7 @@ keywords:
 - 粥左罗
 - 自媒体文章
 description : "介绍自媒体文章如何从无到有的过程"
+categories: 阅读和写作
 toc: false
 tags: 
 - reading

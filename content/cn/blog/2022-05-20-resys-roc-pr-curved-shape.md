@@ -9,8 +9,10 @@ keywords:
 - 推荐系统
 - ROC
 description: "介绍推荐算法中使用 ROC 评估，并且介绍 roc 曲线" 
+categories: AI
 toc: false
-tags: resys
+tags: 
+- resys
 ---
 
 先分享一个学习中的case：很早之前我在评估推荐算法的时候使用的是准确率，然后在分享时被别人各种吐槽不专业。后来学习的多了，发现准确率只是评估方法中一种，且对于样本极大不均衡分类问题没多大意义。所有后续快速学习其他方式。
