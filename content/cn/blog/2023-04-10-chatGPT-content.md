@@ -19,7 +19,7 @@ tag: chatgpt
 
 [引用 Twitter Michael Anti 老师总结]
 
-{{< tweet user="mranti" id="1645261366733963264" >}}
+{{< tweet user="mranti" id="1645261366733963264" >}} 
 
 ![FtUkeigaUAA_c5n](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/ftukeigauaac5n.jpeg?x-oss-process=style/origin)
 

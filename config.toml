@@ -32,7 +32,7 @@ en = "/en/:year/:month/:day/:slug/"
     weight = 4
 [[menu.en]]
     name = "中文"
-    url = "/cn/blog/"
+    url = "/cn/"
     weight = 5
 [[menu.cn]]
     name = "关于"
