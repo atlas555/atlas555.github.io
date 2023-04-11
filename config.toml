@@ -57,11 +57,11 @@ en = "/en/:year/:month/:day/:slug/"
     MathJaxVersion = "2.7.5"
     favicon = "/favicon.svg"
     copyright = "&copy;"
-    copyrightYear = "2022-2023"
+    copyrightYear = "2017-2023"
     GithubEdit = "https://github.com/atlas555/atlas555.github.io/blob/source/content/"
     GithubRepo = "https://github.com/atlas555/atlas555.github.io.git"
     ContentSource = "https://raw.githubusercontent.com/atlas555/atlas555.github.io.git/source/content/"
-    description = "Peronal website of Allen Zhang, foucs on big data, data engineering,data warehouse,datalake,reading books et.(张晓龙的个人网站，关注大数据、数据工程、数据仓库、数据湖以及读书分享)"
+    description = "Peronal website of Allen Zhang & Amy Wang, Allen focus on big data, data engineering,data warehouse,datalake,reading books et.Amy focus on web develop,web design,english speaking and reading(我们的网站，Allen 关注大数据、数据工程、数据仓库、数据湖以及读书分享,Amy 关注前端开发、前端设计、英语交流、读书思考、心理学)"
     images = ["favicon.png"]
 
 [params.logo]
