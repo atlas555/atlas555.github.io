@@ -2,11 +2,13 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 author: "{{ index $.Site.Params.lang.author $.Section}}"
-slug:
-draft: false
-keywords: 
+slug: 
+description:  
+categories: 
+tags: 
 - 
-description: 
+keywords: 
+-  
+draft: false
 toc: false
-tag:
 ---

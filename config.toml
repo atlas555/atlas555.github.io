@@ -8,6 +8,7 @@ ignoreErrors = ["error-remote-getjson"]
 footnotereturnlinkcontents = "↩"
 enableGitInfo = true
 enableRobotsTXT = true
+enableEmoji = true
 
 buildFuture = true
 
@@ -54,7 +55,7 @@ en = "/en/:year/:month/:day/:slug/"
     defaultLang = "en"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
     MathJaxVersion = "2.7.5"
-    favicon = "/favicon.ico"
+    favicon = "favicon.ico"
     copyright = "&copy;"
     copyrightYear = "2022-2023"
     GithubEdit = "https://github.com/atlas555/atlas555.github.io/blob/source/content/"
