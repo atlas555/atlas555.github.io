@@ -2,7 +2,7 @@
 title: "人生的商业模式 = 能力 * 效率 * 杠杆"
 date: 2023-04-17T16:13:11+08:00
 author: "张晓龙"
-slug: recognize-and-sovle
+slug: life-to-success
 draft: false
 toc: false
 keywords: 
