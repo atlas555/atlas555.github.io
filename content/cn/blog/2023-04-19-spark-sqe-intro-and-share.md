@@ -16,6 +16,7 @@ categories: 大数据
 description: "Spark3.x 新特性 AQE（Adaptive Query Execution (AQE) in Spark 3)的理解和介绍"
 tags: 
 - spark
+images: ["/dreams.png"]
 ---
 
 # ![我有一个宇宙梦想](https://media.techwhims.com/techwhims/2023-04-18-123429.jpg?x-oss-process=style/origin)Spark3.x 新特性 AQE（Adaptive Query Execution (AQE) in Spark 3)的理解和介绍
