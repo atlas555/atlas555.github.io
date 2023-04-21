@@ -5,7 +5,15 @@ type : list-single
 
 ## 我是谁
 
-{{<figure src="/media/trip_saipan.jpeg" caption="Photographed during a trip to Saipan by suxia.Wang in 2017" width="450" height="400">}}
+<div class="example-container">
+    <img id="example-element" align='right' class="transition-all" src="/media/trip_saipan.jpeg" caption="Photographed during a trip to Saipan by suxia.Wang in 2017" width="200"/>
+</div>
+<style>
+ #example-container {
+    height: auto;
+    margin: auto;
+    }
+</style>
 
 I graduated with a Master’s degree in Computer Sciences and Technology from University of Chinese Academy of Sciences in 2014. After graduation, I worked in Renren (back-end engineer) and Gaotu Education Technology Group successively. I am in charge of big data platform in Gaotu Big Data Team for years.
 
