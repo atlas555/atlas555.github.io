@@ -18,7 +18,8 @@ tags:
 images: ["/dreams.png"]
 ---
 
-#![老婆的智慧](https://media.techwhims.com/techwhims/2023/FtATZFYacAADAXh.jpeg) 老婆的智慧 Part 1（20230420 深夜）
+![老婆的智慧](https://media.techwhims.com/techwhims/2023/FtATZFYacAADAXh.jpeg) 
+# 老婆的智慧 Part 1（20230420 深夜）
 
 我老婆在看一些事情的时候，非常有悟性！虽然不一定做过，但是很多时候能看到背后。比如没有做过管理角色，但是知道管理中的一些关键点。
 
