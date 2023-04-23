@@ -2,7 +2,7 @@
 title: "老婆的智慧 Part 1（20230420 深夜）"
 date: 2023-04-21T08:43:11+08:00
 author: "张晓龙"
-slug: the-wise-of-my-wife-part-one
+slug: the-wisdom-of-my-wife-part-one
 draft: false
 toc: false
 keywords: 
