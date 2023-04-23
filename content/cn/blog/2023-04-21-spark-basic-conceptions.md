@@ -14,7 +14,7 @@ tags:
 - spark
 ---
 
-![chatgpt-spark](https://media.techwhims.com/techwhims/2023/chatgpt-spark.jpg)
+![chatgpt-spark](https://media.techwhims.com/techwhims/2023/2023-04-23-19-05-41.png)
 
     "系统性分析的一种方法是将系统拆解为原子部分，再分析原子部分之间的关系，通过原子部分和关系来定义系统。"
 
