@@ -15,17 +15,27 @@ type : list-single
     }
 </style>
 
-I graduated with a Master’s degree in Computer Sciences and Technology from University of Chinese Academy of Sciences in 2014. After graduation, I worked in Renren (back-end engineer) and Gaotu Education Technology Group successively. I am in charge of big data platform in Gaotu Big Data Team for years.
+I graduated with a Master’s degree in Computer Sciences and Technology from University of Chinese Academy of Sciences in 2014. After graduation, I worked in Renren (back-end engineer) and Gaotu Education Technology Group successively. 
+
+I am in charge of big data platform in Gaotu Big Data Team for years.
 
 The most unforgettable experience is the whole stage of the company from the initial stage of entrepreneurship to ring the bell, accompanied by three ups and downs of the company, and finally stable development.
 
 The goal of life is to make a difference in the world, even if it is small.
 
-[Curriculum Vitae](https://techims.com/file/xxx.pdf)
+<!-- [Curriculum Vitae](https://techims.com/file/xxx.pdf) -->
 
-张晓龙，北京人。斜杠青年、大数据技术好手、尝试写文章赚钱、不专业足球运动员。
+张晓龙，在北京。斜杠青年、大数据技术好手、尝试写文章赚钱、不专业足球运动员。
 
-2014年中国科学院大学读取计算机系统架构硕士，先后在人人网（后端工程师）、高途教育科技集团（以前叫跟谁学）工作。在高途负责大数据平台团队，这里有关于[大数据技术](/categories/大数据/)、[管理](/categories/%E7%AE%A1%E7%90%86/)的内容，如果感兴趣可以看看。
+2014年中国科学院大学读取计算机系统架构硕士，先后在人人网、高途教育科技集团（以前叫跟谁学）工作。
+
+在高途负责大数据平台团队，这里有关于
+
+[大数据技术](/categories/大数据/)、
+
+[管理](/categories/在线教育/)
+
+的内容，如果感兴趣可以看看。
 
 ## 我的联系方式
 
