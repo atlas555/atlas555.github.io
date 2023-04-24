@@ -36,4 +36,4 @@ tags:
 5. 坚持写作需要反馈和刺激。涨粉、阅读量、变现是必不可少的。
 
 另外我对课程内容整理了思维导图，可以下载看大图。
-![一篇自媒体文章如何从无到有](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/640.png?x-oss-process=style/origin)
+![一篇自媒体文章如何从无到有](https://media.techwhims.com/techwhims/640.png?x-oss-process=style/origin)

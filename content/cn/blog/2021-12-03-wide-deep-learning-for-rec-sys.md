@@ -32,7 +32,7 @@ tags:
 - 1> 先分析了下目前使用广泛的LR线性模型，由于模型比较简单、可扩展、可解释性好，所以应用比较多。LR模型通常在使用one-hot编码的二值化稀疏特征上进行训练，比如论文中关于app下载的特征，user_installed_app=netflix时，设置值为1，通过使用向量积（叉乘）转换稀疏特征之后，memorization可以设置当出现 AND(user_installed_app=netflix, impres- sion_app=pandora”)时，也设置值为1，不过，向量积（叉乘）转换不能泛化出之前没有出现过的query-item特征对。而generalization可以通过更粗粒度的特征去泛化一些新特征。
 - 2> Embedding-based模型，例如FM算法、深度神经网络可以通过学习一个dense embedding vector（低纬稠密嵌入向量）去泛化出之前没有出现过的query-item特征，使用了更少的特征工程，但是，学习到一个低纬去代表一个有稀疏特征和high-rank的query和item是非常困难的，比如特殊爱好的用户或者相关的item数比较少，这些情况下当使用dense embedding去计算所有的query-items的时候，会出现很多非零的预测，就会导致推荐一些不相关的item。但是，使用向量积转换的线性模型（更少参数）是可以记住这些特殊规则的特征。
 
-![](http://bed-image.oss-cn-beijing.aliyuncs.com/mweb/wide_deep_rec/widemodel.png!origin)
+![](http://media.techwhims.com/mweb/wide_deep_rec/widemodel.png!origin)
 
 这篇论文（上图model）就是从memorization、generalization做设计和拓展，做了三个方面的贡献，
 

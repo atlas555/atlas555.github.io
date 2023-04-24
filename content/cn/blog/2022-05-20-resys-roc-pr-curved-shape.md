@@ -23,16 +23,16 @@ tags:
 Receiver operating characteristics (ROC)曲线一开始是用在医疗判断上的，后来才应用到机器学习和数据挖掘上。ROC曲线一般用在分类器分类效果评估上，而且可以可视化算法的分类效果。
 
 我们以二分类问题来学习ROC，假设用{p,n}来表示样本正例和负例的标签，并且使用分类模型来对样本进行预测，一些预测模型会输出预测分类概率，通过设置不同的分类阈值来对样本分类。我们通过{Y,N}来表示预测结果中的预测正例和负例，则有下面这张概念性的好图，即混淆矩阵，
-![confusion matrix](http://bed-image.oss-cn-beijing.aliyuncs.com/mweb/roc_pr/confusion_matrix.jpg)
+![confusion matrix](http://media.techwhims.com/mweb/roc_pr/confusion_matrix.jpg)
 途中可以看到，如果样本正例被判断为正例，则为TP，否则为FN；同样的样本负例被判断为正例，则为FP，否则为TN。剩下的几个概念都是围绕这四个象限的值推算出来的。本文主要是围绕fp rate和tp rate关系来讲，其他像F值等后续在分享。
 
-![](https://bed-image.oss-cn-beijing.aliyuncs.com/mweb/roc_pr/fp.jpg)
-![](https://bed-image.oss-cn-beijing.aliyuncs.com/mweb/roc_pr/sp.jpg)
+![](https://media.techwhims.com/mweb/roc_pr/fp.jpg)
+![](https://media.techwhims.com/mweb/roc_pr/sp.jpg)
 首先 **true positive rate**，同时也被称为熟悉的命中率或者召回率，这个在搜索排序评估中应用很多，**fase positive rate**称为误报率，即负例样本被判断为正例样本。
 
 ## ROC曲线图
 ROC曲线图是一个二维图，横坐标是fp rate，纵坐标为tp rate，曲线图描述的是收益和损失之间的tradeoff。我们具体看下示例图，
-![](http://bed-image.oss-cn-beijing.aliyuncs.com/mweb/roc_pr/roc.jpg)
+![](http://media.techwhims.com/mweb/roc_pr/roc.jpg)
 图中有5个点A、B、C、D、E，代表在不同fp rate比率下tp的值，即（fp rate,tp rate）坐标。图中有几个特殊的点，就是：
 
 	（0，0）：算法策略从没有区分一个正例，同时也没有错分类的错误
@@ -77,7 +77,7 @@ ROC曲线图是一个二维图，横坐标是fp rate，纵坐标为tp rate，曲
 ## AUC计算
 评估一个分类算法的好像，可以看ROC曲线，但是给你两个曲线，你怎么比较两个分类算法的好坏呢？
 比如下图的例子，
-![](http://bed-image.oss-cn-beijing.aliyuncs.com/mweb/roc_pr/auc_ca.jpg)
+![](http://media.techwhims.com/mweb/roc_pr/auc_ca.jpg)
 你能看出来哪个是最优的么？A、B、C？所以这里引入了AUC值，即计算ROC曲线下面积。
 
 由于ROC曲线面积下面积范围是0-1，且随机算法的AUC为0.5，所以一般AUC算法评估的范围是：0.5-1，较好的区分算法的平均性能。如果要问为啥AUC能比较分类算法的好坏，深入研究的话请翻阅具体文献。

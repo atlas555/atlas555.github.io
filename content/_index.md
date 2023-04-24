@@ -29,13 +29,11 @@ The goal of life is to make a difference in the world, even if it is small.
 
 2014年中国科学院大学读取计算机系统架构硕士，先后在人人网、高途教育科技集团（以前叫跟谁学）工作。
 
-在高途负责大数据平台团队，这里有关于
+在高途负责大数据平台团队，结合技术大数据 + 在线教育，如果感兴趣可以看看：
 
-[大数据技术](/categories/大数据/)、
+1. [大数据技术](/categories/大数据/)
 
-[管理](/categories/在线教育/)
-
-的内容，如果感兴趣可以看看。
+2. [在线教育](/categories/在线教育/)
 
 ## 我的联系方式
 

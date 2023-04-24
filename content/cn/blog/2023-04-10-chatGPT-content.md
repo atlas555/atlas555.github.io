@@ -24,8 +24,8 @@ tags:
 
 {{< tweet user="mranti" id="1645261366733963264" >}} 
 
-![FtUkeigaUAA_c5n](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/ftukeigauaac5n.jpeg?x-oss-process=style/origin)
+![FtUkeigaUAA_c5n](https://media.techwhims.com/techwhims/ftukeigauaac5n.jpeg?x-oss-process=style/origin)
 
-![FtQQYKQaQAEAIDi](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/ftqqykqaqaeaidi.jpeg?x-oss-process=style/origin)
+![FtQQYKQaQAEAIDi](https://media.techwhims.com/techwhims/ftqqykqaqaeaidi.jpeg?x-oss-process=style/origin)
 
 

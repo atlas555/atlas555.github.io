@@ -108,6 +108,7 @@ en = "/en/:year/:month/:day/:slug/"
   websiteId = "91107c5c-7a15-4cde-891a-c6be5eee2c75"
   jsLocation = "https://umami.techwhims.com/umami.js"
 
+
 [markup]
  defaultMarkdownHandler = "goldmark"
 

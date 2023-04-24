@@ -1,5 +1,5 @@
 ---
-title: "如何识别问题，以及解决问题的方法"
+title: "S1 解决真问题-如何识别问题，以及解决问题的方法"
 date: 2023-04-14T09:52:11+08:00
 author: "张晓龙"
 slug: recognize-and-sovle
@@ -35,4 +35,4 @@ tags:
 7. 创意创新来源于：<u>细节深入了解+全面的宏观视角</u>。通过实践掌握细节，通过细节系统化思考（业务、竞品、上级）进行全面宏观理解。
 
 
-![冰山模型](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/wechatimg468.jpeg?x-oss-process=style/origin)
+![冰山模型](https://media.techwhims.com/techwhims/wechatimg468.jpeg?x-oss-process=style/origin)

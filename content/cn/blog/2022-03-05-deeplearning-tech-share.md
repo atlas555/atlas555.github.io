@@ -22,7 +22,7 @@ tags:
 
 ## 我的PPT分享
 
-{{< embed-pdf url="https://bed-image.oss-cn-beijing.aliyuncs.com/file/deeplearningshare.pdf"  hideLoader="true" hidePaginator="true" >}}
+{{< embed-pdf url="https://media.techwhims.com/file/deeplearningshare.pdf"  hideLoader="true" hidePaginator="true" >}}
 
 ### ppt内容：
 目录

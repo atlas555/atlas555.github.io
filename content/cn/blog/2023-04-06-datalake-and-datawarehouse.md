@@ -21,4 +21,4 @@ tags:
 
 我司目前在湖仓分体的方向上演进。即以 hive 为主的 data warehouse 结合 iceberg。
 
-![湖仓架构](https://bed-image.oss-cn-beijing.aliyuncs.com/techwhims/16807704720969.jpg?image/auto-orient,1/watermark,text_dGVjaHdoaW1z,type_ZHJvaWRzYW5zZmFsbGJhY2s,color_c1bfc8,size_20,shadow_55,g_se,t_60,x_10,y_10)
+![湖仓架构](https://media.techwhims.com/techwhims/16807704720969.jpg?image/auto-orient,1/watermark,text_dGVjaHdoaW1z,type_ZHJvaWRzYW5zZmFsbGJhY2s,color_c1bfc8,size_20,shadow_55,g_se,t_60,x_10,y_10)
