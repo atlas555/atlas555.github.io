@@ -6,6 +6,7 @@
     {{- if .IsHome -}}
      <meta name="description" content="{{ site.Params.Description }}" />
     {{- else -}}
+     <meta name="title" content="{{ .Params.title }}" />
      <meta name="description" content="{{ .Params.Description }}" />
      <meta name="author" content="{{ .Params.Author }}" />
      <meta name="categories" content="{{ .Params.Categories }}" />
@@ -13,7 +14,11 @@
       <meta name="keywords" content="{{ range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">
     {{ end }}
     {{ end }}
-    <title>{{ .Site.Title }}</title>
+    {{- if .IsHome -}}
+      <title>{{ .Site.Title }}</title>
+    {{- else -}}
+      <title>{{ .Params.title }}</title>
+    {{ end }}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
