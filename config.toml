@@ -48,7 +48,7 @@ en = "/en/:year/:month/:day/:slug/"
     url = "/categories/"
     weight = 3
 [[menu.cn]]
-    name = "Tags"
+    name = "标签"
     url = "/tags/"
     weight = 4
 [[menu.cn]]
