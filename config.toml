@@ -50,7 +50,7 @@ en = "/en/:year/:month/:day/:slug/"
 
 [params]
     homeText = "Allen's Personal Website"
-    blogDirName = "blog"
+    blogDirName = ""
     singleLang = false
     defaultLang = "en"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
