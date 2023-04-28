@@ -44,9 +44,17 @@ en = "/en/:year/:month/:day/:slug/"
     url = "/cn/blog/"
     weight = 2
 [[menu.cn]]
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+[[menu.cn]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[menu.cn]]
     name = "English"
     url = "/en/"
-    weight = 3
+    weight = 5
 
 [params]
     homeText = "Allen's Personal Website"
