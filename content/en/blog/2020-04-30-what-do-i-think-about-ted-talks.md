@@ -1,9 +1,16 @@
 ---
 title: What Do I Think About TED Talks
-date: 2020-04-30T06:19:02-04:00
-author: Allen Zhang
+date: 2022-04-27
+author: "Amy"
 slug: what-do-i-think-about-ted-talks
-draft: true
+description: "what-do-i-think-about-ted-talks"
+categories: reading
+tags: 
+- reading
+keywords: 
+- TED
+draft: false
+toc: false
 ---
 
 TED talks say that they have ideas worth spreading, but I am not sure whether those ideas are worth listening. 
@@ -12,8 +19,7 @@ Many people really like TED talks. These talks were and possibly still are very 
 
 However, in terms of wisdom value of these talks, I have so many doubts. I don't think they have much wisdom in them. 
 
-{{<figure src="/media/information-knowledge-wisdom.png" caption="Information, knowledge, and wisdom, made by Hongtao"  width="400">}}
-
+<!-- {{<figure src="/media/information-knowledge-wisdom.png" caption="Information, knowledge, and wisdom, made by Hongtao"  width="400">}} -->
 
 
 [^1]: I never used it that way, though. 
