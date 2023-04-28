@@ -1,8 +1,8 @@
 ---
 title: "《Hbase原理和实践》学习摘要"
-date: 2023-04-05T21:00:43+08:00
+date: 2023-04-05
 author: "张晓龙"
-slug: data
+slug: hbase-theory-and-practice
 draft: false
 toc: true
 keywords:
@@ -12,6 +12,7 @@ description : "介绍Hbase原理和实践，以及核心摘要"
 categories: 大数据
 tags: 
 - data-infra
+- hbase
 ---
 
 记录于 2023.02.13
