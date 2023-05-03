@@ -83,9 +83,12 @@ org/apache/spark/rpc/netty/Dispatcher.scala
 1. private[spark] abstract class RpcEnv(conf: SparkConf)
 2. private[spark] case class RpcAddress(host: String, port: Int)
 3. private[spark] abstract class RpcEndpointRef(conf: SparkConf)
-4. private[netty] class NettyRpcEndpointRef(@transient private val conf: SparkConf,private val endpointAddress: RpcEndpointAddress,@transient @volatile private var nettyEnv: NettyRpcEnv) extends RpcEndpointRef(conf)
+4. private[netty] class NettyRpcEndpointRef(@transient private val conf: SparkConf,
+private val endpointAddress: RpcEndpointAddress,@transient @volatile private var nettyEnv: NettyRpcEnv) 
+extends RpcEndpointRef(conf)
 5. private[netty] class NettyStreamManager(rpcEnv: NettyRpcEnv)
-6. private[netty] class NettyRpcEnv(val conf: SparkConf,javaSerializerInstance: JavaSerializerInstance,host: String,securityManager: SecurityManager,numUsableCores: Int)
+6. private[netty] class NettyRpcEnv(val conf: SparkConf,javaSerializerInstance: JavaSerializerInstance,
+host: String,securityManager: SecurityManager,numUsableCores: Int)
 ```
 
 核心的大致逻辑如下图
@@ -97,9 +100,13 @@ org/apache/spark/rpc/netty/Dispatcher.scala
 
 RpcEndpoint 是一个响应请求的服务。在 spark 中可以表示为一个个需要通信的组件，如 master、worker、driver 等，根据接收到的消息进行处理，一个RpcEndpoint的生命周期是：
 
-**构造->初始化启动->接收处理->停止（constructor -> onStart -> receive -> onStop）** ，这个RpcEndpoint 确保`onStart`, `receive` and `onStop`按照队列顺序执行。
+**构造->初始化启动->接收处理->停止（constructor -> onStart -> receive -> onStop）** 
 
-RpcEndpoint中有 `def receive: PartialFunction[Any, Unit]`和`def receiveAndReply(context: RpcCallContext): PartialFunction[Any, Unit]` 两个关键的接收和回应消息的方法。前者处理来自 `RpcEndpointRef.send` or `RpcCallContext.reply`的消息，后者处理来自`RpcEndpointRef.ask` 的消息并且进行回应。
+这个RpcEndpoint 确保`onStart`, `receive` and `onStop`按照队列顺序执行。
+
+RpcEndpoint中有 `def receive: PartialFunction[Any, Unit]`和`def receiveAndReply(context: RpcCallContext): PartialFunction[Any, Unit]` 两个关键的接收和回应消息的方法。
+
+前者处理来自 `RpcEndpointRef.send` or `RpcCallContext.reply`的消息，后者处理来自`RpcEndpointRef.ask` 的消息并且进行回应。
 
 RpcCallContext 实现RpcEndpoint的信息回调。
 
