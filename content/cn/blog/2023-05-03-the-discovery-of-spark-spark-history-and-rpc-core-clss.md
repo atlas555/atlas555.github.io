@@ -21,7 +21,7 @@ toc: true
 
 The Discovery of Spark 系列目录：
 
-1. [Saprk3.x Journey of Discovery | Spark RPC 框架的发展历史和RPC核心类图关系](2023-05-03-the-discovery-of-spark-spark-history-and-rpc-core-clss.md)
+1. [Saprk3.x Journey of Discovery | Spark RPC 框架的发展历史和RPC核心类图关系]()
 
 ---
 
