@@ -22,6 +22,7 @@ toc: true
 The Discovery of Spark 系列目录：
 
 1. [Saprk3.x Journey of Discovery | Spark RPC 框架的发展历史和RPC核心类图关系]()
+2. [Saprk3.x Journey of Discovery | Spark 2.4 to 3.4 releases notes on spark core and SQL](https://techwhims.com/cn/posts/spark-version-release-notes/)
 
 ---
 

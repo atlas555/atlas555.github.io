@@ -1,5 +1,5 @@
 ---
-title: "Saprk3.x Journey of Discovery | Spark 2.4 to 3.4 update release notes focus on spark core and SQL"
+title: "Saprk3.x Journey of Discovery | Spark 2.4 to 3.4 releases notes on spark core and SQL"
 date: 2023-05-04
 author: "张晓龙"
 slug: spark-version-release-notes
@@ -20,8 +20,8 @@ toc: true
 
 The Discovery of Spark 系列目录：
 
-1. [Saprk3.x Journey of Discovery | Spark RPC 框架的发展历史和RPC核心类图关系](cn/posts/spark-rpc-history-core-class/)
-2. [Saprk3.x Journey of Discovery | Spark 2.4 to 3.4 update release notes focus on spark core and SQL]()
+1. [Saprk3.x Journey of Discovery | Spark RPC 框架的发展历史和RPC核心类图关系](https://techwhims.com/cn/posts/spark-rpc-history-core-class/)
+2. [Saprk3.x Journey of Discovery | Spark 2.4 to 3.4 releases notes on spark core and SQL]()
 
 ---
 
