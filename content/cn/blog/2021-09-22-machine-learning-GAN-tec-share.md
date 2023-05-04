@@ -2,7 +2,7 @@
 title: "深度学习之GAN技术分享-Machhine Learning GAN Tec Share"
 date: 2021-09-22T17:04:10+08:00
 author: "张晓龙"
-slug: ML
+slug: ML-gan-network
 draft: false
 keywords: 
 - GAN

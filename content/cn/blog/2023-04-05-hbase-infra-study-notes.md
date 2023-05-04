@@ -2,7 +2,7 @@
 title: "《Hbase原理和实践》学习摘要"
 date: 2023-04-05
 author: "张晓龙"
-slug: hbase-theory-and-practice
+slug: hbase-theory-practice
 draft: false
 toc: true
 keywords:

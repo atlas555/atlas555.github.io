@@ -2,7 +2,7 @@
 title: "S1 解决真问题-如何识别问题，以及解决问题的方法"
 date: 2023-04-14T09:52:11+08:00
 author: "张晓龙"
-slug: recognize-and-sovle
+slug: recognize-question-sovle
 draft: false
 toc: false
 keywords: 

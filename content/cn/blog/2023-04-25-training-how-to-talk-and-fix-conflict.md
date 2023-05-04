@@ -2,7 +2,7 @@
 title: "S2 促进理解的沟通，沟通常识和沟通 5 步骤，以及如何解决冲突"
 date: 2023-04-25
 author: "张晓龙"
-slug: good-communication-and-solve-conflict
+slug: good-communication-solve-conflict
 draft: false
 toc: true
 keywords: 

@@ -2,7 +2,7 @@
 title: "我参加了一个写作训练营，《自媒体文章从无到有的过程》学习总结"
 date: 2023-04-09T14:37:36+08:00
 author: "张晓龙"
-slug: writingskills
+slug: writingskills-training
 draft: false
 keywords:
 - 写作

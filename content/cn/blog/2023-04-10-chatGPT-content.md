@@ -2,7 +2,7 @@
 title: "ChatGPT 和 Midjourney 的阶段和实现效果对比"
 date: 2023-04-10T12:52:11+08:00
 author: "张晓龙"
-slug: chatgpt
+slug: chatgpt-vs-midjourney
 draft: false
 toc: false
 keywords: 

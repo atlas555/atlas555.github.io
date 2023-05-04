@@ -2,7 +2,7 @@
 title: "自己动手实现推荐系统：常用推荐算法优势分析 - Build Res System by Myself"
 date: 2022-03-20T17:13:52+08:00
 author: "张晓龙"
-slug: res
+slug: resys-rec
 draft: false
 keywords: 
 - 推荐系统

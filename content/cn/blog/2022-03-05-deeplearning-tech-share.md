@@ -2,7 +2,7 @@
 title: "深度学习之正则化技术分享 - Deeplearning Tech Share"
 date: 2022-03-05T17:10:54+08:00
 author: "张晓龙"
-slug: deeplearning
+slug: deeplearning-regularization
 draft: false
 keywords: 
 - deeplearning

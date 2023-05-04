@@ -2,7 +2,7 @@
 title: "Log Structured Merge Tree"
 date: 2023-04-06T14:30:25+08:00
 author: "张晓龙"
-slug: algorithm
+slug: algorithm-log-structured-merge-tree
 draft: false
 toc: false
 keywords:

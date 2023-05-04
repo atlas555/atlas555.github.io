@@ -2,7 +2,7 @@
 title: "技术分享之xgboost"
 date: 2020-05-19T17:20:20+08:00
 author: "张晓龙"
-slug: ml
+slug: ml-xgboost
 draft: false
 keywords: 
 - xgboost

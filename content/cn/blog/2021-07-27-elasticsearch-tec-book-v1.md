@@ -2,7 +2,7 @@
 title: "Elasticsearch5+ 技术手册文章记录"
 date: 2021-07-27T16:59:48+08:00
 author: "张晓龙"
-slug: elasticsearch
+slug: elasticsearch-cookbook
 draft: false
 keywords: 
 - elasticsearch

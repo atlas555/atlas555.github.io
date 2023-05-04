@@ -2,7 +2,7 @@
 title: "技术分享之机器学习梯度下降综述"
 date: 2020-10-10T17:20:20+08:00
 author: "张晓龙"
-slug: resys
+slug: resys-gradient-descent
 draft: false
 keywords: 
 - resys

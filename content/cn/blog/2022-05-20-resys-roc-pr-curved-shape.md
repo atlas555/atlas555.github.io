@@ -2,7 +2,7 @@
 title: "推荐算法之ROC、PR曲线介绍 - Resys Roc Pr Curved Shape"
 date: 2022-05-20T17:17:04+08:00
 author: "张晓龙"
-slug: resys
+slug: resys-roc
 draft: false
 keywords: 
 - resys

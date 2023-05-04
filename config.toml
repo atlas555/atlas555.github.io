@@ -13,8 +13,10 @@ enableEmoji = true
 buildFuture = true
 
 [permalinks]
-cn = "/cn/:year/:month/:day/:slug/"
-en = "/en/:year/:month/:day/:slug/"
+#cn = "/cn/:year/:month/:day/:slug/"
+#en = "/en/:year/:month/:day/:slug/"
+cn = "/cn/posts/:slug/"
+en = "/en/posts/:slug/"
 
 [frontmatter]
   lastmod = ["lastmod", ":git", "date", "publishDate"]

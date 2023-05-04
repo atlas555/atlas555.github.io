@@ -2,7 +2,7 @@
 title: "Wide & Deep learning for rec sys 阅读分析"
 date: 2021-12-10T17:08:34+08:00
 author: "张晓龙"
-slug: deeplearning
+slug: deeplearning-wide-deep-learning
 draft: false
 keywords: 
 - deeplearning

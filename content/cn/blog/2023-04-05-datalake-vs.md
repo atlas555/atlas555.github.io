@@ -2,7 +2,7 @@
 title: "数据湖技术比较"
 date: 2023-04-05T14:30:25+08:00
 author: "张晓龙"
-slug: datalake
+slug: datalake-vs-iceberg-delta-hudi
 draft: false
 toc: false
 keywords:

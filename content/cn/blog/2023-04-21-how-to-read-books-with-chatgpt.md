@@ -2,7 +2,7 @@
 title: "如何用 chatgpt 阅读经济类书籍《伟大的经济学家》"
 date: 2023-04-21T08:43:11+08:00
 author: "张晓龙"
-slug: how-to-use-chatgpt-reading-eco-books
+slug: howto-use-chatgpt-reading-eco-books
 draft: false
 toc: false
 keywords: 
