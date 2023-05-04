@@ -24,7 +24,7 @@ The Discovery of Spark 系列目录：
 1. [Saprk3.x Journey of Discovery | Spark 基础&重要的概念（base and important conception）](/cn/posts/spark-basic-conceptions/)
 2. [Saprk3.x Journey of Discovery | Spark3.x 新特性 AQE的理解和介绍](/cn/posts/spark-aqe-intro-1/)
 3. [Saprk3.x Journey of Discovery | Kyuubi1.7 Overview和部署核心参数调优](/cn/posts/kyuubi-overview-deploy-opt/)
-4. [Saprk3.x Journey of Discovery | Spark RPC 框架的发展历史和RPC核心类图关系](/cn/post/spark-rpc-history-core-class/)
+4. [Saprk3.x Journey of Discovery | Spark RPC 框架的发展历史和RPC核心类图关系](/cn/posts/spark-rpc-history-core-class/)
 5. [Saprk3.x Journey of Discovery | Spark 2.4 to 3.4 releases notes on spark core and SQL](/cn/posts/spark-version-release-notes/)
 
 ---
