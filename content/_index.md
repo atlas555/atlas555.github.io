@@ -31,7 +31,7 @@ The goal of life is to make a difference in the world, even if it is small.
 
 在高途负责大数据平台团队，结合技术大数据 + 在线教育，如果感兴趣可以看看：
 
-1. [大数据技术](/categories/bigdata/) | [The discovery of Spark](/tags/The discovery of Spark/)
+1. [大数据技术](/categories/bigdata/) | [The discovery of Spark](/tags/the-discovery-of-spark/)
 
 2. [在线教育](/categories/在线教育/)
 
