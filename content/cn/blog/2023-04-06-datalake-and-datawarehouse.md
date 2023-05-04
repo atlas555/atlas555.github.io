@@ -10,7 +10,7 @@ keywords:
 - 湖仓架构
 - LakeHourse
 description : "介绍数据湖技术分享，湖仓分体和胡仓一体"
-categories: 大数据
+categories: bigdata
 tags: 
 - datalake
 ---

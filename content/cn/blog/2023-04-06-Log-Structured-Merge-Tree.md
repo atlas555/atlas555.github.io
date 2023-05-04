@@ -9,7 +9,7 @@ keywords:
 - LSM
 - SSTable
 description : "介绍LSM 结构树，compact 策略等"
-categories: 大数据
+categories: bigdata
 tags: 
 - algorithm
 ---

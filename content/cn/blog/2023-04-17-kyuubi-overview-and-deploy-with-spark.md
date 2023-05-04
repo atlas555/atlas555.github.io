@@ -12,7 +12,7 @@ keywords:
 - bigdata
 - yarn
 - SQL engine
-categories: 大数据
+categories: bigdata
 description: "介绍Kyuubi Overview和部署核心参数调优"
 tags: 
 - kyuubi

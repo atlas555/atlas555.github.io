@@ -12,7 +12,7 @@ keywords:
 - Delta Lake
 - Hudi
 description : "介绍数据湖技术，对比Delta Lake、Apache Iceberg、Apache Hudi。"
-categories: 大数据
+categories: bigdata
 tags: 
 - datalake
 ---

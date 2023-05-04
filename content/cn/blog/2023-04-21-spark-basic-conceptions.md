@@ -8,7 +8,7 @@ toc: true
 keywords: 
 - 大数据
 - spark
-categories: 大数据
+categories: bigdata
 description: "Spark 基础&重要的概念（base and important conception）"
 tags: 
 - spark

@@ -4,7 +4,7 @@ date: 2023-05-03
 author: "张晓龙"
 slug: spark-rpc-history-core-class
 description: "Saprk3.x Journey of Discovery | Spark RPC 框架的发展历史和RPC核心类图关系"
-categories: 大数据
+categories: bigdata
 tags: 
 - The discovery of Spark
 - spark

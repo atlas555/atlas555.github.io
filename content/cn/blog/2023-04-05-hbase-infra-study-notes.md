@@ -9,7 +9,7 @@ keywords:
 - Hbase
 - 学习笔记
 description : "介绍Hbase原理和实践，以及核心摘要"
-categories: 大数据
+categories: bigdata
 tags: 
 - data-infra
 - hbase

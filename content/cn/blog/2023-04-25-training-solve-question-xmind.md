@@ -21,8 +21,8 @@ tags:
 
 **发现问题，解决问题,该系列列表**
 
-- [S1 解决真问题-如何识别问题，以及解决问题的方法](/cn/2023/04/14/recognize-and-sovle/)
-- [S2 促进理解的沟通，沟通常识和沟通 5 步骤，以及如何解决冲突](/cn/2023/04/25/good-communication-and-solve-conflict/)
+- [S1 解决真问题-如何识别问题，以及解决问题的方法](/cn/posts/recognize-and-sovle/)
+- [S2 促进理解的沟通，沟通常识和沟通 5 步骤，以及如何解决冲突](/cn/posts/good-communication-and-solve-conflict/)
 - [S3 精准解决问题 SOP 思维导图(本文)]()
 
 发现真问题、解决真问题。
