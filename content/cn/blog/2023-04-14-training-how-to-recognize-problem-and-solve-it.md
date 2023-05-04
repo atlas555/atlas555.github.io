@@ -21,9 +21,10 @@ tags:
 **发现问题，解决问题,该系列列表**
 
 - [S1 解决真问题-如何识别问题，以及解决问题的方法（本文）]()
-- [S2 促进理解的沟通，沟通常识和沟通 5 步骤，以及如何解决冲突(本文)](/cn/posts/good-communication-and-solve-conflict/)
+- [S2 促进理解的沟通，沟通常识和沟通 5 步骤，以及如何解决冲突(本文)](https://techwhims.com/cn/posts/good-communication-solve-conflict/)
 - [S3 精准解决问题 SOP 思维导图](/cn/posts/s3-solve-question-with-xmind/)
 
+---
 
 4.13 号管理基础培训，主题是：<u>发现真问题、解决真问题</u>。
 
