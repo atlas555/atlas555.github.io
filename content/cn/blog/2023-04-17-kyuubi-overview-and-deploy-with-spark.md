@@ -12,11 +12,13 @@ keywords:
 - bigdata
 - yarn
 - SQL engine
+- The discovery of Spark
 categories: bigdata
 description: "介绍Kyuubi Overview和部署核心参数调优"
 tags: 
 - kyuubi
 - spark
+- The discovery of Spark
 ---
 
 The Discovery of Spark 系列目录：

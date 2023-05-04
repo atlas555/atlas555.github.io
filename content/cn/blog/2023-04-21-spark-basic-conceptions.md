@@ -8,10 +8,12 @@ toc: true
 keywords: 
 - 大数据
 - spark
+- The discovery of Spark
 categories: bigdata
 description: "Saprk3.x Journey of Discovery | Spark 基础&重要的概念（base and important conception）"
 tags: 
 - spark
+- The discovery of Spark
 ---
 
 The Discovery of Spark 系列目录：
