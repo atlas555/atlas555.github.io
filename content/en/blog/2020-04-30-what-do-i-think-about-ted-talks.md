@@ -21,8 +21,4 @@ However, in terms of wisdom value of these talks, I have so many doubts. I don't
 
 <!-- {{<figure src="/media/information-knowledge-wisdom.png" caption="Information, knowledge, and wisdom, made by Hongtao"  width="400">}} -->
 
-{{< alert class="error">}}
-well done!
-{{</ alert >}}
-
 [^1]: I never used it that way, though. 
