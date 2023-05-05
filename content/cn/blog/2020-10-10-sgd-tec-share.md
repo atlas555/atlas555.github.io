@@ -24,9 +24,11 @@ categories: AI
 
 ## 我的PPT分享
 
-{{< embed-pdf url="https://media.techwhims.com/mweb/sgd/bfstack_sgd.pdf" >}}
+<!-- {{< embed-pdf url="https://media.techwhims.com/mweb/sgd/bfstack_sgd.pdf" >}} -->
+{{< googleppt src="https://docs.google.com/presentation/d/1pCtIPPP3r7RfEzgZbrCeKnhAZbKxwjlQvESyZg_quP0" >}}
 
-### ppt内容：
+### ppt内容
+
 目录
 
 1.梯度下降、及算法家族
@@ -307,9 +309,9 @@ Neelakantan等人在每个梯度更新中增加满足高斯分布 N(0,σ^2) 的�
 
 Reference
 
-[统计学习方法](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=http://ruder.io/optimizing-gradient-descent/)[.](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=http://ruder.io/optimizing-gradient-descent/) [李航](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=http://ruder.io/optimizing-gradient-descent/)[](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=http://ruder.io/optimizing-gradient-descent/)
+[统计学习方法](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=<http://ruder.io/optimizing-gradient-descent/)[.>](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=<http://ruder.io/optimizing-gradient-descent/)> [李航](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=<http://ruder.io/optimizing-gradient-descent/)[>](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=<http://ruder.io/optimizing-gradient-descent/)>
 
-[An overview of gradient descent optimization algorithms](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=http://ruder.io/optimizing-gradient-descent/)
+[An overview of gradient descent optimization algorithms](https://twitter.com/intent/tweet?text=An%20overview%20of%20gradient%20descent%20optimization%20algorithms%20%C2%BB&hashtags=optimization,deep%20learning,sgd&url=<http://ruder.io/optimizing-gradient-descent/)>
 
 [http://](http://www.julyedu.com/video/play/69/646)[www.julyedu.com/video/play/69/646](http://www.julyedu.com/video/play/69/646)
 
