@@ -25,7 +25,7 @@ categories: AI
 ## 我的PPT分享
 
 <!-- {{< embed-pdf url="https://media.techwhims.com/mweb/sgd/bfstack_sgd.pdf" >}} -->
-{{< googleppt src="https://drive.google.com/drive/folders/1YMaiLoOc2b2rg0YqUWfZRFzqJe__aFfq" >}}
+{{< googleppt src="https://media.techwhims.com/mweb/sgd/bfstack_sgd.pdf" >}}
 
 ### ppt内容
 
