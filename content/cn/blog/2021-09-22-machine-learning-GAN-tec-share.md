@@ -21,7 +21,7 @@ GAN是“生成对抗网络”（Generative Adversarial Networks）的简称，�
 
 ## 我的PPT分享
 
-{{< embed-pdf url="https://media.techwhims.com/file/GAN%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB.pdf" >}}
+{{< googleppt src="https://media.techwhims.com/file/GAN%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB.pdf" >}}
 
 参考文献：
 1. [Goodfellow, Ian, et al. "Generative adversarial nets." Advances in neural information processing systems. 2014.]()

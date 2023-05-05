@@ -24,7 +24,7 @@ XGBoost is an optimized distributed gradient boosting library designed to be hig
 
 ## 我的PPT分享
 
-{{< embed-pdf url="https://media.techwhims.com/mweb/xgboost/bfstack_xgboost.pdf" >}} 
+{{< googleppt src="https://media.techwhims.com/mweb/xgboost/bfstack_xgboost.pdf" >}} 
 
 ### ppt内容：
 目录
