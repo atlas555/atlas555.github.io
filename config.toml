@@ -7,7 +7,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 ignoreErrors = ["error-remote-getjson"]
 footnotereturnlinkcontents = "↩"
 enableGitInfo = true
-enableRobotsTXT = true
+enableRobotsTXT = false
 enableEmoji = true
 
 buildFuture = true
