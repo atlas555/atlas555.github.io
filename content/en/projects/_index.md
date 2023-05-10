@@ -8,7 +8,7 @@ type : nolisting
 
 {{< columns >}}
 
-<!-- {{<figure-a src="/media/projects/atus.png" link="https://atus.hongtaoh.com/" >}} -->
+{{<figure src="/media/trip_saipan.jpeg" link="https://techwhims.com/" >}}
 
 {{< column >}}
 
