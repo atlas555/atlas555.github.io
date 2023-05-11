@@ -5,7 +5,7 @@ type : list-single
 
 ## 我是谁
 
-<div class="example-container">
+<!-- <div class="example-container">
     <img id="example-element" align='right' class="transition-all" src="/media/trip_saipan.jpeg" caption="Photographed during a trip to Saipan by suxia.Wang in 2017" width="200"/>
 </div>
 <style>
@@ -13,7 +13,7 @@ type : list-single
     height: auto;
     margin: auto;
     }
-</style>
+</style> -->
 
 I graduated with a Master’s degree in Computer Sciences and Technology from University of Chinese Academy of Sciences in 2014. After graduation, I worked in Renren (back-end engineer) and Gaotu Education Technology Group successively. 
 
