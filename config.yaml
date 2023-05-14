@@ -1,4 +1,4 @@
-baseURL: 'techwhims.com'
+baseURL: 'https://techwhims.com/'
 languageCode: 'en-us'
 title: 'Tech Whims | 张晓龙'
 theme: 'hugo-ivy'
