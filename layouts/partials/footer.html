@@ -1,0 +1,22 @@
+<footer>
+    {{ partial "foot_custom.html" . }}
+    {{ partial "footer_highlightjs" . }}
+    {{ with .Site.Params.footer }}
+    <hr>
+    <div class="copyright">{{ replace . "{Year}" now.Year | markdownify }} | <a href="https://beian.miit.gov.cn"> 京ICP备2023008937号</a></div>
+    {{ end }}
+    </footer>
+    </article>
+    {{ template "_internal/google_analytics.html" . }}
+    <script async>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0a9bc954bf47ec5f7abac641d7b68369";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+    </body>
+  </html>
+  

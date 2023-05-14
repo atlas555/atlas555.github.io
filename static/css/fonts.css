@@ -1,0 +1,15 @@
+body {
+    font-family: Palatino,palatino linotype,palatino lt std,latin modern roman,source-han-serif-sc,'source han serif sc','source han serif cn','source han serif tc','source han serif tw','source han serif','noto serif cjk sc',songti sc,microsoft yahei,serif
+}
+
+.home blockquote,.cn blockquote,.kai,.cn em,.hash-note {
+    font-family: palatino linotype,book antiqua,Palatino,stkaiti,kaiti,楷体,simkai,dfkai-sb,nsimsun,serif
+}
+
+code {
+    font-family: Consolas,Courier,courier new,stkaiti,kaiti,simkai,monospace
+}
+
+pre,code {
+    font-size: .95em
+}

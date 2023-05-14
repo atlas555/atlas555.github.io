@@ -1,0 +1,135 @@
+baseURL: 'localhost:1313'
+languageCode: 'en-us'
+title: 'Tech Whims | 张晓龙'
+theme: 'hugo-ivy'
+
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+
+buildFuture: true
+
+permalinks:
+  cn: "/:sections/posts/:slug/"
+  en: "/:sections/posts/:slug/"
+
+menu:
+  main:
+    - name: "About"
+      url: "/en/about/"
+      weight: 3
+    - name: "Blog"
+      url: "/en/"
+      weight: 4
+    - name: "关于"
+      url: "/cn/about/"
+      weight: 1
+    - name: "文章"
+      url: "/cn/"
+      weight: 2
+  en:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/en/about/"
+      weight: 2
+    - name: "Blog"
+      url: "/en/"
+      weight: 3
+    - name: "Vitae"
+      url: "/en/vitae/"
+      weight: 4
+    - name: "Todo"
+      url: "/todo/"
+      weight: 5
+    - name: "中文"
+      url: "/cn/"
+      weight: 6
+  cn:
+    - name: "首页"
+      url: "/"
+      weight: 1
+    - name: "关于"
+      url: "/cn/about/"
+      weight: 2
+    - name: "文章"
+      url: "/cn/"
+      weight: 3
+    - name: "简历"
+      url: "/cn/vitae/"
+      weight: 4
+    - name: "孩童"
+      url: "/cn/kids/"
+      weight: 5
+    - name: "事务"
+      url: "/todo/"
+      weight: 6
+    - name: "English"
+      url: "/en/"
+      weight: 7
+
+params:
+  description: "Peronal website of Xiaolong Zhang & Amy Wang, Allen focus on big data, data engineering,data warehouse,datalake,reading books et.Amy focus on web develop,web design,english speaking and reading(我们的网站，Xiaolong Zhang（Allen） 关注大数据、数据工程、数据仓库、数据湖以及读书分享,Amy 关注前端开发、前端设计、英语交流、读书思考、心理学)"
+  footer: "&copy; [Xiaolong Zhang](/) 2007 - {Year}"
+  customJS:
+    - "comment-utils.js"
+    - "fix-toc.js"
+    - "center-img.js"
+    - "right-quote.js"
+    - "fix-footnote.js"
+    - "math-code.js"
+    - "hash-notes.js"
+    - "toggle-notes.js"
+    - "post-nav.js"
+    - "external-link.js"
+    - "alt-title.js"
+    - "header-link.js"
+    - "key-buttons.js"
+  customCSS:
+    - "key-buttons.css"
+  githubContentURL: "https://github.com/atlas555/atlas555.github.io/edit/source/content/"
+  twitterImage: "/images/logo.png"
+  logo:
+    en:
+      img: "/images/logo.png"
+      url: "/"
+      alt: "Tech Whims"
+      tag: ""
+  author:
+    en: "Xiaolong Zhang"
+    cn: "张晓龙"
+  lang:
+    edit:
+      cn: "编辑"
+    license:
+      cn: "版权"
+    subscribe:
+      cn: "订阅"
+  umami:
+    websiteId: "91107c5c-7a15-4cde-891a-c6be5eee2c75"
+    jsLocation: "https://umami.techwhims.com/umami.js"
+
+googleAnalytics: G-8GVZX0VFSY
+
+markup:
+  highlight:
+    codeFences: true
+    # codeFences = true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: "pygments"
+    tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      autoHeadingIDType: blackfriday
+    
+  tableOfContents:
+    startLevel: 1
+    endLevel: 3

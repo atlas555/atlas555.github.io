@@ -5,7 +5,7 @@
         {{ .Title }} 系列文章目前共：{{ len .Pages }} 篇
     </p>
         {{ range .Pages }}
-            <li style="font-size: 15px">👉 <a href="{{ .Permalink }}" style="border-bottom:none;color:rgb(0, 82, 255);">{{ .Title }}</a></li>
+            <li style="font-size: 15px">👉 <a href="{{ .RelPermalink }}" style="border-bottom:none;color:rgb(0, 82, 255);">{{ .Title }}</a></li>
         {{ end }}
     {{ end }}
 </ul>
