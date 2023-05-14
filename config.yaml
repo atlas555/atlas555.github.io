@@ -1,4 +1,4 @@
-baseURL: 'localhost:1313'
+baseURL: 'techwhims.com'
 languageCode: 'en-us'
 title: 'Tech Whims | 张晓龙'
 theme: 'hugo-ivy'
