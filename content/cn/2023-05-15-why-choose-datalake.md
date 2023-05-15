@@ -117,7 +117,7 @@ Arctic 是一个开放式架构下的湖仓管理系统，在开放的数据湖�
 
 源于 2023 datafun 分享。
 
-{{< gallery ![数据湖在数据处理的几种用法](https://media.techwhims.com/techwhims/2023/2023-05-15-16-28-35.png)![Lakehouse架构使得实时计算进入流批一体阶段](https://media.techwhims.com/techwhims/2023/2023-05-15-16-30-21.png)![现有存量的批量数据和任务转换为实时](https://media.techwhims.com/techwhims/2023/2023-05-15-16-31-40.png) >}}
+<gallery>![数据湖在数据处理的几种用法](https://media.techwhims.com/techwhims/2023/2023-05-15-16-28-35.png)![Lakehouse架构使得实时计算进入流批一体阶段](https://media.techwhims.com/techwhims/2023/2023-05-15-16-30-21.png)![现有存量的批量数据和任务转换为实时](https://media.techwhims.com/techwhims/2023/2023-05-15-16-31-40.png)</gallery>
 
 ----
 
