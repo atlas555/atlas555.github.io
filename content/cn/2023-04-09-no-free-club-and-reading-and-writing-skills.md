@@ -14,6 +14,7 @@ show_toc: false
 tags: 
 - reading
 - writing
+- reading and writing
 ---
 
 由于好奇心驱使，前段时间参加了粥佐罗老师的写作 7 天训练营， 目的是想了解下自媒体这个行业、以及如何写自媒体文章。
