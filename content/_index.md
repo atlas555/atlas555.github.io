@@ -24,4 +24,4 @@ The goal of life is to make a difference in the world, even if it is small.
 
 > 人生之信条：正心、修身、齐家、治业、助天下
 > 
-> 原则：2/8 原则、别浪费时间、守时
+> 原则：2/8 原则、守时

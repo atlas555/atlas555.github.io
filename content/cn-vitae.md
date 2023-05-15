@@ -8,7 +8,7 @@ disable_comments: true
 
 ## 联系方式
 
-Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；现居住于北京。
+Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；weixin：Allen_494463666；现居住于北京。
 
 ## 研究兴趣
 
@@ -16,8 +16,8 @@ Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；现居住于�
 
 ## 教育背景
 
-- 2011.09 ~ 2014.07 中国人民大学统计学院，计算机系统结构硕士
-- 2007.09 ~ 2011.07 中国人民大学统计学院，计算机科学与技术学士
+- 2011.09 ~ 2014.07 中国科学院大学沈阳计算所，计算机系统结构硕士
+- 2007.09 ~ 2011.07 沈阳航空航天大学计算机学院，计算机科学与技术学士
 
 ## 工作经历
 
