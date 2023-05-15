@@ -16,6 +16,10 @@ tags:
 - reading and writing
 ---
 
+{{< vpost tagx="tags/reading-and-writing" >}}
+
+---
+
 源于我在高途技术管理会议上的读书分享
 
 做难而正确的事 ·左晖 · 读书分享演讲稿

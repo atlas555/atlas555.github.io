@@ -12,7 +12,7 @@ disable_comments: true
 
 </p>
 
-Email: wdzxl198@gmail.org; Homepage: <https://techwhims.com>; Twitter [@xieyihui](https://twitter.com/zhang_05).
+Email: wdzxl198@gmail.org; Homepage: <https://techwhims.com>; Twitter [@xieyihui](https://twitter.com/Allen_zhang05).
 
 ## Brief Biography
 

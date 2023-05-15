@@ -18,6 +18,10 @@ tags:
 
 ![爱因斯坦去世几个小时后的桌面照片](https://media.techwhims.com/techwhims/2023/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%8E%BB%E4%B8%96%E5%90%8E%E5%87%A0%E4%B8%AA%E5%B0%8F%E6%97%B6%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%85%A7%E7%89%87.jpeg)
 
+{{< vpost tagx="tags/reading-and-writing" >}}
+
+---
+
 现在越来越喜欢通过chatgpt 来学习了。尤其是通过 chatgpt 老师来指导如何阅读一本书籍。
 
 下面是通过向 gpt 提问，如何阅读《伟大的经济学家》一书，给出的答复。效果非常好，我对一下内容做了一些修改，整体特别符合我的观点。
