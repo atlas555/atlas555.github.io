@@ -48,6 +48,8 @@ slug: "cn/about"
 > （2）pdf\ppt view ： 支持 pdf 链接源、ppt链接源页内展示
 > 
 > （3）vpost.html：特殊定制，支持按照 tag、category 聚合文章列表，适合文章页内效果 [效果展示](../posts/spark-master-worker-launch-analysis/)
+>
+> （4）gallery.html：展示图片集，瀑布流，懒加载 [效果展示](../kids/posts/painting/)
 > 
 > 3. 文章 SEO 优化
 > 4. 添加 umami 统计（umami 自己搭建服务）

@@ -8,7 +8,7 @@
 {{ partial "comments.html" . }}
 
 {{ if not .IsHome }}
-{{ partial "custom_js.html" (apply .Site.Params.customJS "print" "atlas555/misc.js@0.2/js/" ".") }}
+{{ partial "custom_js.html" (apply .Site.Params.customJS "print" "atlas555/misc.js@zhang/js/" ".") }}
 {{ end }}
 {{ partial "custom_js.html" .Params.customJS }}
 
