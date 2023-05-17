@@ -86,8 +86,11 @@ params:
     - "alt-title.min.js"
     - "header-link.min.js"
     - "key-buttons.min.js"
+    - "prism-core.min.js"
+    - "prism-autoloader.min.js"
   customCSS:
     - "key-buttons.min.css"
+    - "prism-xcode.min.css"
   githubContentURL: "https://github.com/atlas555/atlas555.github.io/edit/source/content/"
   twitterImage: "/images/logo.png"
   logo:
