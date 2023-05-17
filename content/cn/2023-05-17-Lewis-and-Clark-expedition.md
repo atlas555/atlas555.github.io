@@ -25,16 +25,22 @@ tags:
 
 > Lewis and Clark expedition，故事发生在 1804年5月14日–1806年9月23日，是美国国内首次横越大陆西抵太平洋沿岸的往返考察活动。
 >
-> 事件背景：1803年杰斐逊领导的美国政府，以1500万美元的代价从拿破仑手中买下了214万平方公里的土地，史称“路易斯安那购地案”，一举将当时的美国版图扩大了一倍。路易斯安那购地条约谈判期间，杰斐逊已经觉得有必要对西部地区做地理调查，因此，他在1803年年初就向国会提出了2500美元的预算，作为西部探险的经费，并得到国会的同意。
+> 事件背景：
+> 
+> 1803年杰斐逊领导的美国政府，以1500万美元的代价从拿破仑手中买下了214万平方公里的土地，史称“路易斯安那购地案”，一举将当时的美国版图扩大了一倍。路易斯安那购地条约谈判期间，杰斐逊已经觉得有必要对西部地区做地理调查，因此，他在1803年年初就向国会提出了2500美元的预算，作为西部探险的经费，并得到国会的同意。
 >
 > 由杰弗逊总统所发起，领队为美国陆军的梅里韦瑟·刘易斯上尉（Meriwether Lewis）和威廉·克拉克少尉（William Clark）。杰斐逊选择了他的私人秘书刘易斯作为探险远征队的领队，而刘易斯又推荐自己的好友克拉克参加探险，与他一起领导远征队。刘易斯对克拉克的能力极为推崇，他认为克拉克在拓荒探险方面比自己更强，对西部探险有很大的帮助。事实证明，刘易斯选择克拉克作为自己的拍档是完全正确的，在为期两年的远征探险旅程中，克拉克起了很大的作用，因此，此次远征被称为“刘易斯与克拉克探险远征”（Lewis and Clark Expedition）。
 >
-> 探查的目标：The object of your mission is to explore the Missouri River, and such principals stream of its, as, by its course and communication with the waters of the Pacific Ocean...may offer the most direct and practicable water communication across this continent for the purpose of commerce.
+> 探查的目标：
+> 
+> The object of your mission is to explore the Missouri River, and such principals stream of its, as, by its course and communication with the waters of the Pacific Ocean...may offer the most direct and practicable water communication across this continent for the purpose of commerce.
+> 
 > --- 托马斯·杰斐逊
 >
 > 经过近一年的准备，1804年5月21日刘易斯和克拉克率领40多人的远征队，乘坐三艘船只，从圣路易斯郊外的远征队营地出发，沿着密苏里河往西北方向走，开始了“发现军团” （the Corps of Discovery）的远征。在路途上，克拉克大部分时间花费在船上，制作地图及研究前进方向；刘易斯经常上岸，了解岩层、土壤、动物和植物的分布情况。到了7月底，他们前行了1110公里，不过没有遇见一个印第安人。到了8月初，发现军团才首次遇到印第安部落，双方友好交换物品，没有发生冲突。
 >
 > 1804年11月，发现军团在北达科他州修建了过冬营地曼丹堡（Fort Mandan），在这里他们度过了漫长而又严寒的冬季：休整装备、与印第安人交易、狩猎。在这段时间中，刘易斯与克拉克学到了许多有关西部的知识，并整理、写下了他们的旅行报告，其中包括108个植物标本、68个矿物标本以及克拉克制做的美国地图。克拉克制做的地图详细记录了显著的地貌景观、给河流和小溪起了名字、描绘了岸边的形状以及远征队扎营的详细地点。这份地图为后来的探险家进一步探险提供了极为有用的情报。
+> 
 > 到了1805年的春季，发现军团离开了曼丹堡向西进发，5月份来到落基山脚下，经过数个月的艰难行程，11月中旬发现军团终于到达了俄勒冈州的太平洋海岸，并在那里过冬。1806年9月发现军团在刘易斯、克拉克的率领下回到了圣路易斯，完成了西部探险活动。
 >
 
@@ -58,6 +64,8 @@ tags:
 > 
 > 8. 创作了一部关于西部的文学巨著《刘易斯和克拉克日志》 
 
-[1^](https://web.archive.org/web/20050824195704/http://lewisandclarkjournals.unl.edu/v02.appendix.a.html)
-[2^](https://zh.wikipedia.org/wiki/%E5%88%98%E6%98%93%E6%96%AF%E4%B8%8E%E5%85%8B%E6%8B%89%E5%85%8B%E8%BF%9C%E5%BE%81)
-[3^](https://share.america.gov/zh-hans/americanhistory23/)
+[1^]: [lewisandclarkjournals](https://web.archive.org/web/20050824195704/http://lewisandclarkjournals.unl.edu/v02.appendix.a.html)
+
+[2^]: [维基百科](https://zh.wikipedia.org/wiki/%E5%88%98%E6%98%93%E6%96%AF%E4%B8%8E%E5%85%8B%E6%8B%89%E5%85%8B%E8%BF%9C%E5%BE%81)
+
+[3^]: [历史故事23：刘易斯和克拉克的探险](https://share.america.gov/zh-hans/americanhistory23/)
