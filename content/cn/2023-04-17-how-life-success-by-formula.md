@@ -11,7 +11,7 @@ keywords:
 - 商业模式
 - 马斯克
 - 麦肯锡
-categories: 治业
+categories: 正心修身齐家治业助天下
 description: "介绍人生的商业模式，以及人生的商业模式= 能力 * 效率 * 杠杆"
 tags: 
 - 杠杆

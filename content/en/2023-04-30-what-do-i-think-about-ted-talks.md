@@ -4,7 +4,7 @@ date: 2023-04-27
 author: "Amy"
 slug: what-do-i-think-about-ted-talks
 description: "what-do-i-think-about-ted-talks"
-categories: reading
+categories: 阅读和写作
 tags: 
 - reading
 keywords: 
