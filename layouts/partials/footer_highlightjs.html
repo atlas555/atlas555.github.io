@@ -1,5 +1,8 @@
 {{ if and (not .Params.disable_highlight) (in (string .Content) "</pre>") }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rstudio/markdown/inst/resources/prism-xcode.css">
-<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-core.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js" defer></script>
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rstudio/markdown/inst/resources/prism-xcode.css"> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-core.min.js" defer></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js" defer></script> -->
+<link rel="stylesheet" href="/hardlink/css/prism-xcode.min.css">
+<script src="/hardlink/js/prism-core.min.js" defer></script>
+<script src="/hardlink/js/prism-autoloader.min.js" defer></script>
 {{ end }}
