@@ -18,7 +18,7 @@ tags:
 
 为了博客的改造和优化，尤其是 javascript 和 css 的优化，作为一个后端大数据工程师，啥都得学（折腾是最大的乐趣）。
 
-目前博客的一个问题，是采用[Yihui Xie]大佬的 js、css 的技术架构设计方案，js 和 css 在 github 构建 repo，然后通过[jsdelivr：A free CDN for open source projects](https://www.jsdelivr.com/) CDN 分发，combine 加载，这个方案非常优雅。但是国内网络环境的问题，jsdelivr 经常被墙，js 和 css 加载不出来，另外 js 和 css 文件较多，挨个加载影响网站响应速度。
+目前博客的一个问题，是采用[Yihui Xie]大佬的 js、css 的技术架构设计方案，js 和 css 在 github 构建 repo，然后通过 [jsdelivr：A free CDN for open source projects](https://www.jsdelivr.com/) CDN 分发，combine 加载，这个方案非常优雅。但是国内网络环境的问题，jsdelivr 经常被墙，js 和 css 加载不出来，另外 js 和 css 文件较多，挨个加载影响网站响应速度。
 
 国内免费 cdn 没有自己贡献github源的（有的也必须申请提交，不灵活），所以打算`自己合并、压缩 js 和 css 文件，放到自己博客加载（ali oss 加载）`(目标)。
 
