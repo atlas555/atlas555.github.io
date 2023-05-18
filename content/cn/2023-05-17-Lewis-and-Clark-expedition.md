@@ -64,8 +64,8 @@ tags:
 > 
 > 8. 创作了一部关于西部的文学巨著《刘易斯和克拉克日志》 
 
-[1^]:[lewisandclarkjournals](https://web.archive.org/web/20050824195704/http://lewisandclarkjournals.unl.edu/v02.appendix.a.html)
+[[1^lewisandclarkjournals](https://web.archive.org/web/20050824195704/http://lewisandclarkjournals.unl.edu/v02.appendix.a.html)
 
-[2^]:[维基百科](https://zh.wikipedia.org/wiki/%E5%88%98%E6%98%93%E6%96%AF%E4%B8%8E%E5%85%8B%E6%8B%89%E5%85%8B%E8%BF%9C%E5%BE%81)
+[2^维基百科](https://zh.wikipedia.org/wiki/%E5%88%98%E6%98%93%E6%96%AF%E4%B8%8E%E5%85%8B%E6%8B%89%E5%85%8B%E8%BF%9C%E5%BE%81)
 
-[3^]:[历史故事23：刘易斯和克拉克的探险](https://share.america.gov/zh-hans/americanhistory23/)
+[3^美国故事23：刘易斯和克拉克的探险](https://share.america.gov/zh-hans/americanhistory23/)
