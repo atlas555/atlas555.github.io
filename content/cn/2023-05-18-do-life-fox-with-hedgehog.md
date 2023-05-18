@@ -31,7 +31,7 @@ tags:
 > 
 > Berlin expands upon this idea to divide writers and thinkers into two categories: <u>hedgehogs, who view the world through the lens of a single defining idea</u> (examples given include Plato, Lucretius, Dante Alighieri, Blaise Pascal, Georg Wilhelm Friedrich Hegel, Fyodor Dostoyevsky, Friedrich Nietzsche, Henrik Ibsen, Marcel Proust and Fernand Braudel), and <u>foxes, who draw on a wide variety of experiences and for whom the world cannot be boiled down to a single idea</u> (examples given include Herodotus, Aristotle, Desiderius Erasmus, William Shakespeare, Michel de Montaigne, Molière, Johann Wolfgang Goethe, Aleksandr Pushkin, Honoré de Balzac, James Joyce and Philip Warren Anderson).
 
-作者以**“刺猬”指称那些对人类行为和历史持有整体的、统一的理论的思想家**，而以**“狐狸”指称那些信奉多样性的思想家，他们拒绝那种将人性服从于普遍野的冲动**。
+作者以 **“刺猬”指称那些对人类行为和历史持有整体的、统一的理论的思想家**，而以 **“狐狸”指称那些信奉多样性的思想家，他们拒绝那种将人性服从于普遍野的冲动**。
 
 知道一件大事的刺猬，心里只有一个念头，拿着锤子看什么都是钉子，**以不变应万变**，很简单，也很狭隘。要是碰对了，能做很大的事，若是碰错了，就可能造成很大的灾难。
 
@@ -51,3 +51,8 @@ tags:
 2. [wikipedia-Isaiah Berlin](https://en.wikipedia.org/wiki/Isaiah_Berlin)
 3. [wikipedia-The Hedgehog and the Fox](https://en.wikipedia.org/wiki/The_Hedgehog_and_the_Fox)
 4. [THE HEDGEHOG AND THE FOX - An Essay on Tolstoy’s View of History](https://www.blogs.hss.ed.ac.uk/crag/files/2016/06/the_hedgehog_and_the_fox-berlin.pdf)
+
+----
+
+该文章首发于我的微信公众号：张晓龙
+[公众号：张晓龙 & 个人号](https://media.techwhims.com/techwhims/logos/wechat-combine.webp)
