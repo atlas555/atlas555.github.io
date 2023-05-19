@@ -16,7 +16,7 @@ tags:
 - hive
 ---
 
-线上hive 想查询 hbase 的珊珊，目前是将 hbase 数据同步到 hive 中，然后通过 hive 引擎查询。那**能不能通过 hive 直接查询 hbase 的数据呢**？ **首先答案是可以的**。
+线上hive 想查询 hbase 的数据，目前是将 hbase 数据同步到 hive 中，然后通过 hive 引擎查询。那 **能不能通过 hive 直接查询 hbase 的数据呢**？ **首先答案是可以的**。
 
 通过 Hive 外表的方式，利用 `org.apache.hadoop.hive.hbase.HBaseStorageHandler` [组件（维护Hive字段和HBase中的列）](https://cwiki.apache.org/confluence/display/Hive/StorageHandlers)，实际上是 Hive 提供对外的接口，然后通过实现这套接口来操作 hive 以外的数据存储。
 
@@ -52,12 +52,11 @@ hive> CREATE EXTERNAL TABLE hive_test (
    > TBLPROPERTIES("hbase.table.name" = "some_existing_table","hbase.mapred.output.outputtable" = "some_existing_table");
 ```
 
-需要特殊关注的就是hive 字段和 hbase column 的 map 处理。内部比较多的 case 处理，详见相关资料[2]。
+**需要特殊关注的就是hive 字段和 hbase column 的 map 处理**。内部比较多的 cases 处理，详见相关资料[2]。
 
 来看一个例子：
 
 ```sql
-
 // external table
 CREATE EXTERNAL TABLE tbl(id string, data map<string,string>)
 STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
@@ -100,15 +99,15 @@ hive on hbase 整合使用 Tips：
 
 > 1. Make sure you set the following properties to take advantage of batching to reduce the number of RPC calls (the number depends on the size of your columns)
 > 
->   SET hbase.scan.cache=10000;
+>     SET hbase.scan.cache=10000;
 > 
->   SET hbase.client.scanner.cache=10000;
+>     SET hbase.client.scanner.cache=10000;
 > 
 > 2. Make sure you set the following properties to run a distributed job in your task trackers instead of running local job.
 > 
->   SET mapred.job.tracker=[YOUR_JOB_TRACKER]:8021;
+>     SET mapred.job.tracker=[YOUR_JOB_TRACKER]:8021;
 > 
->   SET hbase.zookeeper.quorum=[ZOOKEEPER_NODE_1],[ZOOKEEPER_NODE_2],[ZOOKEEPER_NODE_3];
+>     SET hbase.zookeeper.quorum=[ZOOKEEPER_NODE_1],[ZOOKEEPER_NODE_2],[ZOOKEEPER_NODE_3];
 > 
 > 3. Reduce the amount of columns of your SELECT statement to the minimum. Try not to SELECT *
 > 
@@ -118,7 +117,9 @@ hive on hbase 整合使用 Tips：
 > 
 
 ----
-综合来看：**能不能通过 hive 直接查询 hbase 的数据应用到生产环境**？ **答案是：最好不要！如果想用但有条件**
+综合来看：**能不能通过 hive 直接查询 hbase 的数据应用到生产环境**？
+
+**答案是：最好不要！如果想用但有条件**
 
 条件：
 
