@@ -1,9 +1,9 @@
 ---
 title: Ten Economics Terms Every Day
 date: 2023-04-27
-author: "Amy"
-slug: what-do-i-think-about-ted-talks
-description: "what-do-i-think-about-ted-talks"
+author: "Allen"
+slug: economics-terms
+description: "Ten Economics Terms Every Day"
 categories: economics
 tags: 
 - Economics Terms
