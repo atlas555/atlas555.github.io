@@ -65,9 +65,12 @@ menu:
     - name: "事务"
       url: "/todo/"
       weight: 6
+    - name: "段子"
+      url: "/cn/jokes/"
+      weight: 7
     - name: "English"
       url: "/en/"
-      weight: 7
+      weight: 8
 
 params:
   description: "Peronal website of Xiaolong Zhang & Amy Wang, Allen focus on big data, data engineering,data warehouse,datalake,reading books et.Amy focus on web develop,web design,english speaking and reading(我们的网站，Xiaolong Zhang（Allen） 关注大数据、数据工程、数据仓库、数据湖以及读书分享,Amy 关注前端开发、前端设计、英语交流、读书思考、心理学)"
