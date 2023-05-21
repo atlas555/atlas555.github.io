@@ -5,8 +5,6 @@ author: 张晓龙
 date: 2023-05-15
 slug: 'painting'
 show_toc: false
-# customJS: ["atlas555/misc.js@zhang/js/gallery.js"]
-# customCSS: ["atlas555/misc.js@zhang/css/gallery.css"]
 ---
 
 ## 2021 - 2023
