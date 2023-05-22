@@ -17,7 +17,6 @@ My "official" TODO list is available on xx. Below are some random items.
 
 This section is cleaned up from time to time.
 
-
 ## 待办事项
 
 ### Reading
@@ -29,9 +28,9 @@ This section is cleaned up from time to time.
 
 ### Work
 
-1. Hive2spark 架构迁移
-2. 大数据湖仓一体高途演进
-3. OneService 业务化建设
+1. Hive2spark 架构迁移，出于降本增效的目的-提升集群利用率、任务产出时间提前
+2. 大数据湖仓一体高途演进，出于降本增效的目的-数据时效性
+3. OneService 业务化建设，出于数据口径统一、方便管理
 
 ## 私人事项
 
@@ -43,7 +42,7 @@ This section is cleaned up from time to time.
    - [家庭、私有制和国家的起源·恩格斯](https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1884-3.htm)
 2. EnglishPod：听 50 遍（`现在 11 遍`）
 3. 流利说口语打卡 365 天（level3 -> level6）(`现在 300 天`)
-4. 公众号：张晓龙，2023 写 100 篇文章（`现在 37`）
+4. 公众号：张晓龙，2023 写 100 篇文章（`现在 37`篇）
 
 ## 日程安排
 
@@ -53,8 +52,8 @@ This section is cleaned up from time to time.
 | 周二 | 朝8:30晚7:30 |
 | 周三 | 朝8:30晚7:30 |
 | 周四 | 朝8:30晚7:30 |
-| 周五 | 下午核查团队工作进度，非紧急邮件、推特、微信公众号 |
+| 周五 | 下午核查团队工作进度，推特、微信公众号 |
 | 周六 |  |
-| 周日 |  |
+| 周日 | 上午正常带娃徒步 |
 
-另外，每天下班前一小时：查阅邮件、写日报、安排第二天工作。晚 10:30 点睡觉
+另外，*每天下班前一小时：写日报、安排第二天工作[NotePlan]*。晚 10:30 点睡觉
