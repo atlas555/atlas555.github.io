@@ -5,7 +5,6 @@ slug: todo
 
 This page contains some of my TODO items. I guess I will never be able to finish all the work, so I will appreciate your help with any of the items on this page (fixing bugs, answering questions, or implementing features). Please feel free to let me know if you want to work on anything, and I will be happy to assist you.
 
-
 ## TODO
 
 My "official" TODO list is available on xx. Below are some random items.
@@ -28,6 +27,8 @@ This section is cleaned up from time to time.
 
 ### Work
 
+当前
+
 1. Hive2spark 架构迁移，出于降本增效的目的-提升集群利用率、任务产出时间提前
 2. 大数据湖仓一体高途演进，出于降本增效的目的-数据时效性
 3. OneService 业务化建设，出于数据口径统一、方便管理
@@ -42,7 +43,7 @@ This section is cleaned up from time to time.
    - [家庭、私有制和国家的起源·恩格斯](https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1884-3.htm)
 2. EnglishPod：听 50 遍（`现在 11 遍`）
 3. 流利说口语打卡 365 天（level3 -> level6）(`现在 300 天`)
-4. 公众号：张晓龙，2023 写 100 篇文章（`现在 37`篇）
+4. 公众号：张晓龙，2023 写 100 篇文章（`现在 39篇`）
 
 ## 日程安排
 
@@ -52,7 +53,7 @@ This section is cleaned up from time to time.
 | 周二 | 朝8:30晚7:30 |
 | 周三 | 朝8:30晚7:30 |
 | 周四 | 朝8:30晚7:30 |
-| 周五 | 下午核查团队工作进度，推特、微信公众号 |
+| 周五 | 下午核查团队工作进度，推特、微信公众号、gmail |
 | 周六 |  |
 | 周日 | 上午正常带娃徒步 |
 

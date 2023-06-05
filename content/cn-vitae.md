@@ -12,7 +12,7 @@ Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；weixin：Allen
 
 ## 研究兴趣
 
-大数据技术、在线教育
+大数据平台、数据分析、在线教育
 
 ## 教育背景
 
@@ -24,7 +24,7 @@ Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；weixin：Allen
 ### 工作
 
 1. 2014.09 至 2015.11，RenRen（人人网） 软件工程师
-2. 2015.11 至今，高途教育 大数据工程师
+2. 2015.11 至今，高途教育 大数据高级专家，负责大数据平台团队
 
 ### 实习
 
@@ -39,14 +39,15 @@ Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；weixin：Allen
 - [2014](https://www.google-melange.com/archive/gsoc/2014/orgs/rproject/projects/kejun.html).05 ~ 08、[2017](https://summerofcode.withgoogle.com/projects/#5106168436359168).05 ~ 08 Google 编程夏令营导师
 - 2012.05 ~ 08 Google 编程夏令营 [2012](https://www.google-melange.com/archive/gsoc/2012/orgs/rproject/projects/cloud_wei.html)（指导魏太云完成项目）
 - 2008.07 新浪在线调研数据转换
-- 
   -->
 
 ## 演讲和讲座
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；
 
-<!-- - 谢益辉，2023，_An anatomy of R Markdown with minimal applications_，美国统计学会计算与图形分会邀请报告（[幻灯片](https://slides.yihui.org/2023-minimal-r-markdown.html)；[视频](https://youtu.be/fiy32LjgGUE)） -->
+- 张晓龙，2022，创新数据湖存储，助力业务转型加速（15:35 - 15:50），2022腾讯全球数字生态大会（[幻灯片]()）；[视频](https://2022gdes.cloud.tencent.com/eventShows/559987348356833280#1)
+- 张晓龙，2022，高途大航海数据平台建设和经验分享，datafun-A/B 公开课数据平台系列，（[幻灯片]()）；[视频](https://www.datafuntalk.com/p/t_pc/course_pc_detail/video/v_63451f1ee4b00a4f374d6317)
+- 
 
 ## 英语水平
 
@@ -54,20 +55,29 @@ Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；weixin：Allen
 
 ## 发表成果
 
-<!-- ### 书籍
+### 书籍
 
-1. 赵鹏，谢益辉，黄湘云（2021），《[现代统计图形](https://bookdown.org/xiangyun/msg/)》，[人民邮电出版社](https://www.ituring.com.cn/book/2951)，书号 978-7-115-56690-4
+1. 《大数据技术与计算机网络安全研究》，哈尔滨地图出版社，书号：978-7-5465-2558-7，负责第四章：大数据分析技术的应用
 
 ### 中文论文
 
-1. 谢益辉，2008，统计图形在数据分析中的应用，统计学评论，张波主编，中国财政经济出版社
+1. 张晓龙，2022，互联网学习中计算机大数据技术的应用，科技新时代，中国机械工业联合会
+2. 张晓龙，2022，云计算技术在计算机大数据分析中的应用，电脑知识与技术第 19 期，安徽出版集团有限责任公司
+3. 张晓龙，2022，大数据背景下的计算机信息处理技术探析，电脑知识与技术第 20 期，安徽出版集团有限责任公司 
+
+### 软著
+
+1. 张晓龙，2021，大数据采集分析辅助决策系统
 
 ### 专利
 
-1. 谢益辉，2010-04-25，统计图形和模拟视角下的模型理论解析（硕士论文；[PDF](https://github.com/downloads/yihui/yihui.github.com/master-thesis-Yihui-Xie.pdf)）
-1. 谢益辉，2008-09-14，论优化方法的可视化及教学（[PDF](https://github.com/downloads/yihui/yihui.github.com/Visual-Operations-Research-Yihui-Xie-2008.pdf)）
-1. 谢益辉，2006-12-04，Spurious Regression: Simulation and Theoretical Analysis（[PDF](https://github.com/downloads/yihui/yihui.github.com/Spurious-Regression-Yihui-Xie-2006.pdf)） -->
+1. 张晓龙，2023-01-05，一种数据储存服务器散热结构-实用新型专利（[PDF]()）
+2. 张晓龙，2022-07-15，一种基于大数据的信息采集设备（[PDF]()）
+3. 张晓龙，2022-06-03，一种数据硬盘存储设备（[PDF]()）
+4. 张晓龙，2021-12-26，延时任务执行方法、装置及电子设备（[PDF]()）
+5. 张晓龙，2021-06-08，数据下载方法及装置（[PDF]()）
 
 ### 其它
 
-- xxx
+- 张晓龙，特聘研究员，中国管理科学研究院职业教育研究所
+- 张晓龙，中级职称，计算机与应用工程技术
