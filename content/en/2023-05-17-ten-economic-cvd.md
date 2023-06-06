@@ -13,7 +13,7 @@ draft: false
 show_toc: false
 ---
 
-![The A to Z of economics](https://www.economist.com/economics-a-to-z/video/a-z-03sec.mp4)
+![The A to Z of economics](https://media.techwhims.com/techwhims/2023/2023-06-06-10-33-07.png)
 
 ## 20230605：Zero coupon bond、Zero lower bound、Zero-hours contracts、Zero-sum game
 
@@ -24,3 +24,5 @@ Zero-hours contracts（临时工）：A form of employment in the gig economy th
 Zero lower bound（零利率下限）：Central banks adjust interest rates in their attempts to stimulate or slow down the economy. 
 
 Zero coupon bond（无息债券）：A bond on which no interest payments are made. 
+
+
