@@ -1,6 +1,6 @@
 ---
 title: "《Is GPT-4 a Good Data Analyst》论文分析"
-date: 2023-06-05
+date: 2023-06-09
 author: "张晓龙"
 slug: data-analysis-paper
 draft: false
