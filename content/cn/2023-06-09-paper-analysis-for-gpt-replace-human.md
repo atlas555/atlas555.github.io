@@ -19,7 +19,7 @@ tags:
 - 数据分析
 ---
 
-源于我们最近探索 ChatGPT 在数据分析领域应用，5 月底我们做了 demo，并且初步应用，详见：[ChatGPT 在线教育业务下数据分析领域的初步应用真实案例](/data-analysis-with-gpt)
+源于我们最近探索 ChatGPT 在数据分析领域应用，5 月底我们做了 demo，并且初步应用，详见：[ChatGPT 在线教育业务下数据分析领域的初步应用真实案例](/cn/posts/data-analysis-with-gpt/)
 
 完成论文分析，和我之前做的业务上的真实案例分析对比：
 
