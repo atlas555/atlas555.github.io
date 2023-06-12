@@ -8,7 +8,6 @@ categories: bigdata
 tags: 
 - The discovery of Spark
 - spark
-- spark3
 keywords: 
 - spark
 - spark3
