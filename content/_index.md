@@ -6,8 +6,8 @@ disable_highlight: true
 ---
 
 I'm a data engineer [working](/todo/) at [GaoTu, Inc](https://gaotu.cn).
-I earned my Master from architecture of computer, University of Chinese Academy of Sciences in 2014.
-I am in charge of big data platform in Gaotu Big Data Team for years.
+I earned my Master from architecture of computer, [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/) in 2014.
+I am in charge of [big data platform](/categories/bigdata/) in Gaotu Big Data Team for years.
 The most unforgettable experience is the whole stage of the company from the initial stage of entrepreneurship to ring the bell, accompanied by three ups and downs of the company, and finally stable development.
 
 The goal of life is to make a difference in the world, even if it is small.
@@ -26,7 +26,7 @@ The goal of life is to make a difference in the world, even if it is small.
 >
 > 人生之信条：正心、修身、齐家、治业、助天下
 >
-> 原则：2/8 原则、不浪费时间、不让渣人渣事分哪怕一丝精力
+> 原则：2/8 原则、不浪费时间、不让渣人渣事分哪怕一丝精力、极简、小而美
 
 特别喜欢杨宗纬嗓音的 <越過山丘 - 致 李宗盛先生>，尤其喜欢高晓松写的词。
 
