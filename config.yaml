@@ -15,18 +15,22 @@ permalinks:
 
 menu:
   main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Blog"
+      url: "/en/"
+      weight: 2
     - name: "About"
       url: "/en/about/"
       weight: 3
-    - name: "Blog"
-      url: "/en/"
+    - name: "Vitae"
+      url: "/en/vitae/"
       weight: 4
-    - name: "关于"
-      url: "/cn/about/"
-      weight: 1
-    - name: "文章"
+    - name: "中文"
       url: "/cn/"
-      weight: 2
+      weight: 5
+
   en:
     - name: "Home"
       url: "/"
@@ -48,7 +52,7 @@ menu:
       weight: 6
   cn:
     - name: "首页"
-      url: "/"
+      url: "/cn/"
       weight: 1
     - name: "关于"
       url: "/cn/about/"
@@ -69,7 +73,7 @@ menu:
       url: "/cn/treehole/"
       weight: 7
     - name: "English"
-      url: "/en/"
+      url: "/"
       weight: 8
 
 params:
