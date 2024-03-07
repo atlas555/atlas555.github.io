@@ -37,7 +37,7 @@ menu:
       url: "/cn/treehole/"
       weight: 7
     - name: "English"
-      url: "/"
+      url: "/en/"
       weight: 8
 
   en:
