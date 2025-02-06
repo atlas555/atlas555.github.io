@@ -3,7 +3,7 @@ title: "Palantir公司和其产品Ontology的初步调研"
 date: 2025-02-05
 author: "张晓龙"
 slug: palantir-ontology-ai-decision-system-research
-draft: true
+draft: false
 show_toc: true
 keywords:
 - Palantir
