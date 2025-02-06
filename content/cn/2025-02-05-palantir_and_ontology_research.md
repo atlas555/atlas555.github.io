@@ -2,13 +2,23 @@
 title: "Palantir公司和其产品Ontology的初步调研"
 date: 2025-02-05
 author: "张晓龙"
-slug: palantir_and_ontology_research
+slug: palantir-ontology-ai-decision-system-research
 draft: true
 show_toc: true
 keywords:
 - Palantir
 - Ontology
-description : ""
+- AI决策系统
+- 数据科学
+- 人工智能平台
+- AIP
+- 企业数据分析
+- 人机协作
+- 商业智能
+- LLM应用
+- 决策模拟
+- 数据建模
+description: "深入解析Palantir公司及其核心产品Ontology，探讨其如何利用AI和数据科学实现智能决策支持。详细介绍了其数据模型、逻辑架构和行动框架，以及在企业决策中的创新应用，特别是其独特的人机协作模式和决策模拟能力。"
 categories: ai
 tags:
 - Palantir
