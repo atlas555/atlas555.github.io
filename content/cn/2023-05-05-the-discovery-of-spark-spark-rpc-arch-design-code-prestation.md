@@ -1,5 +1,5 @@
 ---
-title: "Saprk3.x Journey of Discovery | Spark RPC 架构设计和Akka架构以及基于Spark RPC框架的通信代码演示"
+title: "Spark3.x Journey of Discovery | Spark RPC 架构设计和Akka架构以及基于Spark RPC框架的通信代码演示"
 date: 2023-05-05
 author: "张晓龙"
 slug: spark-rpc-architecture-design-code-presentations

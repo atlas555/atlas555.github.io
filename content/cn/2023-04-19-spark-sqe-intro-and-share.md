@@ -1,5 +1,5 @@
 ---
-title: "Saprk3.x Journey of Discovery | Spark3.x 新特性 AQE的理解和介绍"
+title: "Spark3.x Journey of Discovery | Spark3.x 新特性 AQE的理解和介绍"
 date: 2023-04-19T14:43:11+08:00
 author: "张晓龙"
 slug: spark-aqe-intro-1

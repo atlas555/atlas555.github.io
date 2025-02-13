@@ -1,5 +1,5 @@
 ---
-title: "Saprk3.x Journey of Discovery | Spark3.x 主节点 Master 和 Worker 节点 启动过程分析"
+title: "Spark3.x Journey of Discovery | Spark3.x 主节点 Master 和 Worker 节点 启动过程分析"
 date: 2023-05-06
 author: "张晓龙"
 slug: spark-master-worker-launch-analysis

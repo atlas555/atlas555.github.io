@@ -1,5 +1,5 @@
 ---
-title: "Saprk3.x Journey of Discovery | Spark 基础&重要的概念（base and important conception）"
+title: "Spark3.x Journey of Discovery | Spark 基础&重要的概念（base and important conception）"
 date: 2023-04-21
 author: "张晓龙"
 slug: spark-basic-conceptions

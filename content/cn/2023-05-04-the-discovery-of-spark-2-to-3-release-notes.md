@@ -1,5 +1,5 @@
 ---
-title: "Saprk3.x Journey of Discovery | Spark 2.4 to 3.4 releases notes on spark core and SQL"
+title: "Spark3.x Journey of Discovery | Spark 2.4 to 3.4 releases notes on spark core and SQL"
 date: 2023-05-04
 author: "张晓龙"
 slug: spark-version-release-notes

@@ -1,5 +1,5 @@
 ---
-title: "Saprk3.x Journey of Discovery | Kyuubi1.7 Overview和部署核心参数调优"
+title: "Spark3.x Journey of Discovery | Kyuubi1.7 Overview和部署核心参数调优"
 date: 2023-04-17T18:43:11+08:00
 author: "张晓龙"
 slug: kyuubi-overview-deploy-opt
