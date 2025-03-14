@@ -61,7 +61,7 @@ menu:
       weight: 6
   cn:
     - name: "首页"
-      url: "/cn/"
+      url: "/"
       weight: 1
     - name: "关于"
       url: "/cn/about/"
@@ -102,6 +102,7 @@ params:
     - "alt-title.min.js"
     - "header-link.min.js"
     - "key-buttons.min.js"
+    - "hanzi-writer.min.js"
   customCSS:
     - "key-buttons.min.css"
   githubContentURL: "https://github.com/atlas555/atlas555.github.io/edit/source/content/"
