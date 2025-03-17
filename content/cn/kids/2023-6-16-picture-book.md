@@ -5,6 +5,7 @@ author: 张晓龙
 date: 2023-06-16
 slug: 'mj-picture-book'
 show_toc: true
+draft: true
 ---
 
 今天启动，和娃一起共创绘本。我让娃给一个画面，她简单的描述了一直白色的兔子在森林里面，我整理了如下。

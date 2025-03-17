@@ -53,12 +53,15 @@ menu:
     - name: "Vitae"
       url: "/en/vitae/"
       weight: 4
+    - name: "English FunRoom "
+      url: "/en/funroom/"
+      weight: 5
     - name: "Todo"
       url: "/todo/"
-      weight: 5
+      weight: 6
     - name: "中文"
       url: "/"
-      weight: 6
+      weight: 7
   cn:
     - name: "首页"
       url: "/"

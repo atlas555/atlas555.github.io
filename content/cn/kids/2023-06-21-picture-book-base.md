@@ -5,6 +5,7 @@ author: 张晓龙
 date: 2023-06-21
 slug: 'mj-picture-book-01'
 show_toc: true
+draft: true
 ---
 
 绘本首先确定角色和背景，目前设定的角色是一只白色的兔子，背景是在森林中。
