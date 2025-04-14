@@ -53,7 +53,7 @@ menu:
     - name: "Vitae"
       url: "/en/vitae/"
       weight: 4
-    - name: "English FunRoom "
+    - name: "FunRoom "
       url: "/en/funroom/"
       weight: 5
     - name: "Todo"

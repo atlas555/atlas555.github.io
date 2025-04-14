@@ -5,6 +5,7 @@ author: 张晓龙
 date: 2023-05-15
 slug: 'painting'
 show_toc: false
+draft: true
 ---
 
 ## 2021 - 2023

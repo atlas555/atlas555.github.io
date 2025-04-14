@@ -1,5 +1,6 @@
 echo "start hugo build"
-hugo --minify -D --gc --debug
+# hugo --minify -D --gc --debug  # remove --buildDrafts    # or -D
+hugo --minify --gc --debug
 
 echo "---------- end hugo build -------------\n"
 
