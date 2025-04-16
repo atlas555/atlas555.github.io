@@ -127,10 +127,10 @@ params:
     subscribe:
       cn: "订阅"
   umami:
-    websiteId: "91107c5c-7a15-4cde-891a-c6be5eee2c75"
-    jsLocation: "https://umami.techwhims.com/umami.js"
+    websiteId: "b26bea7c-8182-4a92-b892-37fe772f01ef"
+    jsLocation: "https://cloud.umami.is/script.js"
 
-googleAnalytics: G-8GVZX0VFSY
+# googleAnalytics: G-8GVZX0VFSY
 
 markup:
   highlight:
