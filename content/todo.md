@@ -12,11 +12,11 @@ slug: todo
 1. [x] 伟大的经济学家们，
 2. [x] 探索智慧：从达尔文到查理芒格，
 3. [ ] spark3.2 源码解析，
-4. [ ] Kyuubi1.7 源码分析
+4. [x] ~~Kyuubi1.7 源码分析~~
 
 ### Work
-
-1. :white_check_mark: Hive2spark 架构迁移，出于降本增效的目的-提升集群利用率、任务产出时间提前
+<!-- 1. :white_check_mark: Hive2spark 架构迁移，出于降本增效的目的-提升集群利用率、任务产出时间提前 -->
+1. [x] Hive2spark 架构迁移，出于降本增效的目的-提升集群利用率、任务产出时间提前
 2. [ ] 大数据湖仓一体高途演进，出于降本增效的目的-数据时效性
 3. [x] OneService 业务化建设，出于数据口径统一、方便管理
 
@@ -28,9 +28,9 @@ slug: todo
    - https://qz.com/1828551/parents-who-didnt-choose-to-homeschool-this-is-an-opportunity/
    - [教养的迷思](https://book.douban.com/subject/26612510/)
    - [家庭、私有制和国家的起源·恩格斯](https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1884-3.htm)
-2. [x] EnglishPod：听 50 遍（`现在 11 遍`）
-3. [ ]流利说口语打卡 365 天（level3 -> level6）(`现在 300 天`)
-4. [ ] 公众号：张晓龙，2023 写 100 篇文章（`现在 39篇`）
+2. [x] ~~EnglishPod：听 50 遍（`现在 11 遍`）~~
+3. [x]~~流利说口语打卡 365 天（level3 -> level6）(`现在 320 天`)~~
+4. [x] ~~公众号：张晓龙，2023 写 100 篇文章（`现在 54篇`）~~
 
 ## 日程安排
 
