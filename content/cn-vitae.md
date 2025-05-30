@@ -8,11 +8,11 @@ disable_comments: true
 
 ## 联系方式
 
-Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；weixin：Allen_494463666；现居住于北京。
+Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；weixin：allen_longxiao；现居住于北京。
 
 ## 研究兴趣
 
-大数据平台、数据分析、在线教育
+大数据平台、数据分析、在线教育、Trading
 
 ## 教育背景
 
@@ -21,25 +21,10 @@ Email：<wdzxl198@gmail.com>；主页：<https://techwhims.com>；weixin：Allen
 
 ## 工作经历
 
-### 工作
-
-1. 2014.09 至 2015.11，RenRen（人人网） 软件工程师
-2. 2015.11 至今，高途教育 大数据高级专家，负责大数据平台团队
-
-### 实习
-
 1. 2014 夏季，Baidu（百度），系统运维部-大数据存储，北京
+2. 2014.09 至 2015.11，RenRen（人人网） 软件工程师
+3. 2015.11 至今，高途教育 大数据高级专家，负责大数据平台和数仓团队
 
-### 其它工作
-
-2014 年 9 月至今
-
-<!-- #### 参与项目
-
-- [2014](https://www.google-melange.com/archive/gsoc/2014/orgs/rproject/projects/kejun.html).05 ~ 08、[2017](https://summerofcode.withgoogle.com/projects/#5106168436359168).05 ~ 08 Google 编程夏令营导师
-- 2012.05 ~ 08 Google 编程夏令营 [2012](https://www.google-melange.com/archive/gsoc/2012/orgs/rproject/projects/cloud_wei.html)（指导魏太云完成项目）
-- 2008.07 新浪在线调研数据转换
-  -->
 
 ## 演讲和讲座
 
