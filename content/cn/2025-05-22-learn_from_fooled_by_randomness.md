@@ -186,3 +186,6 @@ tags:
 	- 不管如何小心重视风险. 计算概率，命运/黑天鹅 貌似总会降临，也许 - 这就是生活。只能有尊严的接受它。
 
 （完）
+
+<h-highlight> ddddd </h-highlight>
+<h-figure src="https://cdn.jsdelivr.net/gh/hongtaoh/cdn/img/2021/05/07/2021050701.png">
