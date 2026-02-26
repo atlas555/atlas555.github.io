@@ -212,9 +212,19 @@ span.hash-note::before {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) {
   .main {
-      padding:2em 1em
+      padding: 1.5em 1em
+  }
+
+  #TableOfContents {
+      font-size: .9em
+  }
+
+  table {
+      font-size: .9em;
+      display: block;
+      overflow-x: auto
   }
 }
 
