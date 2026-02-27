@@ -3,7 +3,6 @@ title: "格雷厄姆·韦弗斯坦福大学演讲完整分析"
 date: 2026-02-26
 author: "张晓龙"
 slug: graham-weaver-stanford-last-lecture-analysis
-draft: true
 show_toc: true
 keywords:
 - Graham Weaver
