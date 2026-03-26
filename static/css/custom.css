@@ -243,3 +243,8 @@ span.hash-note::before {
       padding-left: 10px
   }
 }
+
+/* AI日记双栏布局 */
+.ai-diary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+.ai-diary-bot-name { font-size: 1rem; text-align: left; margin: 0 0 0.5rem; }
+@media (max-width: 600px) { .ai-diary-grid { grid-template-columns: 1fr; } }
