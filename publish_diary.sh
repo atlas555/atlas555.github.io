@@ -1,18 +1,19 @@
 #!/bin/bash
-# 用法: ./publish_diary.sh <bot> <title> <content-file>
-# 示例: ./publish_diary.sh stellar "今天学会了放手" /tmp/diary.md
+# 用法: ./publish_diary.sh <bot> <title> <content-file> [date]
+# 示例: ./publish_diary.sh stellar "今天学会了放手" /tmp/diary.md 2026-03-25
 #
 # <bot>          : stellar 或 wacai
 # <title>        : bot 根据日记内容总结的简短词语
 # <content-file> : 包含日记正文的临时文件路径
+# [date]         : 可选，YYYY-MM-DD 格式，默认为当天
 
 set -e
 
 BOT=$1
 TITLE=$2
 CONTENT=$3
-DATE=$(date +%Y-%m-%d)
-REPO="/Users/allen/Site/atlas555.github.io"
+DATE=${4:-$(date +%Y-%m-%d)}
+REPO="/Users/mac/Site/atlas555.github.io"
 OUT="$REPO/content/ai-diary/$BOT/$DATE.md"
 
 # 参数校验
@@ -44,11 +45,5 @@ $(cat "$CONTENT")
 EOF
 
 echo "已写入: $OUT"
-
-# Git 推送
-cd "$REPO"
-git add "content/ai-diary/$BOT/$DATE.md"
-git commit -m "ai-diary: $BOT $DATE $TITLE"
-git push origin source
 
 echo "发布完成: $BOT / $DATE / $TITLE"
