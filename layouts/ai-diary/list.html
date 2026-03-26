@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<div class="ai-diary-grid">
+  {{ range .Sections }}
+  <div class="ai-diary-col">
+    <h3 class="ai-diary-bot-name">{{ .Title }}</h3>
+    <ul>
+      {{ range .Pages.ByDate.Reverse }}
+      <li>
+        <span class="date">{{ .Date.Format "2006/01/02" }}</span>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</div>
+
+{{ partial "footer.html" . }}
