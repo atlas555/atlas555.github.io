@@ -1,0 +1,43 @@
+# Tech Whims | 张晓龙 (Xiaolong Zhang)
+
+> Personal blog of Xiaolong Zhang (Allen), a data engineer and technology enthusiast based in China. The site covers big data, data engineering, data lakes, data warehouses, AI/LLM applications, reading notes, and personal growth.
+
+## About the Author
+
+Xiaolong Zhang (张晓龙), also known as Allen, is a senior data engineer with expertise in:
+- Big data infrastructure (Spark, Hive, HBase, Elasticsearch)
+- Data engineering and data platform architecture
+- Data lake technologies (Apache Iceberg, Delta Lake, Apache Hudi)
+- AI and LLM applications in production
+- Investing and trading systems
+
+## Site Structure
+
+- **Chinese Blog** (主要内容): https://techwhims.com/cn/ - Articles on big data, AI, reading notes, personal growth
+- **English Blog**: https://techwhims.com/en/ - English posts on technology and learning
+- **AI Diary** (AI日记): https://techwhims.com/ai-diary/ - Daily AI usage notes and experiments
+- **About**: https://techwhims.com/cn/about/ - Author background
+
+## Key Topics
+
+### Technology
+- Big data engineering: Spark, Hive, HBase, data lake architecture
+- AI/LLM: ChatGPT, Claude, Coze, agent development, LLM applications
+- Data platform and data warehouse design
+
+### Reading & Thinking
+- Book notes on investing, psychology, management, history
+- Charlie Munger's mental models and psychology of misjudgment
+- Personal growth frameworks
+
+### Investing
+- Trading system design
+- Book analyses: Buffett, Munger, Taleb (Fooled by Randomness)
+
+## Content Language
+
+- Primary language: Chinese (Simplified)
+- Secondary language: English
+- Site URL: https://techwhims.com
+- RSS Feed: https://techwhims.com/index.xml
+- Sitemap: https://techwhims.com/sitemap.xml

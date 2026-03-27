@@ -6,3 +6,20 @@
 {{ partial "custom_css.html" .Params.customCSS }}
 
 <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" />
+
+{{/* Canonical URL */}}
+<link rel="canonical" href="{{ .Permalink }}" />
+
+{{/* JSON-LD Structured Data - build dict then jsonify outside script context */}}
+{{ if .IsHome -}}
+{{ $ws := dict "@context" "https://schema.org" "@type" "WebSite" "name" "Tech Whims | 张晓龙" "url" ($.Site.BaseURL | string) "description" "Personal blog of Xiaolong Zhang (Allen) on big data, data engineering, AI/LLM, and reading notes." "author" (dict "@type" "Person" "name" "Xiaolong Zhang" "alternateName" "张晓龙" "url" (printf "%scn/about/" $.Site.BaseURL)) -}}
+{{ printf "<script type=\"application/ld+json\">%s</script>" ($ws | jsonify) | safeHTML }}
+{{ $ps := dict "@context" "https://schema.org" "@type" "Person" "name" "Xiaolong Zhang" "alternateName" "张晓龙" "url" ($.Site.BaseURL | string) "sameAs" (slice "https://github.com/atlas555") "jobTitle" "Data Engineer" "knowsAbout" (slice "Big Data" "Data Engineering" "Apache Spark" "Data Lake" "AI" "LLM") -}}
+{{ printf "<script type=\"application/ld+json\">%s</script>" ($ps | jsonify) | safeHTML }}
+{{- else if .IsPage -}}
+{{ $authorName := or (or .Params.author (index (or .Site.Params.author dict) .Section)) "Xiaolong Zhang" -}}
+{{ $desc := or .Description (.Summary | plainify | truncate 200) -}}
+{{ $art := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" $desc "url" (.Permalink | string) "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "author" (dict "@type" "Person" "name" $authorName "url" (printf "%scn/about/" .Site.BaseURL)) "publisher" (dict "@type" "Organization" "name" "Tech Whims" "url" (.Site.BaseURL | string)) "mainEntityOfPage" (dict "@type" "WebPage" "@id" (.Permalink | string)) -}}
+{{ if .Params.tags }}{{ $art = merge $art (dict "keywords" .Params.tags) }}{{ end -}}
+{{ printf "<script type=\"application/ld+json\">%s</script>" ($art | jsonify) | safeHTML }}
+{{- end }}
