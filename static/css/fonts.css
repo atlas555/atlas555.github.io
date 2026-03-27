@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
 body {
-    font-family: Palatino,palatino linotype,palatino lt std,latin modern roman,source-han-serif-sc,'source han serif sc','source han serif cn','source han serif tc','source han serif tw','source han serif','noto serif cjk sc',songti sc,microsoft yahei,serif
+    font-family: 'Noto Serif SC',Palatino,'palatino linotype','palatino lt std','latin modern roman','source han serif sc','noto serif cjk sc','songti sc','microsoft yahei',serif
 }
 
 .home blockquote,.cn blockquote,.kai,.cn em,.hash-note {

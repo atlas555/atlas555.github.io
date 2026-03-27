@@ -147,3 +147,13 @@ markup:
   tableOfContents:
     startLevel: 1
     endLevel: 3
+
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepWhitespace: false
+    css:
+      precision: 1
+    js:
+      precision: 1
