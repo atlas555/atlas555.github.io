@@ -14,13 +14,12 @@ keywords:
 - SQL engine
 - The discovery of Spark
 categories: bigdata
-description: "介绍Kyuubi Overview和部署核心参数调优"
 tags: 
 - kyuubi
 - spark
 - The discovery of Spark
+description: "介绍大数据平台从 Hive 迁移至 Spark 计算引擎过程中，Kyuubi 1.7 作为中间件的核心作用与架构解析。涵盖 Kyuubi 的 JDBC/SQL 执行引擎特性、两级弹性资源管理架构、Session 管理机制，以及关键部署参数调优实践，助力企业降本增效。"
 ---
-
 {{< vpost tagx="tags/the-discovery-of-spark" >}}
 
 ---

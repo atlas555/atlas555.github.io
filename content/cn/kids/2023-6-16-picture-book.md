@@ -6,8 +6,22 @@ date: 2023-06-16
 slug: 'mj-picture-book'
 show_toc: true
 draft: true
+description: "父亲与女儿共同创作绘本的温馨记录。以迪士尼风格为灵感，借助 Midjourney AI 绘图工具，将孩子描述的「白色兔子在森林里」转化为精美插画。文章详细分享了 MJ Prompt 编写技巧与绘本风格设定方法，展示 AI 辅助亲子创作的全新可能。"
+tags:
+- Midjourney
+- AI绘画
+- 亲子共创
+- 绘本创作
+- Prompt工程
+keywords:
+- Midjourney
+- AI绘本
+- MJ Prompt
+- 亲子绘本
+- 迪士尼风格
+- AI生图
+- 儿童绘本创作
 ---
-
 今天启动，和娃一起共创绘本。我让娃给一个画面，她简单的描述了一直白色的兔子在森林里面，我整理了如下。
 
 关键的内容

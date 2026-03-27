@@ -11,12 +11,16 @@ keywords:
 - LakeHourse
 - 网易
 - 快手
-description : "为什么要演进到湖仓一体（数据湖架构）- 他山会-part one"
 categories: bigdata
-tags: 
-- datalake
+description: "探讨企业从离线数仓演进至湖仓一体架构的实践经验，涵盖快手基于Apache Hudi构建数据湖的选型理由、优化收益（时效提升50%、资源节省15%），以及网易采用Iceberg解决Lambda架构痛点的案例，助力数据团队完成架构升级决策。"
+tags:
+- 数据湖
+- 湖仓一体
+- Apache Hudi
+- Iceberg
+- 数仓架构
+- Lambda架构
 ---
-
 # 为什么要演进到湖仓一体（数据湖架构）- 他山会 part one
 
 我在规划我们公司由 `离线数仓` 到 `湖仓一体` 演进。通过[他山会]()的方式进行推进。

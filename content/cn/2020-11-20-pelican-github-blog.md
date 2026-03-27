@@ -4,16 +4,24 @@ date: 2020-10-10T17:20:20+08:00
 author: "张晓龙"
 slug: blog-use-pelican-github
 draft: false
-keywords: 
-- pelican
-- github
-description: "Pelican + Github 搭建自己的静态博客"
 show_toc: false
-tags: 
-- github
 categories: hugo折腾
+description: "详细介绍如何使用 Python 静态博客生成器 Pelican 结合 GitHub Pages 搭建个人博客，涵盖 Pelican 安装配置、GitHub Pages 两种部署模式对比，以及 Markdown 写作环境搭建全流程指南。"
+tags:
+- Pelican
+- GitHub Pages
+- 静态博客
+- Python
+- 博客搭建
+keywords:
+- Pelican
+- GitHub Pages
+- 静态博客生成器
+- Python博客
+- 博客搭建教程
+- Markdown
+- Jekyll替代方案
 ---
-
 之前在Github上使用基本的jekyll模板搭建过一个博客，但是那时候前端技术的水平有限，搭出来的博客很不好看，一些基本的功能实现不出来，
 
 之后又转向了Octopress模板，它是R系语言的编写的jekyll模板，又上手操作开发了一段时间，已经基本做出来了，但是奈何主题模板博主觉得都不好看，所以自己操作来做，发现Ruby语言不好下手啊，折腾了好久没有修改成博主喜欢的样式。

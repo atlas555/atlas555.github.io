@@ -4,17 +4,26 @@ date: 2022-05-20T17:17:04+08:00
 author: "张晓龙"
 slug: resys-roc
 draft: false
-keywords: 
-- resys
-- 推荐系统
-- ROC
-description: "介绍推荐算法中使用 ROC 评估，并且介绍 roc 曲线" 
 categories: AI
 show_toc: false
-tags: 
-- resys
+description: "深入讲解推荐算法评估中的ROC曲线与PR曲线原理，介绍混淆矩阵、TP Rate、FP Rate等核心概念，通过具体示例演示如何绘制ROC曲线，帮助理解分类器性能评估方法，适合机器学习和推荐系统工程师学习参考。"
+tags:
+- ROC曲线
+- PR曲线
+- 推荐算法
+- 机器学习
+- 分类评估
+- 混淆矩阵
+keywords:
+- ROC曲线
+- PR曲线
+- 推荐算法评估
+- 混淆矩阵
+- TPRate召回率
+- FPRate误报率
+- 分类器评估
+- AUC
 ---
-
 先分享一个学习中的case：很早之前我在评估推荐算法的时候使用的是准确率，然后在分享时被别人各种吐槽不专业。后来学习的多了，发现准确率只是评估方法中一种，且对于样本极大不均衡分类问题没多大意义。所有后续快速学习其他方式。
 
 下面我们首先来看下，什么是ROC曲线。

@@ -4,16 +4,25 @@ date: 2021-09-22T17:04:10+08:00
 author: "张晓龙"
 slug: ML-gan-network
 draft: false
-keywords: 
-- GAN
-- ML
-description: "介绍机器学习中的 GAN 网络" 
 categories: AI
 show_toc: false
-tags: 
-- ML
+description: "深入介绍生成对抗网络（GAN）的核心原理与发展历程。GAN由Ian Goodfellow于2014年提出，被Yann LeCun誉为\"20年来机器学习最酷的想法\"。本文通过团队技术分享PPT，涵盖GAN基础概念、对抗训练机制及2016年顶会最新研究进展，适合深度学习从业者参考学习。"
+tags:
+- GAN
+- 深度学习
+- 生成对抗网络
+- Machine Learning
+- AI技术分享
+keywords:
+- GAN
+- 生成对抗网络
+- Generative Adversarial Networks
+- 深度学习
+- Ian Goodfellow
+- 神经网络
+- 图像生成
+- 对抗训练
 ---
-
 本文是团队内部本人的一个技术分享-深度学习最近的热门之一：生成式对抗网络GAN
 
 ## 背景介绍

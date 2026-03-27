@@ -5,16 +5,24 @@ author: "张晓龙"
 slug: hbase-theory-practice
 draft: false
 show_toc: true
-keywords:
-- Hbase
-- 学习笔记
-description : "介绍Hbase原理和实践，以及核心摘要"
 categories: bigdata
-tags: 
-- data-infra
-- hbase
+description: "深入解析HBase核心原理与实践应用，涵盖数据模型、系统特性、使用场景及局限性。包括HBase逻辑视图与物理视图、多维稀疏排序Map结构、列簇设计、多版本机制，以及订单、用户画像、物联网等典型业务场景的最佳实践。"
+tags:
+- HBase
+- 大数据
+- 分布式存储
+- NoSQL
+- 数据库原理
+keywords:
+- HBase原理
+- HBase数据模型
+- 分布式数据库
+- 列式存储
+- rowkey设计
+- OLTP
+- KeyValue存储
+- HBase实践
 ---
-
 记录于 2023.02.13
 
 ## 一、基本情况和原理

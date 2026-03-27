@@ -3,11 +3,7 @@ title: "我缺少共情能力么，要如何提升？分析经典的案例，提
 date: 2023-04-27
 author: "张晓龙"
 slug: empathy-howto-improve
-description: "深挖我缺少共情能力么，要如何提升？分析经典的案例，提供一些提升共情的方法"
 categories: 生物&心理学
-tags: 
-- 心理学
-- 共情
 keywords: 
 - 心理学
 - 共情
@@ -16,8 +12,15 @@ keywords:
 - Carkhuff’s model
 draft: false
 show_toc: true
+description: "本文探讨共情能力（Empathy）的本质与提升方法。通过分析缺乏共情的三大典型行为表现，结合心理学家卡尔·罗杰斯与亚瑟·乔拉米卡利的经典案例和理论，揭示共情与情绪反馈的核心差异，帮助读者在工作沟通、亲密关系中提升理解他人的能力。"
+tags:
+- 共情能力
+- Empathy
+- 人际沟通
+- 心理学
+- 自我提升
+- 情绪管理
 ---
-
 ![2023-04-27-10-50-16](https://media.techwhims.com/techwhims/2023/2023-04-27-10-50-16.png)
 
 ## 0. 我想写这个议题的背景

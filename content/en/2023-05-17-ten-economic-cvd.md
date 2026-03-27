@@ -3,16 +3,26 @@ title: Ten Economics Terms Every Day
 date: 2023-04-27
 author: "Allen"
 slug: economics-terms
-description: "Ten Economics Terms Every Day"
 categories: economics
-tags: 
-- Economics Terms
-keywords: 
-- Economics Terms
 draft: false
 show_toc: false
+description: "Learn 10 economics terms daily: zero-sum game, zero lower bound, zero-hours contracts, zero coupon bond explained simply."
+tags:
+- economics
+- finance
+- education
+- glossary
+- learning
+keywords:
+- economics terms
+- zero-sum game
+- zero lower bound
+- zero-hours contracts
+- zero coupon bond
+- economics glossary
+- financial literacy
+- daily economics
 ---
-
 ![The A to Z of economics](https://media.techwhims.com/techwhims/2023/2023-06-06-10-33-07.png)
 
 ## 20230605：Zero coupon bond、Zero lower bound、Zero-hours contracts、Zero-sum game

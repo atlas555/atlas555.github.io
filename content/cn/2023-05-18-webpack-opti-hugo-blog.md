@@ -10,12 +10,15 @@ keywords:
 - hugo
 - js优化
 - css优化
-description : "webpack5 基础概念、操作以及hugo博客js、css 优化"
 categories: hugo折腾
-tags: 
-- hugo折腾
+description: "本文介绍 Webpack5 核心概念（Entry、Output、Loaders、Plugins、Mode）及实战配置，并结合 Hugo 博客优化场景，讲解如何通过 Webpack 合并压缩 JS 和 CSS 文件，替代 jsDelivr CDN，提升国内博客访问速度。"
+tags:
+- Webpack5
+- Hugo博客
+- 前端优化
+- JS压缩
+- CSS合并
 ---
-
 为了博客的改造和优化，尤其是 javascript 和 css 的优化，作为一个后端大数据工程师，啥都得学（折腾是最大的乐趣）。
 
 目前博客的一个问题，是采用[Yihui Xie]大佬的 js、css 的技术架构设计方案，js 和 css 在 github 构建 repo，然后通过 [jsdelivr：A free CDN for open source projects](https://www.jsdelivr.com/) CDN 分发，combine 加载，这个方案非常优雅。但是国内网络环境的问题，jsdelivr 经常被墙，js 和 css 加载不出来，另外 js 和 css 文件较多，挨个加载影响网站响应速度。

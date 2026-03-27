@@ -5,9 +5,6 @@ author: "张晓龙"
 slug: spark-version-release-notes
 description: "Saprk3.x Journey of Discovery | Spark 2.4 to 3.4 update release notes focus on spark core and SQL"
 categories: bigdata
-tags: 
-- The discovery of Spark
-- spark
 keywords: 
 - spark
 - spark3
@@ -16,8 +13,13 @@ keywords:
 - The discovery of Spark
 draft: false
 show_toc: true
+tags:
+- Apache Spark
+- Spark SQL
+- 大数据
+- 性能优化
+- 版本更新
 ---
-
 {{< vpost tagx="tags/the-discovery-of-spark" >}}
 
 ---

@@ -4,19 +4,23 @@ date: 2023-04-09T14:37:36+08:00
 author: "张晓龙"
 slug: writingskills-training
 draft: false
-keywords:
-- 写作
-- 粥左罗
-- 自媒体文章
-description : "介绍自媒体文章如何从无到有的过程"
 categories: 阅读和写作
 show_toc: false
 tags: 
 - reading
 - writing
 - reading and writing
+description: "参加粥佐罗写作7天训练营的学习总结，梳理自媒体文章从无到有的6步写作流程：选题方向、确定角度、搭建框架、扩写核心观点、修改打磨。涵盖选题策略、文章类型、变现路径等自媒体写作核心认知，附思维导图。"
+keywords:
+- 自媒体写作
+- 写作训练营
+- 文章写作流程
+- 选题技巧
+- 内容创作
+- 粥佐罗
+- 写作套路
+- 个人IP
 ---
-
 {{< vpost tagx="tags/reading-and-writing" >}}
 
 ---

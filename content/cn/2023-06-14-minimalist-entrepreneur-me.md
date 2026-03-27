@@ -5,17 +5,25 @@ author: "张晓龙"
 slug: the-minimalist-entrepreneur
 draft: false
 show_toc: false
+categories: 正心修身齐家治业助天下
+description: "探讨\"小而美\"事业理念：以极简MVP为载体，持续为用户创造正向价值与影响力。结合Gumroad创始人Sahil Lavingia的创业反思，阐述如何放弃亿万梦想、回归本质，打造真正有意义的产品与平台。"
+tags:
+- 小而美
+- 创业理念
+- MVP
+- The Minimalist Entrepreneur
+- 极简主义
+- 大数据平台
 keywords:
 - 小而美
-- 亿万美元的事业
-- 正心、修身、齐家、治业、助天下
-description : "小而美的事业，有一个平台、系统作为服务的承接，在这个系统上能为客户持续不断的创造（提供）价值（服务），同时有比较大的影响力"
-categories: 正心修身齐家治业助天下
-tags:
-- 治业
-- 助天下
+- 极简创业
+- MVP
+- Gumroad
+- Sahil Lavingia
+- 持续价值
+- 影响力
+- 创作者经济
 ---
-
 我特别喜欢一个词“小而美”，这个词第一个听到是在 2020 年 Larry 的一个谈话中，第二次是在 2022 年主席讲到建设一个“小而美”的大数据平台。慢慢这个词不时的出现在我的脑海中。
 
 有时候再想，我负责的大数据平台如何做“小而美”，该以什么样的形式来做，做哪些才能算是“小而美”。

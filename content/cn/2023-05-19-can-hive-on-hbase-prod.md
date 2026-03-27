@@ -10,12 +10,15 @@ keywords:
 - hive
 - hbase
 - architecture
-description : "生产环境下 hive 查询 hbase 数据技术架构的可能性"
 categories: bigdata
-tags: 
-- hive
+description: "探讨生产环境中通过 Hive 外表直接查询 HBase 数据的技术方案，介绍 HBaseStorageHandler 组件的使用方式，对比数据同步与直连查询两种架构，帮助大数据工程师评估 Hive 查询 HBase 的可行性与实践路径。"
+tags:
+- Hive
+- HBase
+- 大数据
+- StorageHandler
+- 数据架构
 ---
-
 线上hive 想查询 hbase 的数据，目前是将 hbase 数据同步到 hive 中，然后通过 hive 引擎查询。那 **能不能通过 hive 直接查询 hbase 的数据呢**？ **首先答案是可以的**。
 
 通过 Hive 外表的方式，利用 `org.apache.hadoop.hive.hbase.HBaseStorageHandler` [组件（维护Hive字段和HBase中的列）](https://cwiki.apache.org/confluence/display/Hive/StorageHandlers)，实际上是 Hive 提供对外的接口，然后通过实现这套接口来操作 hive 以外的数据存储。

@@ -5,16 +5,25 @@ author: "张晓龙"
 slug: chatgpt-history-and-application
 draft: false
 show_toc: true
-keywords:
-- ChatGPT
-- GPT-5
-- gpt应用场景
-description : "学习chatGPT的前世今生总结：发展历史、趋势、局限、可能的应用场景"
 categories: AI
+description: "深入梳理ChatGPT从GPT-1到GPT-4的发展历史与技术演进，对比各代模型能力差异，分析GPT-5时间线预测，并探讨AI大模型在教育、医疗、军事、商业营销、互联网等领域的落地应用场景及现实局限性。"
 tags:
-- chatgpt
+- ChatGPT
+- GPT-4
+- 大语言模型
+- AI应用
+- OpenAI
+- 预训练模型
+keywords:
+- ChatGPT发展历史
+- GPT-4
+- 大语言模型
+- AI应用场景
+- GPT-5
+- 预训练语言模型
+- 多模态AI
+- OpenAI
 ---
-
 现在 GPT 的热度依然在，最近我在做 GPT 的应用落地，所以看看它的发展历史，可能得应用场景得分享。你用它，需要知道它是个什么。
 
 预训练语言模型 – GPT1，名字来源于论文“[Improving Language Understanding by Generative PreTraining, OpenAI, Jun, 2018](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)”。

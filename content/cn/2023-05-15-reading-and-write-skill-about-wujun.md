@@ -3,7 +3,6 @@ title: "学习吴军关于《阅读和写作》的总结"
 date: 2023-05-15
 author: "张晓龙"
 slug: course-reading-writing-wujun
-description: "阅读和写作系列：学习吴军关于《阅读和写作》的总结"
 categories: 阅读和写作
 tags: 
 - reading and writing
@@ -18,8 +17,8 @@ keywords:
 draft: false
 disable_highlight: false
 show_toc: false
+description: "提炼吴军《阅读与写作》课程精华：掌握高效阅读三层法（典藏/细读/浏览），通过读书读懂人与时代；写作需包含六要素，从发现题材到形成个人风格，帮助你系统提升阅读理解力与书面表达能力。"
 ---
-
 {{< vpost tagx="tags/reading-and-writing" >}}
 
 ---

@@ -4,14 +4,25 @@ date: 2021-07-27T16:59:48+08:00
 author: "张晓龙"
 slug: elasticsearch-cookbook
 draft: false
-keywords: 
-- elasticsearch
-- search
-description: "介绍 elasticsearch 技术手册的文章。" 
 show_toc: true
-tags: 
-- elasticsearch
 categories: bigdata
+description: "深入讲解 Elasticsearch 5+ 核心概念与生产环境实践，涵盖集群架构、分片副本机制、硬件选型建议（内存、CPU、磁盘、网络）、JVM 调优、节点客户端对比及重要配置参数，帮助开发者快速掌握 ES 集群部署与监控要点。"
+tags:
+- Elasticsearch
+- 搜索引擎
+- 分布式系统
+- 生产部署
+- Lucene
+- 运维
+keywords:
+- Elasticsearch 5
+- 集群监控
+- 分布式搜索
+- Lucene
+- 生产环境部署
+- Marvel
+- Transport Client
+- ES 性能优化
 ---
 # elasticsearch技术手册 v1.01
 

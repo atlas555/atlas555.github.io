@@ -4,16 +4,26 @@ date: 2020-10-10T17:20:20+08:00
 author: "张晓龙"
 slug: resys-gradient-descent
 draft: false
-keywords: 
-- resys
-- sgd
-description: 
 show_toc: false
-tags: 
-- resys
 categories: AI
+description: "系统综述机器学习中梯度下降算法，涵盖批量梯度下降、随机梯度下降（SGD）、Mini-batch三大类算法原理与对比，深入解析动量法、AdaGrad、Adam等优化算法，并探讨学习率选择、鞍点、局部最小值等核心挑战，助力实际场景中合理选用优化算法。"
+tags:
+- 机器学习
+- 梯度下降
+- SGD
+- 深度学习优化
+- Adam
+- 算法综述
+keywords:
+- 梯度下降
+- 随机梯度下降
+- Mini-batch gradient descent
+- Adam优化器
+- AdaGrad
+- 学习率调整
+- 鞍点问题
+- 无约束优化
 ---
-
 本文是团队内部本人的一个技术分享：机器学习中梯度下降算法综述
 
 ## 背景介绍

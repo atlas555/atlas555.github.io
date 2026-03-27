@@ -5,17 +5,23 @@ author: "张晓龙"
 slug: howto-use-chatgpt-reading-eco-books
 draft: false
 show_toc: false
-keywords: 
-- 经济学家
-- 经济学
-- chatgpt
 categories: 阅读和写作
-description: "如何用 chatgpt 阅读经济类书籍《伟大的经济学家》"
-tags: 
-- reading
-- reading and writing
+description: "分享如何借助 ChatGPT 高效阅读经济学书籍《伟大的经济学家》的实践方法，涵盖阅读前预备知识、设定目标、分段阅读、关注重点、深入思考及笔记复习六大步骤，帮助读者系统掌握经济学家思想与理论精髓。"
+tags:
+- ChatGPT
+- 读书方法
+- 经济学
+- AI学习
+- 阅读技巧
+keywords:
+- ChatGPT读书
+- 伟大的经济学家
+- AI辅助学习
+- 经济学书籍
+- 阅读方法
+- GPT提问技巧
+- 经济学家思想
 ---
-
 ![爱因斯坦去世几个小时后的桌面照片](https://media.techwhims.com/techwhims/2023/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6%E5%8E%BB%E4%B8%96%E5%90%8E%E5%87%A0%E4%B8%AA%E5%B0%8F%E6%97%B6%E7%9A%84%E6%A1%8C%E9%9D%A2%E7%85%A7%E7%89%87.jpeg)
 
 {{< vpost tagx="tags/reading-and-writing" >}}

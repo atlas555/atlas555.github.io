@@ -5,17 +5,24 @@ author: "张晓龙"
 slug: spark-basic-conceptions
 draft: false
 show_toc: true
-keywords: 
-- 大数据
-- spark
-- The discovery of Spark
 categories: bigdata
 description: "Saprk3.x Journey of Discovery | Spark 基础&重要的概念（base and important conception）"
-tags: 
-- spark
-- The discovery of Spark
+tags:
+- Spark
+- 大数据
+- RDD
+- 分布式计算
+- Spark3.x
+keywords:
+- Apache Spark
+- SparkContext
+- RDD
+- DAG
+- Transformation
+- Spark基础概念
+- 分布式数据处理
+- Spark Executor
 ---
-
 {{< vpost tagx="tags/the-discovery-of-spark" >}}
 
 ---

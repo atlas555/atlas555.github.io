@@ -11,14 +11,13 @@ keywords:
 - 数据分析
 - 真实案例
 - 论文
-description : "ChatGPT 在线教育业务下数据分析领域的应用-《Is GPT-4 a Good Data Analyst》论文分析"
 categories: 在线教育
 tags:
 - 在线教育
 - chatgpt
 - 数据分析
+description: "深度解析《Is GPT-4 a Good Data Analyst》论文，结合真实业务案例对比分析GPT-4在数据分析领域的能力表现。GPT-4可达到资深分析师水平，在SQL生成、数据可视化和洞察提炼上表现优异，但在复杂业务理解上仍有局限。未来趋势：不会用GPT的分析师将被替代。"
 ---
-
 源于我们最近探索 ChatGPT 在数据分析领域应用，5 月底我们做了 demo，并且初步应用，详见：[ChatGPT 在线教育业务下数据分析领域的初步应用真实案例](/cn/posts/data-analysis-with-gpt/)
 
 完成论文分析，和我之前做的业务上的真实案例分析对比：

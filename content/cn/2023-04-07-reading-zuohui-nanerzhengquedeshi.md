@@ -5,17 +5,25 @@ author: "张晓龙"
 slug: reading-do-right-things
 draft: false
 show_toc: false
+categories: 阅读和写作
+description: "基于《左晖·做难而正确的事》的读书分享演讲稿，提炼四大核心洞见：选择难而正确的事以创造真实价值、在不确定的行业周期中坚守确定性原则、摒弃低效的竞争思维、聚焦用户价值构建护城河。结合链家与高途的实践案例，探讨管理者的战略思维与价值判断。"
+tags:
+- 读书分享
+- 管理思维
+- 战略决策
+- 左晖
+- 企业文化
+- 商业洞察
 keywords:
 - 左晖
 - 做难而正确的事
-- 读书笔记
-description : "高途技术管理会议上的读书分享，分享《左晖·做难而正确的事》"
-categories: 阅读和写作
-tags: 
-- reading
-- reading and writing
+- 链家
+- 用户价值
+- 竞争思维
+- 行业周期
+- 管理读书会
+- 战略决策
 ---
-
 {{< vpost tagx="tags/reading-and-writing" >}}
 
 ---

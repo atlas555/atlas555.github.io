@@ -6,8 +6,23 @@ date: 2023-06-21
 slug: 'mj-picture-book-01'
 show_toc: true
 draft: true
+description: "使用Midjourney（MJ）AI绘图工具制作儿童绘本的实践分享。本文介绍绘本创作初期阶段，以白色兔子为主角、森林为背景，展示Disney风格的兔子角色设计与森林场景效果图，探索适合儿童审美的AI绘本插画生成方法。"
+tags:
+- Midjourney
+- AI绘图
+- 绘本制作
+- Disney风格
+- 儿童插画
+keywords:
+- Midjourney绘本
+- AI儿童绘本
+- MJ角色设计
+- Disney风格插画
+- 兔子绘本
+- AI绘图创作
+- 儿童插画设计
+- 绘本背景生成
 ---
-
 绘本首先确定角色和背景，目前设定的角色是一只白色的兔子，背景是在森林中。
 
 目前处于起步摸索的阶段

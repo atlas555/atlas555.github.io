@@ -3,17 +3,26 @@ title: Oral Practice
 date: 2023-05-21
 author: "Allen"
 slug: oral-practice
-description: "oral-practice"
 categories: english
-tags: 
-- oral
-keywords: 
-- oral
-- speaking
 draft: false
 show_toc: true
+description: "English oral practice dialogues covering becoming a father, bank loans, psychology, and everyday conversations with key phrases."
+tags:
+- English
+- Oral Practice
+- Dialogue
+- ESL
+- Vocabulary
+keywords:
+- English oral practice
+- ESL dialogue
+- bank loan vocabulary
+- everyday English conversation
+- becoming a father
+- psychology vocabulary
+- spoken English phrases
+- English learning
 ---
-
 ## going to be  a father
 
 > part one:

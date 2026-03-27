@@ -5,15 +5,24 @@ author: "张晓龙"
 slug: algorithm-log-structured-merge-tree
 draft: false
 show_toc: false
-keywords:
-- LSM
-- SSTable
-description : "介绍LSM 结构树，compact 策略等"
 categories: bigdata
-tags: 
-- algorithm
+description: "深入解析 Log Structured Merge Tree（LSM树）的核心原理，涵盖 MemTable、Immutable MemTable、SSTable 三大组成部分，详细对比 size-tiered 与 leveled 两种 Compact 策略的读放大、写放大与空间放大问题，结合 HBase 实践场景阐述 LSM 树的设计权衡。"
+tags:
+- LSM Tree
+- HBase
+- 数据库存储引擎
+- SSTable
+- 分布式存储
+keywords:
+- LSM Tree
+- Log Structured Merge Tree
+- MemTable
+- SSTable
+- Compact策略
+- HBase原理
+- leveled compaction
+- size-tiered compaction
 ---
-
 记录于 2023.4.6，源于 hbase 原理的学习。
 
 ## LSM 的核心思想

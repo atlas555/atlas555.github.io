@@ -3,14 +3,26 @@ title: Regular monthly review for May 2023
 date: 2023-05-31
 author: "Allen"
 slug: oral-practice
-description: "Regular monthly review for May 2023"
 categories: english
-keywords: 
-- review
 draft: false
 show_toc: false
+tags:
+- monthly-review
+- personal-growth
+- productivity
+- self-improvement
+- goal-tracking
+description: "May 2023 monthly review: fitness goals, oral English practice, family habits, financial planning, and personal growth reflections."
+keywords:
+- monthly review
+- personal growth
+- habit building
+- oral English practice
+- family finance planning
+- self-reflection
+- fitness goals
+- work-life balance
 ---
-
 - **What were my major milestones or moments that I'm proud of?**
 
 > Goals you have set and reached, progress you have made in an area, or random moments and personal achievements that you've made. Did you learn a new language? Have you made progress on your finances? Did you improve relationships? Spent more time in nature? Etc.

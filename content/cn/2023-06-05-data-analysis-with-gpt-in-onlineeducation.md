@@ -10,14 +10,13 @@ keywords:
 - 在线教育
 - 数据分析
 - 真实案例
-description : "ChatGPT 在线教育业务下数据分析领域的初步应用真实案例"
 categories: 在线教育
 tags:
 - 在线教育
 - chatgpt
 - 数据分析
+description: "本文分享了一个将 ChatGPT 应用于在线教育数据分析的真实 Demo 案例，涵盖自然语言转 SQL、数据可视化图表选择及数据洞察生成三大环节，采用 Flask + GPT-3.5-turbo + ECharts 技术栈，深度探讨了 AI 驱动数据分析的可行性与现存局限。"
 ---
-
 我们在公司外出培训的时候（20230523），做了一个 ChatGPT 在数据分析应用的 demo，验证这个方向是否可行。
 
 ## 我们的项目方案

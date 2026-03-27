@@ -5,9 +5,6 @@ author: "张晓龙"
 slug: spark-master-worker-launch-analysis
 description: "Saprk3.x Journey of Discovery | Spark3.x 主节点 Master 和 Worker 节点 启动过程分析"
 categories: bigdata
-tags: 
-- The discovery of Spark
-- spark
 keywords: 
 - RPC
 - spark
@@ -17,8 +14,13 @@ keywords:
 draft: false
 disable_highlight: false
 show_toc: true
+tags:
+- Spark3.x
+- 源码分析
+- 分布式计算
+- Master启动
+- Worker节点
 ---
-
 {{< vpost tagx="tags/the-discovery-of-spark" >}}
 
 ---

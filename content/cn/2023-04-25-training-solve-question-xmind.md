@@ -14,11 +14,13 @@ keywords:
 - 思维导图
 categories: 管理
 description: "S3 精准解决问题 SOP 思维导图，S2 促进理解的沟通，沟通常识和沟通 5 步骤, 是S1 解决真问题-如何识别问题，以及解决问题的方法的后续"
-tags: 
-- 团队管理
-- 识别问题
+tags:
+- 思维导图
+- SOP
+- 问题解决
+- 方法论
+- mind map
 ---
-
 **发现问题，解决问题,该系列列表**
 
 - [S1 解决真问题-如何识别问题，以及解决问题的方法](https://techwhims.com/cn/posts/recognize-question-sovle/)

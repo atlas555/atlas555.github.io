@@ -4,16 +4,25 @@ date: 2022-03-05T17:10:54+08:00
 author: "张晓龙"
 slug: deeplearning-regularization
 draft: false
-keywords: 
-- deeplearning
-- regularization
-description: "深度学习之正则化技术分享，包含 ppt 和文章分析"
 show_toc: false
 categories: AI
-tags: 
-- ML
+description: "深入介绍深度学习中的正则化技术，涵盖L1/L2参数范数惩罚、多任务学习、提前终止、参数共享等核心策略，结合偏差-方差权衡原理，帮助理解如何有效防止过拟合、提升模型泛化能力。附完整技术分享PPT。"
+tags:
+- 深度学习
+- 正则化
+- 机器学习
+- Regularization
+- 过拟合
+keywords:
+- 正则化
+- 深度学习
+- L1正则化
+- L2正则化
+- 过拟合
+- 偏差方差权衡
+- 模型泛化
+- 参数范数惩罚
 ---
-
 本文是团队内部本人的一个技术分享-深度学习最近的热门之一：深度学习中心问题之一正则化
 
 ## 背景介绍

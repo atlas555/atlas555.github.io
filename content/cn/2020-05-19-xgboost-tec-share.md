@@ -4,16 +4,25 @@ date: 2020-05-19T17:20:20+08:00
 author: "张晓龙"
 slug: ml-xgboost
 draft: false
-keywords: 
-- xgboost
-- ML
-description: "技术分享之xgboost"
 show_toc: false
 categories: AI
-tags: 
-- ML
+description: "深入介绍XGBoost（eXtreme Gradient Boosting）的核心原理与应用，涵盖Gradient Boosting框架、目标函数、Bias-Variance Trade-off、Boosting方法，并对比XGBoost、LightGBM和CatBoost三大主流梯度提升框架，适合机器学习从业者参考学习。"
+tags:
+- XGBoost
+- 机器学习
+- Gradient Boosting
+- GBDT
+- 集成学习
+keywords:
+- XGBoost
+- eXtreme Gradient Boosting
+- 梯度提升
+- GBDT
+- LightGBM
+- CatBoost
+- Boosting算法
+- 机器学习框架
 ---
-
 本文是团队内部本人的一个技术分享：xgboost介绍及简单分析
 
 ## 背景介绍

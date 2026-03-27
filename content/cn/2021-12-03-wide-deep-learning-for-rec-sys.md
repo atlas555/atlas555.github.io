@@ -4,17 +4,25 @@ date: 2021-12-10T17:08:34+08:00
 author: "张晓龙"
 slug: deeplearning-wide-deep-learning
 draft: false
-keywords: 
-- deeplearning
-- widedeep
-- ML
 description: "介绍Wide & Deep learning for rec sys 论文和分析" 
 categories: AI
 show_toc: false
-tags: 
-- ML
+tags:
+- Wide & Deep Learning
+- 推荐系统
+- 深度学习
+- 机器学习
+- 论文解读
+keywords:
+- Wide & Deep
+- 推荐系统
+- memorization
+- generalization
+- Embedding
+- LR模型
+- 协同过滤
+- Google Play推荐
 ---
-
 这篇《Wide & Deep Learning for Recommender Systems》论文是在2016年就已经发表出来了，通过检索相关，发现已经有一些业务在使用这个框架或者改良的版本。最近在我们的产品首页做一个课程推荐，找到了这篇论文，所以就顺手学习参考做个记录，文章分为以下两个部分：
 
 (1) 论文阅读分析

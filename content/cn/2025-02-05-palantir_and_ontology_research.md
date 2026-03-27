@@ -22,8 +22,11 @@ description: "深入解析Palantir公司及其核心产品Ontology，探讨其�
 categories: ai
 tags:
 - Palantir
+- Ontology
+- 人工智能
+- 数据科学
+- AI决策系统
 ---
-
 -- 2025.2.6 ： start，提取关键的概念
 
 最近关注大模型 AI 的应用，发现了一个非常有意思的公司，Palantir公司。特意看了下官方的文档，做一下关键的内容总结。 -- 2025.2.6

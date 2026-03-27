@@ -15,11 +15,13 @@ keywords:
 - The discovery of Spark
 categories: bigdata
 description: "Saprk3.x Journey of Discovery | Spark3.x 新特性 AQE（Adaptive Query Execution (AQE) in Spark 3)的理解和介绍"
-tags: 
-- spark
-- The discovery of Spark
+tags:
+- Spark3.x
+- AQE
+- 大数据
+- Spark SQL
+- 性能优化
 ---
-
 {{< vpost tagx="tags/the-discovery-of-spark" >}}
 
 ---
