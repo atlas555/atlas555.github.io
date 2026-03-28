@@ -1,6 +1,7 @@
 ---
 title: "[57] 跨周期全样本回测 2007-2024"
 date: 2026-03-26
+weight: 57
 slug: 'cross-cycle-backtest'
 series: "TradeSys"
 categories:

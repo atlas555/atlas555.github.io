@@ -1,6 +1,7 @@
 ---
 title: "[35] 优化配比回测验证"
 date: 2026-03-22
+weight: 35
 slug: 'allocation-comparison'
 series: "TradeSys"
 categories:

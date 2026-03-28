@@ -1,6 +1,7 @@
 ---
 title: "[48] 杠杆的数学：Kelly 准则"
 date: 2026-03-24
+weight: 48
 slug: 'leverage-kelly'
 series: "TradeSys"
 categories:

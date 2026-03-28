@@ -1,6 +1,7 @@
 ---
 title: "[28] 组合监控 Dashboard 技术方案"
 date: 2026-03-22
+weight: 28
 slug: 'monitoring-dashboard'
 series: "TradeSys"
 categories:

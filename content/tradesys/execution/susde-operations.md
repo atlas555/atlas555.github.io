@@ -1,6 +1,7 @@
 ---
 title: "[30] sUSDe 持仓管理实操指南"
 date: 2026-03-22
+weight: 30
 slug: 'susde-operations'
 series: "TradeSys"
 categories:

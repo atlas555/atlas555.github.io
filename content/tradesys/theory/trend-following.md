@@ -1,6 +1,7 @@
 ---
 title: "[2] 趋势跟踪理论与实证"
 date: 2026-03-19
+weight: 2
 slug: 'trend-following'
 series: "TradeSys"
 categories:

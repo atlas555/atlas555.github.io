@@ -1,6 +1,7 @@
 ---
 title: "[41] sUSDe 智能合约、托管与脱锚风险"
 date: 2026-03-23
+weight: 41
 slug: 'crypto-custody-risk'
 series: "TradeSys"
 categories:

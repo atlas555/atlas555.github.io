@@ -1,6 +1,7 @@
 ---
 title: "[45] 期权策略与组合保护"
 date: 2026-03-24
+weight: 45
 slug: 'options-hedging'
 series: "TradeSys"
 categories:

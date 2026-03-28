@@ -1,6 +1,7 @@
 ---
 title: "[16] 回测框架评测"
 date: 2026-03-19
+weight: 16
 slug: 'framework-eval'
 series: "TradeSys"
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "[40] 行为纪律规则引擎设计"
 date: 2026-03-23
+weight: 40
 slug: 'behavioral-engine'
 series: "TradeSys"
 categories:

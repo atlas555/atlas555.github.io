@@ -1,6 +1,7 @@
 ---
 title: "[32] Plan E3-AW 实盘启动清单"
 date: 2026-03-22
+weight: 32
 slug: 'launch-checklist'
 series: "TradeSys"
 categories:

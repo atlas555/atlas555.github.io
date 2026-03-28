@@ -1,6 +1,7 @@
 ---
 title: "[59] sUSDe 链上执行自动化"
 date: 2026-03-26
+weight: 59
 slug: 'crypto-onchain'
 series: "TradeSys"
 categories:

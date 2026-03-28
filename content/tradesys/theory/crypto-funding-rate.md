@@ -1,6 +1,7 @@
 ---
 title: "[10] Crypto Funding Rate"
 date: 2026-03-19
+weight: 10
 slug: 'crypto-funding-rate'
 series: "TradeSys"
 categories:

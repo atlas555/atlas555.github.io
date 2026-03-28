@@ -1,6 +1,7 @@
 ---
 title: "[60] 期权课程内容分析与结构性梳理"
 date: 2026-03-27
+weight: 60
 slug: 'options-course-analysis'
 series: "TradeSys"
 categories:

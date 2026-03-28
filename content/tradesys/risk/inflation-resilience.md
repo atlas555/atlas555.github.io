@@ -1,6 +1,7 @@
 ---
 title: "[50] 通胀环境下的资产配置"
 date: 2026-03-24
+weight: 50
 slug: 'inflation-resilience'
 series: "TradeSys"
 categories:

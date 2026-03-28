@@ -1,6 +1,7 @@
 ---
 title: "[36] 市场状态识别（Regime Detection）"
 date: 2026-03-23
+weight: 36
 slug: 'regime-detection'
 series: "TradeSys"
 categories:

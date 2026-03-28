@@ -1,6 +1,7 @@
 ---
 title: "[25] 交易执行成本模型"
 date: 2026-03-22
+weight: 25
 slug: 'execution-cost'
 series: "TradeSys"
 categories:

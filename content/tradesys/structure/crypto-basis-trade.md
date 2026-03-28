@@ -1,6 +1,7 @@
 ---
 title: "[46] 加密货币期货基差交易"
 date: 2026-03-24
+weight: 46
 slug: 'crypto-basis-trade'
 series: "TradeSys"
 categories:

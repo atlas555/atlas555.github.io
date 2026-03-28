@@ -1,6 +1,7 @@
 ---
 title: "[31] IBKR API 自动化交易指南"
 date: 2026-03-22
+weight: 31
 slug: 'ibkr-api-guide'
 series: "TradeSys"
 categories:

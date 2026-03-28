@@ -1,6 +1,7 @@
 ---
 title: "[22] 技术栈选型"
 date: 2026-03-21
+weight: 22
 slug: 'tech-stack'
 series: "TradeSys"
 categories:

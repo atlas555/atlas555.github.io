@@ -1,6 +1,7 @@
 ---
 title: "[4] ML 在交易中的应用"
 date: 2026-03-19
+weight: 4
 slug: 'ml-in-trading'
 series: "TradeSys"
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "[47] 波动率风险溢价收割策略"
 date: 2026-03-24
+weight: 47
 slug: 'variance-risk-premium'
 series: "TradeSys"
 categories:

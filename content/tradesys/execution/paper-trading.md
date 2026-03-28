@@ -1,6 +1,7 @@
 ---
 title: "[58] Paper Trading 自动化方案"
 date: 2026-03-26
+weight: 58
 slug: 'paper-trading'
 series: "TradeSys"
 categories:

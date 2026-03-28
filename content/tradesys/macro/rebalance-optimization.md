@@ -1,6 +1,7 @@
 ---
 title: "[37] 再平衡频率与交易成本最优权衡"
 date: 2026-03-23
+weight: 37
 slug: 'rebalance-optimization'
 series: "TradeSys"
 categories:

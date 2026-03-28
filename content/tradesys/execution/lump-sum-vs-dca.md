@@ -1,6 +1,7 @@
 ---
 title: "[56] 一次性 vs DCA 入场实证"
 date: 2026-03-27
+weight: 56
 slug: 'lump-sum-vs-dca'
 series: "TradeSys"
 categories:

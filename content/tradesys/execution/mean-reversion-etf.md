@@ -1,6 +1,7 @@
 ---
 title: "[20] 均值回归策略 ETF 选型"
 date: 2026-03-21
+weight: 20
 slug: 'mean-reversion-etf'
 series: "TradeSys"
 categories:

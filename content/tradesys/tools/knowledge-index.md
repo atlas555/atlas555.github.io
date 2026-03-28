@@ -1,6 +1,7 @@
 ---
 title: "[55] 知识体系索引与研究总结"
 date: 2026-03-26
+weight: 55
 slug: 'knowledge-index'
 series: "TradeSys"
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "[3] 因子模型"
 date: 2026-03-19
+weight: 3
 slug: 'factor-models'
 series: "TradeSys"
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "[43] 第一年运维手册"
 date: 2026-03-23
+weight: 43
 slug: 'year1-ops-manual'
 series: "TradeSys"
 categories:

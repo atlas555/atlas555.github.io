@@ -1,6 +1,7 @@
 ---
 title: "[19] TSMOM/XSMOM 实盘执行方案"
 date: 2026-03-21
+weight: 19
 slug: 'tsmom-xsmom-execution'
 series: "TradeSys"
 categories:

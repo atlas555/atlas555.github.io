@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<ul>
+  {{ range sort .Pages "Weight" "asc" }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+{{ partial "footer.html" . }}

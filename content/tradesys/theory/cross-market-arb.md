@@ -1,6 +1,7 @@
 ---
 title: "[7] 跨市场套利"
 date: 2026-03-19
+weight: 7
 slug: 'cross-market-arb'
 series: "TradeSys"
 categories:

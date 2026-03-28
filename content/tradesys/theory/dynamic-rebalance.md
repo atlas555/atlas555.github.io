@@ -1,6 +1,7 @@
 ---
 title: "[12] 动态再平衡"
 date: 2026-03-20
+weight: 12
 slug: 'dynamic-rebalance'
 series: "TradeSys"
 categories:

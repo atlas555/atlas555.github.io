@@ -1,6 +1,7 @@
 ---
 title: "[6] 事件驱动策略"
 date: 2026-03-19
+weight: 6
 slug: 'event-driven'
 series: "TradeSys"
 categories:

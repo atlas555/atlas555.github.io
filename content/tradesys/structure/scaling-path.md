@@ -1,6 +1,7 @@
 ---
 title: "[38] 小资金规模化路径 $50K→$1M"
 date: 2026-03-23
+weight: 38
 slug: 'scaling-path'
 series: "TradeSys"
 categories:

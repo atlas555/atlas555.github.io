@@ -1,6 +1,7 @@
 ---
 title: "[8] 清算结算机制"
 date: 2026-03-19
+weight: 8
 slug: 'settlement-clearing'
 series: "TradeSys"
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "[18] Crypto Funding Rate 实操深度研究"
 date: 2026-03-21
+weight: 18
 slug: 'crypto-funding-deep-dive'
 series: "TradeSys"
 categories:

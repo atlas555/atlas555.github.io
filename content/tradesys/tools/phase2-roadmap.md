@@ -1,6 +1,7 @@
 ---
 title: "[42] Phase 2 路线图"
 date: 2026-03-23
+weight: 42
 slug: 'phase2-roadmap'
 series: "TradeSys"
 categories:

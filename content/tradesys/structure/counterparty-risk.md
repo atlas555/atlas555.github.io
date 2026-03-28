@@ -1,6 +1,7 @@
 ---
 title: "[54] 交易对手风险与破产保护"
 date: 2026-03-25
+weight: 54
 slug: 'counterparty-risk'
 series: "TradeSys"
 categories:

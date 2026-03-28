@@ -1,6 +1,7 @@
 ---
 title: "[56] 首笔建仓执行策略：LSI vs DCA"
 date: 2026-03-25
+weight: 56
 slug: 'entry-strategy'
 series: "TradeSys"
 categories:

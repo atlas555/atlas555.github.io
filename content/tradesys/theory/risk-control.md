@@ -1,6 +1,7 @@
 ---
 title: "[9] 风控模块"
 date: 2026-03-19
+weight: 9
 slug: 'risk-control'
 series: "TradeSys"
 categories:

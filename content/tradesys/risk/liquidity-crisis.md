@@ -1,6 +1,7 @@
 ---
 title: "[49] 流动性危机中的资产行为与执行风险"
 date: 2026-03-24
+weight: 49
 slug: 'liquidity-crisis'
 series: "TradeSys"
 categories:
