@@ -20,7 +20,7 @@ description: "**最重要的独到发现：** DBMF 的 AUM 已从 2022 年低谷
 show_toc: true
 ---
 
-> **TradeSys** 系列第 53 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # tradeSys #53: ETF 产品结构风险——跟踪误差、基金关闭与替代品梯队
 

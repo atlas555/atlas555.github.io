@@ -20,7 +20,7 @@ description: "**当前（2026年3月）是Funding Rate策略的最差入场时�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 18 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # Crypto Funding Rate 实操深度研究
 

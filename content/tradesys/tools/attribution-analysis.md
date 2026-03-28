@@ -20,7 +20,7 @@ description: "总组合回报 **+76.2%**，四标的贡献如下："
 show_toc: true
 ---
 
-> **TradeSys** 系列第 34 篇 · 分类：[工具与回测](/tradesys/tools/)
+{{< tradesys-nav >}}
 
 # #34 业绩归因分析 — Plan E3-AW 收益来源分解
 

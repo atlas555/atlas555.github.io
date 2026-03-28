@@ -20,7 +20,7 @@ description: "多数散户和初级量化研究者习惯用'牛市/熊市'二分
 show_toc: true
 ---
 
-> **TradeSys** 系列第 36 篇 · 分类：[宏观因子](/tradesys/macro/)
+{{< tradesys-nav >}}
 
 # 市场状态识别（Regime Detection）量化方法研究
 

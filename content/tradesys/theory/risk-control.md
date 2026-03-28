@@ -20,7 +20,7 @@ description: "**研究日期：** 2026-03-19（v2 重写，修正 v1 中不可�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 9 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # tradeSys 风控模块深度研究（v2）
 

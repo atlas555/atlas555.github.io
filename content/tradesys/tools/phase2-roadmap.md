@@ -20,7 +20,7 @@ description: "Phase 1 回答了'做什么、为什么'；Phase 2 回答**'怎么
 show_toc: true
 ---
 
-> **TradeSys** 系列第 42 篇 · 分类：[工具与回测](/tradesys/tools/)
+{{< tradesys-nav >}}
 
 # tradeSys Phase 2 路线图：从研究完成到实盘就绪
 

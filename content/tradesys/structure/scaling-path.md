@@ -20,7 +20,7 @@ description: "**核心结论**：$50K 起步的 Plan E3-AW 组合，在保守假
 show_toc: true
 ---
 
-> **TradeSys** 系列第 38 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # 小资金起步的资金管理与规模化路径：$50K → $1M
 

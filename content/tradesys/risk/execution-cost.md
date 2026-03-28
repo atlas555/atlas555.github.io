@@ -20,7 +20,7 @@ description: "Bid-Ask Spread 并非凭空产生，它是做市商为了弥补三
 show_toc: true
 ---
 
-> **TradeSys** 系列第 25 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # tradeSys 交易执行成本模型 — 滑点、市场冲击与最优执行
 

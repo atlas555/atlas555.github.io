@@ -20,7 +20,7 @@ description: "**研究日期**: 2026-03-20 **研究者**: 娃彩 (wacai agent) *
 show_toc: true
 ---
 
-> **TradeSys** 系列第 15 篇 · 分类：[策略验证](/tradesys/strategy/)
+{{< tradesys-nav >}}
 
 # SVOL ETF 样本外验证报告
 

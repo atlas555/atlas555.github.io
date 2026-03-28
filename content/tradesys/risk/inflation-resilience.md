@@ -20,7 +20,7 @@ description: "**一句话结论**：Plan E3-AW 在温和通胀和中度通胀中
 show_toc: true
 ---
 
-> **TradeSys** 系列第 50 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # tradeSys 研究 #50 — 通胀环境下的资产配置：历史实证与 Plan E3-AW 的韧性检验
 

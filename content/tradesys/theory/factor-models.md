@@ -20,7 +20,7 @@ description: "学术界截至 2015 年已发表 **316 个** 截面收益预测�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 3 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 因子模型实战：从 Fama-French 到机器学习因子的演进与局限
 

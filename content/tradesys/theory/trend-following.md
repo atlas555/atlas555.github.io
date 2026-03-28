@@ -18,7 +18,7 @@ description: "**版本**: v2（重做） **研究日期**: 2026-03-19 **研究�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 2 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 趋势跟踪深度研究 v2
 

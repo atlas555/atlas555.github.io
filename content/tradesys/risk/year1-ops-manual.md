@@ -20,7 +20,7 @@ description: "**运维的目标是'无聊'**。Plan E3-AW 是一个季度再平�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 43 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # #43 Plan E3-AW 第一年运维手册
 

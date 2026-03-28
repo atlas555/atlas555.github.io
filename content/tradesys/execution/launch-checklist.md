@@ -20,7 +20,7 @@ description: "- 回测 6.8 年：年化 8.54%，MaxDD -5.10%，Sharpe 0.684 - �
 show_toc: true
 ---
 
-> **TradeSys** 系列第 32 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # Plan E3-AW 实盘启动清单
 

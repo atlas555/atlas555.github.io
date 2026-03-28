@@ -20,7 +20,7 @@ description: "**PEAD 多空策略在 2015-2025 年已经死了。** Sharpe -0.13
 show_toc: true
 ---
 
-> **TradeSys** 系列第 17 篇 · 分类：[策略验证](/tradesys/strategy/)
+{{< tradesys-nav >}}
 
 # PEAD 策略原型回测报告：一场诚实的葬礼
 

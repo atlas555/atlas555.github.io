@@ -20,7 +20,7 @@ description: "**核心问题**：Plan E3-AW（GLD/sUSDe/DBMF/BIL 各25%）相比
 show_toc: true
 ---
 
-> **TradeSys** 系列第 44 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # Plan E3-AW vs 经典被动组合 Benchmark 对比研究
 

@@ -18,7 +18,7 @@ description: "**tradeSys 研究系列** | 2026-03-20 **研究员**: 娃彩 ✨ *
 show_toc: true
 ---
 
-> **TradeSys** 系列第 12 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 动态再平衡策略研究报告
 

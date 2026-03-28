@@ -20,7 +20,7 @@ description: "**核心结论：你的回撤会比你以为的更深、更频繁�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 26 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # tradeSys #26: 回撤管理与策略失效检测
 

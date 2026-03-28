@@ -20,7 +20,7 @@ description: "Plan E3-AW 的 $50K 在 IBKR 端几乎享有「银行级」保护�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 54 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # #54 交易对手风险与券商/交易所破产保护框架
 

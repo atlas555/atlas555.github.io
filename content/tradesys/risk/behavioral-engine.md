@@ -20,7 +20,7 @@ description: "行为偏差是散户投资者**最大的单一收益杀手**—�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 40 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # tradeSys #40: 行为纪律规则引擎 — 从认知偏差到可编码规则
 

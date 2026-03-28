@@ -20,7 +20,7 @@ description: "**推荐方案：Python CLI Dashboard + Streamlit 可视化面板 
 show_toc: true
 ---
 
-> **TradeSys** 系列第 28 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # tradeSys #28: 组合监控 Dashboard 技术方案
 

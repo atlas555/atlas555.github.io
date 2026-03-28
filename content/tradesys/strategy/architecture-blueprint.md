@@ -20,7 +20,7 @@ description: "**tradeSys 的核心不是'找到最好的策略'，而是'用工�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 13 篇 · 分类：[策略验证](/tradesys/strategy/)
+{{< tradesys-nav >}}
 
 # tradeSys 综合架构设计蓝图
 

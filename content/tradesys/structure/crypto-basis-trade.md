@@ -20,7 +20,7 @@ description: "本研究分析加密货币期货基差交易（Cash-and-Carry）�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 46 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # #46 加密货币期货基差交易（Crypto Basis Trade / Cash-and-Carry Arbitrage）
 

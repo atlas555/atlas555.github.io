@@ -20,7 +20,7 @@ description: "1. **全球M2加速度是组合层面最强的单一宏观信号**
 show_toc: true
 ---
 
-> **TradeSys** 系列第 51 篇 · 分类：[宏观因子](/tradesys/macro/)
+{{< tradesys-nav >}}
 
 # #51 宏观领先指标对 Plan E3-AW 标的的预测效力实证
 

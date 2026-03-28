@@ -20,7 +20,7 @@ description: "1. **PEAD 是散户能用的、为数不多的'已被学术证实�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 6 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 事件驱动策略：财报与宏观数据发布的定量化利用
 

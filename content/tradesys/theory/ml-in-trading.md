@@ -20,7 +20,7 @@ description: "机器学习在资产定价学术论文中展示了惊人的表现
 show_toc: true
 ---
 
-> **TradeSys** 系列第 4 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 机器学习在交易中的真实表现：学术 vs 实战的巨大鸿沟
 

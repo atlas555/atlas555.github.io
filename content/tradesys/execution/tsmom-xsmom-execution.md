@@ -20,7 +20,7 @@ description: "**结论**：对$5K散户，**ETF代理是唯一理性选择**。�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 19 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # TSMOM/XSMOM 实盘执行方案
 

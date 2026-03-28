@@ -20,7 +20,7 @@ description: "**核心结论**：Plan E3-AW 四标的的流动性风险差异极
 show_toc: true
 ---
 
-> **TradeSys** 系列第 49 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # tradeSys 研究 #49 — 流动性危机中的资产行为与执行风险
 

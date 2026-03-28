@@ -19,7 +19,7 @@ description: "sUSDe 在 Plan E3-AW 中扮演'零风险 alpha 源'的角色（#34
 show_toc: true
 ---
 
-> **TradeSys** 系列第 41 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # #41 sUSDe 智能合约、托管与脱锚风险深度研究
 

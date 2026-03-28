@@ -20,7 +20,7 @@ description: "**核心结论**：基于 10,000 条 Monte Carlo 路径模拟，Pl
 show_toc: true
 ---
 
-> **TradeSys** 系列第 39 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # Plan E3-AW Monte Carlo 压力测试与路径分布分析
 

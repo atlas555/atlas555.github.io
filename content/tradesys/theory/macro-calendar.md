@@ -18,7 +18,7 @@ description: "1. **VIX 在宏观事件后并不总是下跌**——只有 CPI �
 show_toc: true
 ---
 
-> **TradeSys** 系列第 11 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 宏观日历波动率策略研究
 

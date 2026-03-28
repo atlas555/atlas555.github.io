@@ -15,7 +15,7 @@ description: "**策略**: 12个月动量策略（价格 > 252天前价格则持�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 16 篇 · 分类：[策略验证](/tradesys/strategy/)
+{{< tradesys-nav >}}
 
 # tradeSys 回测框架实测评测报告
 

@@ -20,7 +20,7 @@ description: "均值回归策略（买跌卖涨、价格回归均值）在ETF市
 show_toc: true
 ---
 
-> **TradeSys** 系列第 20 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # 均值回归策略ETF选型与替代方案
 

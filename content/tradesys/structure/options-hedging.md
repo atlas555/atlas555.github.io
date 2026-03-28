@@ -20,7 +20,7 @@ description: "**核心结论**：期权对冲在理论上极具吸引力，但�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 45 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # #45 期权策略与组合保护 — Plan E3-AW 的主动风控工具箱
 

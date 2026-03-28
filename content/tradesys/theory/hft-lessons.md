@@ -19,7 +19,7 @@ description: "1. **OFI（Order Flow Imbalance）在 5 分钟级别仍有统计�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 5 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 高频微结构：个人交易者能从 HFT 研究中借鉴什么
 

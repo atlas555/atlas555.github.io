@@ -20,7 +20,7 @@ description: "**对 Plan E3-AW 最重要的三个发现：**"
 show_toc: true
 ---
 
-> **TradeSys** 系列第 27 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # tradeSys #27: 税务优化与账户结构设计
 

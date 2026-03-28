@@ -20,7 +20,7 @@ description: "**tradeSys 最大的风险不是策略失效，而是执行者在�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 23 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # 交易心理：tradeSys 执行者的认知陷阱与防御机制
 

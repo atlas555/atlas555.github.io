@@ -20,7 +20,7 @@ description: "1. **DXY 是 Plan E3-AW 最被低估的隐性共同因子**——�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 52 篇 · 分类：[宏观因子](/tradesys/macro/)
+{{< tradesys-nav >}}
 
 # tradeSys #52: 美元周期与跨境流动性 — Plan E3-AW 四标的隐性共同因子分析
 

@@ -18,7 +18,7 @@ description: "**研究日期**: 2026-03-20 **回测期**: 2017-03-22 ~ 2026-03-1
 show_toc: true
 ---
 
-> **TradeSys** 系列第 14 篇 · 分类：[策略验证](/tradesys/strategy/)
+{{< tradesys-nav >}}
 
 # Plan E 回测报告 — 移除 SVOL 后的组合优化
 

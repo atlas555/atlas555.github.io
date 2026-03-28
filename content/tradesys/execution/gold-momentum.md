@@ -20,7 +20,7 @@ description: "**黄金正在经历一轮猛烈回调。** 2026年3月20日，GLD
 show_toc: true
 ---
 
-> **TradeSys** 系列第 21 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # Gold Momentum 实操方案
 

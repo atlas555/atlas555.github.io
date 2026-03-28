@@ -20,7 +20,7 @@ description: "推文原文：'期权培训平均一天1500刀，两天速成。�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 60 篇 · 分类：[工具与回测](/tradesys/tools/)
+{{< tradesys-nav >}}
 
 # #60 期权课程内容分析与 tradeSys 结构性梳理
 

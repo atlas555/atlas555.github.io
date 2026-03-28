@@ -19,7 +19,7 @@ description: "1. **Gas 已不是摩擦成本的主要来源** - 当前 Gas（0.1
 show_toc: true
 ---
 
-> **TradeSys** 系列第 59 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # #59 sUSDe 链上执行自动化（Ethena mint/redeem 自动化方案）
 

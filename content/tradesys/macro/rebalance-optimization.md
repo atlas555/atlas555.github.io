@@ -20,7 +20,7 @@ description: "**结论先行**：推荐 Plan E3-AW 采用**季度检查 + ±5% �
 show_toc: true
 ---
 
-> **TradeSys** 系列第 37 篇 · 分类：[宏观因子](/tradesys/macro/)
+{{< tradesys-nav >}}
 
 # 再平衡频率与交易成本的最优权衡——Plan E3-AW 实盘参数研究
 

@@ -1,0 +1,20 @@
+{{ $currentPage := . }}
+{{ $section := .Page.CurrentSection }}
+{{ $pages := where $section.Pages "Kind" "page" }}
+{{ $sorted := sort $pages "Weight" "asc" }}
+<div class="view-series-by-tag" style="border: 2px solid #e74c3c; border-radius: 8px; padding: 12px 16px; margin: 1em 0;">
+    <p style="margin: 0 0 8px; font-weight: 500;">
+        {{ $section.Title }} · 共 {{ len $sorted }} 篇
+    </p>
+    <ul style="list-style-type:none; margin: 0; padding: 0;">
+        {{ range $sorted }}
+        <li style="font-size: 15px; padding: 2px 0;">
+            {{ if eq .RelPermalink $currentPage.Page.RelPermalink }}
+                📖 <strong>{{ .Title }}</strong> <span style="color: #999; font-size: 12px;">← 当前</span>
+            {{ else }}
+                👉 <a href="{{ .RelPermalink }}" style="border-bottom:none; color:rgb(0, 82, 255);">{{ .Title }}</a>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</div>

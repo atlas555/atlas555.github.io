@@ -20,7 +20,7 @@ description: "**首年总成本**: $0 (数据 + 软件) + ~$50-100 (交易佣金
 show_toc: true
 ---
 
-> **TradeSys** 系列第 22 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # tradeSys #22 技术栈选型报告
 

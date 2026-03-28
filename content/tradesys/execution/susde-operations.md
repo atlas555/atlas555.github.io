@@ -20,7 +20,7 @@ description: "**路径 A：DEX 购买（推荐散户，包括我们）**"
 show_toc: true
 ---
 
-> **TradeSys** 系列第 30 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # #30 sUSDe 持仓管理实操指南
 

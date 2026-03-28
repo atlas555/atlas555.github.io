@@ -20,7 +20,7 @@ description: "**Q1: 现在该不该入场？** → #32 实盘启动清单 + #51 
 show_toc: true
 ---
 
-> **TradeSys** 系列第 55 篇 · 分类：[工具与回测](/tradesys/tools/)
+{{< tradesys-nav >}}
 
 # tradeSys 知识体系索引与研究总结
 

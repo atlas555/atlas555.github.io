@@ -18,7 +18,7 @@ description: "1. **EMH 不是'对或错'的问题，而是一个连续光谱**�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 1 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 有效市场假说的边界：EMH 在哪些条件下失效、可利用的异常
 

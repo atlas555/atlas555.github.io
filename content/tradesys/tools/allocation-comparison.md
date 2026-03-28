@@ -20,7 +20,7 @@ description: "建议将 BIL 削减至 15%，释放的 10% 分配给更高收益�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 35 篇 · 分类：[工具与回测](/tradesys/tools/)
+{{< tradesys-nav >}}
 
 # Plan E3 配比优化对比报告
 

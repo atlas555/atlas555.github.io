@@ -20,7 +20,7 @@ description: "1. [IBKR 账户类型与开户指南（中国居民视角）](#第
 show_toc: true
 ---
 
-> **TradeSys** 系列第 31 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # IBKR API 对接与自动化交易实操指南
 

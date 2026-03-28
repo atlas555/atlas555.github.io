@@ -20,7 +20,7 @@ description: "**Vanguard (2012) 'Dollar-cost averaging just means taking risk la
 show_toc: true
 ---
 
-> **TradeSys** 系列第 56 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # tradeSys #56：首笔建仓执行策略 — Lump Sum vs DCA 入场实证
 

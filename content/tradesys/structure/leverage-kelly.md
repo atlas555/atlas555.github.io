@@ -20,7 +20,7 @@ description: "**核心结论：Plan E3-AW 在当前条件下不应使用任何�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 48 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # tradeSys 研究 #48 — 杠杆的数学：Kelly 准则、最优 f 与爆仓概率
 

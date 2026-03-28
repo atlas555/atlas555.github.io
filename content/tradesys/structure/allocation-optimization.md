@@ -20,7 +20,7 @@ description: "**发现 #1：等权分配打败了精心设计的配比**"
 show_toc: true
 ---
 
-> **TradeSys** 系列第 24 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # tradeSys Plan E3-ETF 配比优化回测报告
 

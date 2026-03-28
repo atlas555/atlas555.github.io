@@ -19,7 +19,7 @@ description: "**结算周期不是一个'后台运维问题'——它是影响�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 8 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 清算结算机制：T+1/T+2 背后的风险链条与保证金制度
 

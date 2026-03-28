@@ -20,7 +20,7 @@ description: "**关键差异**：永续合约通过 Funding Rate 这个'利息�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 10 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # Crypto Funding Rate 套利策略深度研究
 

@@ -20,7 +20,7 @@ description: "**加密-传统市场之间的'结构性'套利窗口正在快速�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 7 篇 · 分类：[理论基础](/tradesys/theory/)
+{{< tradesys-nav >}}
 
 # 跨市场套利：加密-传统市场之间的结构性机会
 

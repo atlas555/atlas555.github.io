@@ -20,7 +20,7 @@ description: "**VRP 是真实存在且持久的市场异象，但 Plan E3-AW 在
 show_toc: true
 ---
 
-> **TradeSys** 系列第 47 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # #47 波动率风险溢价（Variance Risk Premium）收割策略
 

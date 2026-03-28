@@ -20,7 +20,7 @@ description: "从 Phase 2 监控代码到无人值守 Paper Trading 30 天的完
 show_toc: true
 ---
 
-> **TradeSys** 系列第 58 篇 · 分类：[执行体系](/tradesys/execution/)
+{{< tradesys-nav >}}
 
 # Paper Trading 自动化方案与 IBKR Paper 实操指南
 

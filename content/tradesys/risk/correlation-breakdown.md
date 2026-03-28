@@ -20,7 +20,7 @@ description: "Longin 和 Solnik 在 *Journal of Finance* 发表的经典研究 '
 show_toc: true
 ---
 
-> **TradeSys** 系列第 29 篇 · 分类：[风控与心理](/tradesys/risk/)
+{{< tradesys-nav >}}
 
 # #29 相关性崩溃与尾部风险 — Plan E3-AW 的阿喀琉斯之踵
 

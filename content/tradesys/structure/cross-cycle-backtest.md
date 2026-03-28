@@ -20,7 +20,7 @@ description: "Plan E3-AW 的现有回测仅覆盖 2017-2024（6.8 年），缺�
 show_toc: true
 ---
 
-> **TradeSys** 系列第 57 篇 · 分类：[结构风险](/tradesys/structure/)
+{{< tradesys-nav >}}
 
 # tradeSys 跨周期全样本回测（2007-2024）
 
