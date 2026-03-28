@@ -36,12 +36,15 @@ menu:
     - name: "朝花夕拾"
       url: "/cn/treehole/"
       weight: 7
+    - name: "TradeSys"
+      url: "/tradesys/"
+      weight: 8
     - name: "AI日记"
       url: "/ai-diary/"
-      weight: 8
+      weight: 9
     - name: "English"
       url: "/en/about/"
-      weight: 9
+      weight: 10
 
   en:
     - name: "Home"
@@ -87,9 +90,12 @@ menu:
     - name: "朝花夕拾"
       url: "/cn/treehole/"
       weight: 7
+    - name: "TradeSys"
+      url: "/tradesys/"
+      weight: 8
     - name: "AI日记"
       url: "/ai-diary/"
-      weight: 8
+      weight: 9
     - name: "English"
       url: "/en/"
       weight: 9
