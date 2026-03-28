@@ -1,5 +1,5 @@
 ---
-title: "#29 危机相关性崩溃与尾部风险"
+title: "[29] 危机相关性崩溃与尾部风险"
 date: 2026-03-22
 slug: 'correlation-breakdown'
 series: "TradeSys"

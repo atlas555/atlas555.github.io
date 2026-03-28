@@ -1,5 +1,5 @@
 ---
-title: "#17 PEAD 原型回测（策略已死）"
+title: "[17] PEAD 原型回测（策略已死）"
 date: 2026-03-20
 slug: 'pead-prototype'
 series: "TradeSys"

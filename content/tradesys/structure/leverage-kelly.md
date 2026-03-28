@@ -1,5 +1,5 @@
 ---
-title: "#48 杠杆的数学：Kelly 准则"
+title: "[48] 杠杆的数学：Kelly 准则"
 date: 2026-03-24
 slug: 'leverage-kelly'
 series: "TradeSys"

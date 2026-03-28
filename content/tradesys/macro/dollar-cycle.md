@@ -1,5 +1,5 @@
 ---
-title: "#52 美元周期与跨境流动性"
+title: "[52] 美元周期与跨境流动性"
 date: 2026-03-25
 slug: 'dollar-cycle'
 series: "TradeSys"

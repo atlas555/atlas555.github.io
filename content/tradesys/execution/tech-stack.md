@@ -1,5 +1,5 @@
 ---
-title: "#22 技术栈选型"
+title: "[22] 技术栈选型"
 date: 2026-03-21
 slug: 'tech-stack'
 series: "TradeSys"

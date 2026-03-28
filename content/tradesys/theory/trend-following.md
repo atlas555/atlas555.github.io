@@ -1,5 +1,5 @@
 ---
-title: "#2 趋势跟踪理论与实证"
+title: "[2] 趋势跟踪理论与实证"
 date: 2026-03-19
 slug: 'trend-following'
 series: "TradeSys"

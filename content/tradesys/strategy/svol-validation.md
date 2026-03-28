@@ -1,5 +1,5 @@
 ---
-title: "#15 SVOL 真实数据验证（证伪）"
+title: "[15] SVOL 真实数据验证（证伪）"
 date: 2026-03-20
 slug: 'svol-validation'
 series: "TradeSys"

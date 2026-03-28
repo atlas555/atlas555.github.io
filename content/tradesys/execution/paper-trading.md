@@ -1,5 +1,5 @@
 ---
-title: "#58 Paper Trading 自动化方案"
+title: "[58] Paper Trading 自动化方案"
 date: 2026-03-26
 slug: 'paper-trading'
 series: "TradeSys"

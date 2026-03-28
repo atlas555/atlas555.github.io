@@ -1,5 +1,5 @@
 ---
-title: "#47 波动率风险溢价收割策略"
+title: "[47] 波动率风险溢价收割策略"
 date: 2026-03-24
 slug: 'variance-risk-premium'
 series: "TradeSys"

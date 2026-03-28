@@ -1,5 +1,5 @@
 ---
-title: "#7 跨市场套利"
+title: "[7] 跨市场套利"
 date: 2026-03-19
 slug: 'cross-market-arb'
 series: "TradeSys"

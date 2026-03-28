@@ -1,5 +1,5 @@
 ---
-title: "#51 宏观领先指标实证"
+title: "[51] 宏观领先指标实证"
 date: 2026-03-25
 slug: 'leading-indicators'
 series: "TradeSys"

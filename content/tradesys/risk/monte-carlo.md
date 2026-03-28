@@ -1,5 +1,5 @@
 ---
-title: "#39 Monte Carlo 压力测试与路径分布"
+title: "[39] Monte Carlo 压力测试与路径分布"
 date: 2026-03-23
 slug: 'monte-carlo'
 series: "TradeSys"

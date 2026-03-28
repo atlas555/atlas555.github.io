@@ -1,5 +1,5 @@
 ---
-title: "#35 优化配比回测验证"
+title: "[35] 优化配比回测验证"
 date: 2026-03-22
 slug: 'allocation-comparison'
 series: "TradeSys"

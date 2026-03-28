@@ -1,5 +1,5 @@
 ---
-title: "#31 IBKR API 自动化交易指南"
+title: "[31] IBKR API 自动化交易指南"
 date: 2026-03-22
 slug: 'ibkr-api-guide'
 series: "TradeSys"

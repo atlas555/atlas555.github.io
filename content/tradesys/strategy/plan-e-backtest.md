@@ -1,5 +1,5 @@
 ---
-title: "#14 Plan E 回测"
+title: "[14] Plan E 回测"
 date: 2026-03-20
 slug: 'plan-e-backtest'
 series: "TradeSys"

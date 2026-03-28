@@ -1,5 +1,5 @@
 ---
-title: "#13 综合架构蓝图 v4"
+title: "[13] 综合架构蓝图 v4"
 date: 2026-03-20
 slug: 'architecture-blueprint'
 series: "TradeSys"

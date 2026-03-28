@@ -1,5 +1,5 @@
 ---
-title: "#3 因子模型"
+title: "[3] 因子模型"
 date: 2026-03-19
 slug: 'factor-models'
 series: "TradeSys"

@@ -1,5 +1,5 @@
 ---
-title: "#4 ML 在交易中的应用"
+title: "[4] ML 在交易中的应用"
 date: 2026-03-19
 slug: 'ml-in-trading'
 series: "TradeSys"

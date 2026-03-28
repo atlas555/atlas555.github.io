@@ -1,5 +1,5 @@
 ---
-title: "#21 Gold Momentum 实操方案"
+title: "[21] Gold Momentum 实操方案"
 date: 2026-03-21
 slug: 'gold-momentum'
 series: "TradeSys"

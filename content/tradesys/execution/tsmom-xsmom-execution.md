@@ -1,5 +1,5 @@
 ---
-title: "#19 TSMOM/XSMOM 实盘执行方案"
+title: "[19] TSMOM/XSMOM 实盘执行方案"
 date: 2026-03-21
 slug: 'tsmom-xsmom-execution'
 series: "TradeSys"

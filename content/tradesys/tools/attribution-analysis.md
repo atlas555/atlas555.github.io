@@ -1,5 +1,5 @@
 ---
-title: "#34 Plan E3-AW 业绩归因分析"
+title: "[34] Plan E3-AW 业绩归因分析"
 date: 2026-03-22
 slug: 'attribution-analysis'
 series: "TradeSys"

@@ -1,5 +1,5 @@
 ---
-title: "#25 交易执行成本模型"
+title: "[25] 交易执行成本模型"
 date: 2026-03-22
 slug: 'execution-cost'
 series: "TradeSys"

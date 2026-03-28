@@ -1,5 +1,5 @@
 ---
-title: "#44 Plan E3-AW vs 经典被动组合"
+title: "[44] Plan E3-AW vs 经典被动组合"
 date: 2026-03-23
 slug: 'benchmark-comparison'
 series: "TradeSys"

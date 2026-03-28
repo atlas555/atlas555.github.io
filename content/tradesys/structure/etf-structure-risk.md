@@ -1,5 +1,5 @@
 ---
-title: "#53 ETF 产品结构风险"
+title: "[53] ETF 产品结构风险"
 date: 2026-03-25
 slug: 'etf-structure-risk'
 series: "TradeSys"

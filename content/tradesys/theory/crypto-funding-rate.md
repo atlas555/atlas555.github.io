@@ -1,5 +1,5 @@
 ---
-title: "#10 Crypto Funding Rate"
+title: "[10] Crypto Funding Rate"
 date: 2026-03-19
 slug: 'crypto-funding-rate'
 series: "TradeSys"

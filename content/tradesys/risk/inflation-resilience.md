@@ -1,5 +1,5 @@
 ---
-title: "#50 通胀环境下的资产配置"
+title: "[50] 通胀环境下的资产配置"
 date: 2026-03-24
 slug: 'inflation-resilience'
 series: "TradeSys"

@@ -1,5 +1,5 @@
 ---
-title: "#23 交易心理：认知陷阱与防御机制"
+title: "[23] 交易心理：认知陷阱与防御机制"
 date: 2026-03-21
 slug: 'trading-psychology'
 series: "TradeSys"

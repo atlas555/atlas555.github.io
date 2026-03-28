@@ -1,5 +1,5 @@
 ---
-title: "#1 EMH 边界与市场异象"
+title: "[1] EMH 边界与市场异象"
 date: 2026-03-19
 slug: 'emh-boundaries'
 series: "TradeSys"

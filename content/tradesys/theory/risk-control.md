@@ -1,5 +1,5 @@
 ---
-title: "#9 风控模块"
+title: "[9] 风控模块"
 date: 2026-03-19
 slug: 'risk-control'
 series: "TradeSys"

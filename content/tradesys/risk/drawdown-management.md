@@ -1,5 +1,5 @@
 ---
-title: "#26 回撤管理与策略失效检测"
+title: "[26] 回撤管理与策略失效检测"
 date: 2026-03-22
 slug: 'drawdown-management'
 series: "TradeSys"

@@ -1,5 +1,5 @@
 ---
-title: "#56 首笔建仓执行策略：LSI vs DCA"
+title: "[56] 首笔建仓执行策略：LSI vs DCA"
 date: 2026-03-25
 slug: 'entry-strategy'
 series: "TradeSys"

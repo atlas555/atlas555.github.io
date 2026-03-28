@@ -1,5 +1,5 @@
 ---
-title: "#30 sUSDe 持仓管理实操指南"
+title: "[30] sUSDe 持仓管理实操指南"
 date: 2026-03-22
 slug: 'susde-operations'
 series: "TradeSys"

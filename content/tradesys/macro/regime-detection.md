@@ -1,5 +1,5 @@
 ---
-title: "#36 市场状态识别（Regime Detection）"
+title: "[36] 市场状态识别（Regime Detection）"
 date: 2026-03-23
 slug: 'regime-detection'
 series: "TradeSys"

@@ -1,5 +1,5 @@
 ---
-title: "#24 配比优化回测"
+title: "[24] 配比优化回测"
 date: 2026-03-21
 slug: 'allocation-optimization'
 series: "TradeSys"

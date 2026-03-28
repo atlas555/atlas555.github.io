@@ -1,5 +1,5 @@
 ---
-title: "#43 第一年运维手册"
+title: "[43] 第一年运维手册"
 date: 2026-03-23
 slug: 'year1-ops-manual'
 series: "TradeSys"

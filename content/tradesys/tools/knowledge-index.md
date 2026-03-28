@@ -1,5 +1,5 @@
 ---
-title: "#55 知识体系索引与研究总结"
+title: "[55] 知识体系索引与研究总结"
 date: 2026-03-26
 slug: 'knowledge-index'
 series: "TradeSys"

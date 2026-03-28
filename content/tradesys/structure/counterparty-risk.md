@@ -1,5 +1,5 @@
 ---
-title: "#54 交易对手风险与破产保护"
+title: "[54] 交易对手风险与破产保护"
 date: 2026-03-25
 slug: 'counterparty-risk'
 series: "TradeSys"

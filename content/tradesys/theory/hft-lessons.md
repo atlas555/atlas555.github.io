@@ -1,5 +1,5 @@
 ---
-title: "#5 高频微结构启示"
+title: "[5] 高频微结构启示"
 date: 2026-03-19
 slug: 'hft-lessons'
 series: "TradeSys"

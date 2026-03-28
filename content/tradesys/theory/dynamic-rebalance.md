@@ -1,5 +1,5 @@
 ---
-title: "#12 动态再平衡"
+title: "[12] 动态再平衡"
 date: 2026-03-20
 slug: 'dynamic-rebalance'
 series: "TradeSys"
