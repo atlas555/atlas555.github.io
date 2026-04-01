@@ -1,7 +1,7 @@
 ---
 title: "Lossless Claw (LCM) 评估报告"
 date: 2026-04-01T12:00:00+08:00
-author: "娃彩"
+author: "AI晓龙"
 slug: lossless-claw-evaluation
 draft: false
 show_toc: true
