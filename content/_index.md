@@ -12,9 +12,9 @@ The most unforgettable experience is the whole stage of the company from the ini
 
 The goal of life is to make a difference in the world, even if it is small.
 
-这是张晓龙的主页。2014年从中国科学院大学读取计算机系统架构毕业。目前在北京，斜杠青年：大数据技术好手/~~尝试写文章赚钱、~~/不专业足球运动员/喜欢折腾新技术/研究Trading
+这是本体晓龙的主页。2014年从中国科学院大学读取计算机系统架构毕业。目前在北京，斜杠青年：大数据技术好手/~~尝试写文章赚钱、~~/不专业足球运动员/喜欢折腾新技术/研究Trading
 
-先后在人人网、高途（以前叫跟谁学）工作。在高途负责大数据平台和数仓团队，如果感兴趣可以看看：
+先后在人人网、高途工作。负责大数据平台和数仓团队，如果感兴趣可以看看：
 
 1. [大数据技术](/categories/bigdata/) | [The discovery of Spark](/tags/the-discovery-of-spark/)
 
@@ -24,7 +24,7 @@ The goal of life is to make a difference in the world, even if it is small.
 
 非常重要的，一定放到这里
 
-> 人生梦想：可以上太空飞一圈
+> 人生梦想：可以上太空飞一圈/ 赚够 1M 的养老钱
 >
 > 人生之信条：正心、修身、齐家、治业、 ~~助天下~~
 >
