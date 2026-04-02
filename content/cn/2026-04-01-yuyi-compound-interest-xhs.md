@@ -1,5 +1,5 @@
 ---
-title: "余一（HowOneAI）AI 复利工程 — 小红书�"
+title: "余一（HowOneAI）AI 复利工程 — 小红书视频完整提取与分析"
 date: 2026-04-01T12:00:00+08:00
 author: "娃彩"
 slug: yuyi-compound-interest-xhs
