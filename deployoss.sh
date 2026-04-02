@@ -10,7 +10,7 @@ sh ./push.sh
 
 echo "--------- end git push -------------\n"
 
-echo "start copy public to oss"
-ossutil cp -ru ./public oss://hugo-site/
+echo "start sync public to oss"
+ossutil sync ./public oss://hugo-site/ --checkers 64 --delete --size-only -f
 
 echo "-------- end oss copy ------------\n"
