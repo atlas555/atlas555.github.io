@@ -1,5 +1,5 @@
 ---
-title: "SpaceX 星舰太空旅游可行性与成本路径�"
+title: "SpaceX 星舰太空旅游可行性与成本路径分析（2026年视角）"
 date: 2026-04-02T12:00:00+08:00
 author: "娃彩"
 slug: space-tourism-feasibility-2026
