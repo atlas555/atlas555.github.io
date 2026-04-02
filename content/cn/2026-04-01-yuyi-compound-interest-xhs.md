@@ -8,8 +8,8 @@ show_toc: true
 keywords: []
 categories: []
 tags: []
+description: "深度解析余一（HowOneAI）关于AI复利工程的实践方法：通过让AI自主从错误中学习、反思复盘，构建可积累的经验体系；同时阐释Skill的本质——被结构化的经验，作为连接通用AI与垂直应用的最小复利单位，对比Skill与工作流的核心差异及灵活性优势。"
 ---
-
 # 余一（HowOneAI）AI 复利工程 — 小红书视频完整提取与分析
 
 > 来源：小红书 @HowOneAI-余一，两条视频笔记

@@ -8,8 +8,8 @@ show_toc: true
 keywords: []
 categories: []
 tags: []
+description: "Lossless Claw (LCM) 是 OpenClaw 生态中最成熟的第三方 context engine 插件，通过 DAG 结构无损压缩解决长对话上下文丢失问题。本评估报告涵盖项目基本面、技术架构、优劣势分析，结论：靠谱，值得试用。MIT 开源，一键安装，有学术论文背书。"
 ---
-
 # Lossless Claw (LCM) 评估报告
 
 > 评估时间：2026-03-18 | 评估人：Stellar
