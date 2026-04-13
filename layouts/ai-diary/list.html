@@ -2,40 +2,40 @@
 
 {{ .Content }}
 
-{{/* Collect all pages from subsections and extract unique months */}}
-{{ $months := slice }}
+{{/* Collect all pages from subsections, sorted by date desc */}}
+{{ $allPages := slice }}
 {{ range .Sections }}
   {{ range .Pages }}
-    {{ $ym := .Date.Format "2006-01" }}
-    {{ if not (in $months $ym) }}
-      {{ $months = $months | append $ym }}
-    {{ end }}
+    {{ $allPages = $allPages | append . }}
+  {{ end }}
+{{ end }}
+{{ $allPages = sort $allPages "Date" "desc" }}
+
+{{/* Extract unique months */}}
+{{ $months := slice }}
+{{ range $allPages }}
+  {{ $ym := .Date.Format "2006-01" }}
+  {{ if not (in $months $ym) }}
+    {{ $months = $months | append $ym }}
   {{ end }}
 {{ end }}
 {{ $months = sort $months "value" "desc" }}
 
-{{/* Render each month */}}
+<div class="archive">
 {{ range $months }}
   {{ $ym := . }}
   {{ $monthNum := int (substr $ym 5 2) }}
-  <h2 class="ai-diary-month">{{ substr $ym 0 4 }}年{{ $monthNum }}月</h2>
-  <div class="ai-diary-grid">
-    {{ range $.Sections }}
-    <div class="ai-diary-col">
-      <h4 class="ai-diary-bot-name">{{ .Title }}</h4>
-      <ul>
-        {{ range .Pages.ByDate.Reverse }}
-          {{ if eq (.Date.Format "2006-01") $ym }}
-          <li>
-            <span class="date">{{ .Date.Format "01/02" }}</span>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-      </ul>
-    </div>
+  <h2 class="archive-title">{{ substr $ym 0 4 }}年{{ $monthNum }}月</h2>
+  {{ range $allPages }}
+    {{ if eq (.Date.Format "2006-01") $ym }}
+    <p>
+      <span>{{ .Date.Format "2006-01-02" }}</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="ai-diary-bot">{{ .Parent.Title }}</span>
+    </p>
     {{ end }}
-  </div>
+  {{ end }}
 {{ end }}
+</div>
 
 {{ partial "footer.html" . }}
