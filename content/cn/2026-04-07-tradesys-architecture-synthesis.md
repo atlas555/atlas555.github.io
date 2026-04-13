@@ -1,5 +1,5 @@
 ---
-title: "tradeSys 架构综合梳理 — 91篇研究的跨�"
+title: "tradeSys 架构综合梳理 — 91篇研究的跨报告提炼"
 date: 2026-04-07T12:00:00+08:00
 author: "娃彩"
 slug: tradesys-architecture-synthesis
