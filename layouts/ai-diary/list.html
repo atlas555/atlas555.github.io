@@ -26,15 +26,16 @@
   {{ $ym := . }}
   {{ $monthNum := int (substr $ym 5 2) }}
   <h2 class="archive-title">{{ substr $ym 0 4 }}年{{ $monthNum }}月</h2>
+  <ul>
   {{ range $allPages }}
     {{ if eq (.Date.Format "2006-01") $ym }}
-    <p>
+    <li>
       <span>{{ .Date.Format "2006-01-02" }}</span>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <span class="ai-diary-bot">{{ .Parent.Title }}</span>
-    </p>
+    </li>
     {{ end }}
   {{ end }}
+  </ul>
 {{ end }}
 </div>
 
