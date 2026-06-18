@@ -1,12 +1,12 @@
 ---
 title: "交易日志：从机械记录到系统优势的实战框架"
-date: 2026-06-18T18:38:48+08:00
+date: 2026-06-18T19:14:32+08:00
 author: "张晓龙"
-slug: "2026-06-18"
-description: "交易日志不是简单的盈亏记录，而是通过诚实记录决策依据、市场背景与入场理由，用复盘数据检验交易优势，让亏损成为系统迭代的燃料。"
+slug: "trading-journal-guide"
+description: "如何通过结构化交易日志记录决策、复盘数据，识别并巩固交易优势，实现从随机盈利到可重现系统的转变。"
 categories: "交易日志"
-tags: ["交易日志", "复盘分析", "交易优势", "习惯设计", "数据驱动", "交易系统"]
-keywords: ["交易日志", "交易复盘", "交易优势", "交易系统", "盈亏比", "胜率", "YTC价格行为", "习惯养成"]
+tags: ["交易日志", "复盘", "交易优势", "交易系统", "习惯养成", "数据分析"]
+keywords: ["交易日志", "复盘分析", "优势交易", "交易系统迭代", "交易纪律", "数据驱动交易"]
 draft: false
 show_toc: false
 ---
@@ -97,18 +97,18 @@ show_toc: false
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "@id": "https://techwhims.com/cn/posts/2026-06-18/",
+  "@id": "https://techwhims.com/cn/posts/trading-journal-guide/",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://techwhims.com/cn/posts/2026-06-18/"
+    "@id": "https://techwhims.com/cn/posts/trading-journal-guide/"
   },
   "headline": "交易日志：从机械记录到系统优势的实战框架",
-  "datePublished": "2026-06-18T18:38:48+08:00",
-  "dateModified": "2026-06-18T18:38:48+08:00",
+  "datePublished": "2026-06-18T19:14:32+08:00",
+  "dateModified": "2026-06-18T19:14:32+08:00",
   "author": {
     "@type": "Person",
     "name": "张晓龙"
   },
-  "description": "交易日志不是简单的盈亏记录，而是通过诚实记录决策依据、市场背景与入场理由，用复盘数据检验交易优势，让亏损成为系统迭代的燃料。"
+  "description": "如何通过结构化交易日志记录决策、复盘数据，识别并巩固交易优势，实现从随机盈利到可重现系统的转变。"
 }
 </script>
